@@ -1,5 +1,7 @@
 # AirmaiDX 0.2.14 (24)
 
+<img src="https://raw.githubusercontent.com/finnoscar/AirmaiDX/main/docs/assets/airmaidx-icon.png" alt="AirmaiDX logo: a laptop and a rhythm-game controller" width="96" height="96">
+
 First public preview for Apple silicon Macs running macOS 15 or later.
 
 - Open a game from its existing folder or an external SSD.

@@ -1,5 +1,7 @@
 # AirmaiDX
 
+<img src="docs/assets/airmaidx-icon.png" alt="AirmaiDX logo: a laptop and a rhythm-game controller" width="128" height="128">
+
 AirmaiDX is a macOS launcher for rhythm-game installations you already have. It opens the folder you select, including folders on an external SSD, and keeps the compatibility environment and diagnostics on your Mac.
 
 - Set the game’s display mode and render resolution independently.
