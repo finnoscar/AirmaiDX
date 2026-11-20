@@ -1,0 +1,10 @@
+PyInstaller==6.22.3
+pefile==2024.8.26
+dnfile==0.18.0
+UnityPy==1.24.2
+Pillow==13.0.0
+texture2ddecoder==1.0.6
+lz4==4.4.5
+brotli==1.2.1
+fsspec==2026.9.0
+attrs==26.1.0

@@ -1,0 +1,5 @@
+AquaMai configuration attribute documentation
+Source: https://github.com/MewoLab/AquaMai
+Commit: c64077a2e2ecaa4f557f09fec84028a058940944
+Copyright the AquaMai contributors. Licensed under Apache License 2.0.
+AirmaiDX extracts localized documentation only. Native UI, language support and Japanese translations are independent additions. No AquaMai executable implementation is included.

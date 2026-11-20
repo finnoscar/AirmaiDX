@@ -1,0 +1,12 @@
+[
+  {
+    "id": "sdez170-unity2018-ml064-aqua1920",
+    "name": "SDEZ170 \u00b7 Unity 2018.4.7f1 \u00b7 MelonLoader 0.6.4 \u00b7 AquaMai 1.9.20",
+    "fingerprints": {
+      "Sinmai.exe": "7d54f5f0320a62aeac8cfe6419bd4b2d115c8e340b322f6abf794b2836c51a9d",
+      "Sinmai_Data/Plugins/amdaemon_api.dll": "b9075a825c70386657d78c5a2d91d2a5913288df7071924bf9ab1fabe24a24bc",
+      "MelonLoader/net35/MelonLoader.dll": "7e541e54f07467141156b21038fc4b20bc461a0b555d2339c4d682fe7dd74cf3",
+      "Mods/AquaMai.dll": "7264ccab7df64c94bf4329f7b5f93228a85619421075b3231a1b20b32d62cd3c"
+    }
+  }
+]

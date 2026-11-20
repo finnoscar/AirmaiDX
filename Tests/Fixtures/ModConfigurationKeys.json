@@ -1,0 +1,492 @@
+{
+  "Fancy.CustomButton": [
+    "ButtonDir"
+  ],
+  "Fancy.CustomCreditsString": [
+    "CreditsString",
+    "HideCreditsNumber"
+  ],
+  "Fancy.CustomIntroCinematic": [
+    "IntroMovieDir",
+    "OnlyPlayWhenNotPlayed"
+  ],
+  "Fancy.CustomLogo": [
+    "AllNetLogoDir",
+    "Disabled",
+    "LogoFullScreen",
+    "SegaLogoDir"
+  ],
+  "Fancy.CustomPlaceName": [
+    "PlaceName"
+  ],
+  "Fancy.CustomSkins": [
+    "SkinsDir"
+  ],
+  "Fancy.CustomTrackStartDiff": [],
+  "Fancy.CustomVersionString": [
+    "VersionString"
+  ],
+  "Fancy.DemoMaster": [],
+  "Fancy.GamePlay.AlignCircleSlideJudgeDisplay": [],
+  "Fancy.GamePlay.BreakSlideJudgeBlink": [],
+  "Fancy.GamePlay.CustomNoteTypes": [],
+  "Fancy.GamePlay.DisableTrackStartTabs": [],
+  "Fancy.GamePlay.ExtendNotesPool": [
+    "Count",
+    "Disabled"
+  ],
+  "Fancy.GamePlay.FanJudgeFlip": [],
+  "Fancy.GamePlay.FixJudgeTouchHoldInNormalArea": [],
+  "Fancy.GamePlay.HideHanabi": [],
+  "Fancy.GamePlay.JudgeDisplay4B": [],
+  "Fancy.GamePlay.RealisticRandomJudge": [],
+  "Fancy.GamePlay.ReviveFinaleVSlide": [],
+  "Fancy.GamePlay.SlideArrowAnimation": [],
+  "Fancy.GamePlay.SlideFadeInTweak": [],
+  "Fancy.GamePlay.SlideLayerReverse": [],
+  "Fancy.GamePlay.TapInHoldFix": [],
+  "Fancy.GamePlay.TrackStartProcessTweak": [],
+  "Fancy.HideMask": [],
+  "Fancy.IgnoreCommercialTimeout": [
+    "Disabled"
+  ],
+  "Fancy.RandomBgm": [
+    "Mai2CueDir"
+  ],
+  "Fancy.ResourcesOverride": [
+    "SkinsDir"
+  ],
+  "Fancy.SetFade": [
+    "FadeType"
+  ],
+  "Fancy.SkipGameResultAnimation": [],
+  "Fancy.TrackCamouflage": [
+    "AlwaysShowCamouflage",
+    "CamouflageDir"
+  ],
+  "Fancy.Triggers": [
+    "ExecOnEntry",
+    "ExecOnIdle"
+  ],
+  "GameSettings.CreditConfig": [
+    "AllowTicketInFreePlay",
+    "IsFreePlay",
+    "LockCredits"
+  ],
+  "GameSettings.ForceAsServer": [],
+  "GameSettings.JudgeAdjust": [
+    "A",
+    "A_1P",
+    "A_2P",
+    "B",
+    "B_1P",
+    "B_2P",
+    "TouchDelay"
+  ],
+  "GameSettings.TouchSensitivity": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "A6",
+    "A7",
+    "A8",
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "C1",
+    "C2",
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8"
+  ],
+  "GameSystem.AddPlayCountWhenQuickRetry": [],
+  "GameSystem.AdxHidInput": [
+    "Button1",
+    "Button2",
+    "Button3",
+    "Button4",
+    "Disabled",
+    "HotPlugSupport",
+    "P1Button1",
+    "P1Button2",
+    "P1Button3",
+    "P1Button4",
+    "P1DisableButtons",
+    "P2Button1",
+    "P2Button2",
+    "P2Button3",
+    "P2Button4",
+    "P2DisableButtons"
+  ],
+  "GameSystem.Assets.Fonts": [
+    "AddAsFallback",
+    "Disabled",
+    "MaruGothicPaths",
+    "NewRodinPaths",
+    "Paths"
+  ],
+  "GameSystem.Assets.IgnoreLoadFailedAssetBundle": [],
+  "GameSystem.Assets.LoadAssetBundleWithoutManifest": [],
+  "GameSystem.Assets.LoadLocalImages": [
+    "Disabled",
+    "ImageAssetsDir"
+  ],
+  "GameSystem.Assets.MovieLoader": [
+    "Disabled",
+    "JacketAsMovie",
+    "LoadMp4Movie",
+    "LoadSourceMovie",
+    "MovieAssetsDir"
+  ],
+  "GameSystem.CustomCameraId": [
+    "ChimeCamera",
+    "LeftQrCamera",
+    "PhotoCamera",
+    "PrintCameraList",
+    "RightQrCamera"
+  ],
+  "GameSystem.DisableTimeout": [
+    "HideTimer",
+    "InContinueProcess",
+    "InGameStart",
+    "InstanceSkip",
+    "ShowInfinity"
+  ],
+  "GameSystem.EnableFreedomMode": [],
+  "GameSystem.ExteraMouseInput": [
+    "AAreaExtraRadius",
+    "BAreaExtraRadius",
+    "CAreaExtraRadius",
+    "DAreaExtraRadius",
+    "Disabled",
+    "DisplayArea",
+    "EAreaExtraRadius",
+    "Radius"
+  ],
+  "GameSystem.HeadphoneVolumeMultiply": [
+    "P1",
+    "P2"
+  ],
+  "GameSystem.HeadphoneVolumeOverride": [
+    "P1",
+    "P2"
+  ],
+  "GameSystem.KeyMap": [
+    "Autoplay",
+    "Button1_1P",
+    "Button1_2P",
+    "Button2_1P",
+    "Button2_2P",
+    "Button3_1P",
+    "Button3_2P",
+    "Button4_1P",
+    "Button4_2P",
+    "Button5_1P",
+    "Button5_2P",
+    "Button6_1P",
+    "Button6_2P",
+    "Button7_1P",
+    "Button7_2P",
+    "Button8_1P",
+    "Button8_2P",
+    "DisableDebugFeatureHotkeys",
+    "DisableDebugInput",
+    "DisableIO4",
+    "DisableIO4System",
+    "DisableIO4_1P",
+    "DisableIO4_2P",
+    "Disabled",
+    "Select_1P",
+    "Select_2P",
+    "Service",
+    "Test"
+  ],
+  "GameSystem.LightBoardPort": [
+    "PortName_1PLED",
+    "PortName_2PLED"
+  ],
+  "GameSystem.MaimollerIO": [
+    "Alternative2p",
+    "Button1p",
+    "Button2p",
+    "Led1p",
+    "Led2p",
+    "P1Button1",
+    "P1Button2",
+    "P1Button3",
+    "P1Button4",
+    "P2Button1",
+    "P2Button2",
+    "P2Button3",
+    "P2Button4",
+    "Touch1p",
+    "Touch2p",
+    "UseLegacy"
+  ],
+  "GameSystem.OldCabLightBoardSupport": [],
+  "GameSystem.OptionLoadFix": [
+    "Disabled",
+    "OverridePath"
+  ],
+  "GameSystem.PdxTouch": [
+    "AAreaExtraRadius",
+    "BAreaExtraRadius",
+    "CAreaExtraRadius",
+    "DAreaExtraRadius",
+    "DiagnosticLog",
+    "EAreaExtraRadius",
+    "Path1p",
+    "Path2p",
+    "Radius"
+  ],
+  "GameSystem.QuickRetry": [
+    "EnableInUtage",
+    "QuickerRetry"
+  ],
+  "GameSystem.RemoveEncryption": [
+    "Disabled"
+  ],
+  "GameSystem.SinglePlayer": [
+    "AutoSkip",
+    "DisplayArea",
+    "FixHanabi",
+    "HideSubMonitor",
+    "Radius",
+    "ShowFreedomModeTimer"
+  ],
+  "GameSystem.SongConstantSort": [],
+  "GameSystem.Sound": [
+    "BitsPerSample",
+    "Enable8Channel",
+    "EnableExclusive",
+    "MusicVolume",
+    "SamplesPerSec",
+    "ValidBitsPerSample"
+  ],
+  "GameSystem.SoundRouting": [
+    "RouteP1HeadphoneLeftTo",
+    "RouteP1HeadphoneRightTo",
+    "RouteP1SpeakerLeftTo",
+    "RouteP1SpeakerRightTo",
+    "RouteP2HeadphoneLeftTo",
+    "RouteP2HeadphoneRightTo",
+    "RouteP2SpeakerLeftTo",
+    "RouteP2SpeakerRightTo",
+    "VolumeP1Headphone",
+    "VolumeP1Speaker",
+    "VolumeP2Headphone",
+    "VolumeP2Speaker"
+  ],
+  "GameSystem.StartupDirectToGame": [
+    "DefaultAutoplay",
+    "DefaultDifficulty",
+    "DefaultNoteSpeed",
+    "DefaultSlideSpeed",
+    "DefaultTouchSpeed"
+  ],
+  "GameSystem.TestProof": [
+    "TestKey"
+  ],
+  "GameSystem.TouchPanelBaudRate": [
+    "BaudRate"
+  ],
+  "GameSystem.TouchPanelPort": [
+    "PortName_1P",
+    "PortName_2P"
+  ],
+  "GameSystem.TouchToButtonInput": [],
+  "GameSystem.Unlock": [
+    "Characters",
+    "Courses",
+    "EventBlackList",
+    "Events",
+    "Frames",
+    "Icons",
+    "Maps",
+    "Partners",
+    "Plates",
+    "Songs",
+    "Tickets",
+    "Titles",
+    "Utage"
+  ],
+  "GameSystem.VirtualCoin": [
+    "CoinKey",
+    "IsPlaySound",
+    "IsUseRemote",
+    "LongPress",
+    "Password",
+    "Port"
+  ],
+  "GameSystem.VolumeSync": [],
+  "GameSystem.Window": [
+    "Borderless",
+    "Disabled",
+    "Height",
+    "Width",
+    "Windowed"
+  ],
+  "General": [
+    "Locale"
+  ],
+  "Tweaks.IgnoreAimeServerError": [],
+  "Tweaks.LedBrightnessControl": [
+    "Button1p",
+    "Button2p",
+    "Cabinet1p",
+    "Cabinet2p"
+  ],
+  "Tweaks.LockFrameRate": [
+    "TargetFrameRate"
+  ],
+  "Tweaks.ResetTouch": [
+    "AfterTrack",
+    "Key",
+    "LongPress"
+  ],
+  "Tweaks.SkipUserVersionCheck": [],
+  "Tweaks.TimeSaving.CheckSkip": [
+    "SkipPowerOnNetworkCheck",
+    "SkipStartupCameraCheck"
+  ],
+  "Tweaks.TimeSaving.EntryToMusicSelection": [
+    "EnableOnlyInGuestMode"
+  ],
+  "Tweaks.TimeSaving.ExitToSave": [],
+  "Tweaks.TimeSaving.IWontTapOrSlideVigorously": [],
+  "Tweaks.TimeSaving.SkipEventInfo": [],
+  "Tweaks.TimeSaving.SkipGoodbyeScreen": [],
+  "Tweaks.TimeSaving.SkipStartupDelays": [],
+  "Tweaks.TimeSaving.SkipStartupWarning": [],
+  "Tweaks.TimeSaving.SkipTrackStart": [],
+  "UX.CustomFnToKeyboard": [
+    "CustomFn1",
+    "CustomFn2",
+    "CustomFn3",
+    "CustomFn4"
+  ],
+  "UX.DisableLightOutGame": [],
+  "UX.DontRuinMyAccount": [
+    "ForPracticeMode",
+    "ShowNotice"
+  ],
+  "UX.FestaControl": [
+    "IsFesta"
+  ],
+  "UX.FixTrackNumDisplay": [],
+  "UX.GrantFinalGateKey": [],
+  "UX.HardwareAlert": [
+    "ChimeCamera",
+    "CodeReader_1P",
+    "CodeReader_2P",
+    "LED_1P",
+    "LED_2P",
+    "PlayerCamera",
+    "TouchSensor_1P",
+    "TouchSensor_2P",
+    "UseOriginalGameLanguage"
+  ],
+  "UX.Hide1879": [],
+  "UX.HideSelfMadeCharts": [
+    "DefaultHide",
+    "Key",
+    "LongPress",
+    "SelfMadeChartsDenyUsersFile",
+    "SelfMadeChartsWhiteListUsersFile"
+  ],
+  "UX.ImmediateSave": [
+    "ShowTip"
+  ],
+  "UX.JudgeAccuracyInfo": [
+    "SavePath"
+  ],
+  "UX.JudgeDisplayPro": [],
+  "UX.NoAmDaemonAlert": [],
+  "UX.OneKeyEntryEnd": [
+    "Key",
+    "LongPress"
+  ],
+  "UX.OneKeyRetrySkip": [
+    "AllowRetryOnlyInFreedomMode",
+    "RetryKey",
+    "RetryLongPress",
+    "SkipKey",
+    "SkipLongPress"
+  ],
+  "UX.PracticeMode": [
+    "Key",
+    "LongPress",
+    "OnlyInFreedomMode"
+  ],
+  "UX.QuickEndPlay": [],
+  "UX.RemoveCharacterCopyrightRestriction": [],
+  "UX.SelectionDetail": [
+    "ShowBattleAchievement"
+  ],
+  "Utils.AntiLag": [
+    "ActivateWhileBackground",
+    "SetHighPriority"
+  ],
+  "Utils.DisplayFrameRate": [],
+  "Utils.DisplayTouchInGame": [
+    "DefaultOn",
+    "Key",
+    "LongPress",
+    "WhiteBackground"
+  ],
+  "Utils.EarlyContinue": [
+    "AddTrackCount"
+  ],
+  "Utils.FreedomTimer": [
+    "AddTimeKey",
+    "AddTimeLongPress",
+    "AddTimeSeconds",
+    "InfinityTime",
+    "Seconds"
+  ],
+  "Utils.InstantQuit": [],
+  "Utils.LedOffOnQuit": [],
+  "Utils.LogNetworkRequests": [
+    "Request",
+    "RequestOmittedApis",
+    "Response",
+    "ResponseErrorOnly",
+    "ResponseOmittedApis",
+    "Url"
+  ],
+  "Utils.LogUserId": [],
+  "Utils.MoveAnswerSound": [
+    "DisplayInGameConfig",
+    "MoveValue_1P",
+    "MoveValue_2P"
+  ],
+  "Utils.ScreenPositionAdjust": [
+    "AdjustKey",
+    "CompactMode"
+  ],
+  "Utils.ShowErrorLog": [
+    "UseNewErrorHandler"
+  ],
+  "Utils.ShowNetErrorDetail": [],
+  "Utils.UnstableRate": []
+}

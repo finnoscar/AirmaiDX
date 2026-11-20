@@ -1,0 +1,182 @@
+{
+  "fill-specializations": [
+    {
+      "value": {
+        "linear-gradient": [
+          "srgb:0.95686,0.96471,0.98824,1.00000",
+          "srgb:0.86275,0.89412,0.96078,1.00000"
+        ]
+      }
+    },
+    {
+      "appearance": "dark",
+      "value": {
+        "linear-gradient": [
+          "srgb:0.14902,0.20000,0.26667,1.00000",
+          "srgb:0.08235,0.11765,0.17255,1.00000"
+        ]
+      }
+    },
+    {
+      "appearance": "tinted",
+      "value": "automatic"
+    }
+  ],
+  "groups": [
+    {
+      "name": "02 Controller",
+      "layers": [
+        {
+          "name": "Controls",
+          "image-name": "05-Controller-Controls.svg",
+          "glass": false,
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "srgb:0.00000,0.55294,1.00000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "srgb:0.39608,0.72549,1.00000,1.00000"
+              }
+            },
+            {
+              "appearance": "tinted",
+              "value": {
+                "solid": "extended-gray:0.95,1.00000"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Enclosure",
+          "image-name": "04-Controller-Outline.svg",
+          "glass": false,
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "srgb:0.00000,0.55294,1.00000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "srgb:0.39608,0.72549,1.00000,1.00000"
+              }
+            },
+            {
+              "appearance": "tinted",
+              "value": {
+                "solid": "extended-gray:0.95,1.00000"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Surface",
+          "image-name": "03-Controller-Surface.svg",
+          "glass": false,
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "srgb:0.83529,0.92157,1.00000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "srgb:0.13725,0.24314,0.34902,1.00000"
+              }
+            },
+            {
+              "appearance": "tinted",
+              "value": {
+                "solid": "extended-gray:0.34,1.00000"
+              }
+            }
+          ]
+        }
+      ],
+      "lighting": "individual",
+      "specular": false,
+      "blur-material": 0,
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.08
+      },
+      "translucency": {
+        "enabled": false,
+        "value": 0
+      }
+    },
+    {
+      "name": "01 Notebook",
+      "layers": [
+        {
+          "name": "Frame, capsule and recess",
+          "image-name": "02-Notebook-Outline.svg",
+          "glass": false,
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "srgb:0.00000,0.55294,1.00000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "srgb:0.39608,0.72549,1.00000,1.00000"
+              }
+            },
+            {
+              "appearance": "tinted",
+              "value": {
+                "solid": "extended-gray:0.95,1.00000"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Surface",
+          "image-name": "01-Notebook-Surface.svg",
+          "glass": false,
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "srgb:0.80784,0.90196,0.98431,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "srgb:0.12549,0.21961,0.30588,1.00000"
+              }
+            },
+            {
+              "appearance": "tinted",
+              "value": {
+                "solid": "extended-gray:0.25,1.00000"
+              }
+            }
+          ]
+        }
+      ],
+      "lighting": "individual",
+      "specular": false,
+      "blur-material": 0,
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.08
+      },
+      "translucency": {
+        "enabled": false,
+        "value": 0
+      }
+    }
+  ],
+  "supported-platforms": {
+    "squares": "shared"
+  }
+}

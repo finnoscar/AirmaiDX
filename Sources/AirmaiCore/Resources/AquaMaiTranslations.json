@@ -1,0 +1,2630 @@
+{
+  "sections": {
+    "General": {
+      "title": {
+        "ja": "AquaMai 共通設定"
+      },
+      "help": {
+        "ja": "AquaMai の表示言語など、共通の設定です。"
+      }
+    },
+    "GameSystem.Assets.Fonts": {
+      "title": {
+        "ja": "カスタムフォント"
+      },
+      "help": {
+        "ja": "不足する文字の補完、またはゲーム内フォントの置き換えに使用します。"
+      }
+    },
+    "GameSystem.Assets.IgnoreLoadFailedAssetBundle": {
+      "title": {
+        "ja": "読み込めない画像を無視",
+        "zh-Hans": "跳过无法读取的图片资源",
+        "en": "Skip unreadable image resources"
+      },
+      "help": {
+        "ja": "読み込みに失敗した .ab 画像リソースをスキップします。",
+        "zh-Hans": "跳过加载失败的 .ab 图片资源。",
+        "en": "Skip .ab image resources that fail to load."
+      }
+    },
+    "GameSystem.Assets.LoadAssetBundleWithoutManifest": {
+      "title": {
+        "ja": "Manifest を使わず読み込む"
+      },
+      "help": {
+        "ja": "Manifest に記載されていない既存の .ab 画像リソースも読み込みます。"
+      }
+    },
+    "GameSystem.Assets.LoadLocalImages": {
+      "title": {
+        "ja": "ローカル画像の読み込み"
+      },
+      "help": {
+        "ja": "指定フォルダからカスタム譜面用の画像を読み込みます。"
+      }
+    },
+    "GameSystem.Assets.MovieLoader": {
+      "title": {
+        "ja": "背景動画の読み込み"
+      },
+      "help": {
+        "ja": "ゲーム内の動画、ローカル MP4、ジャケット画像を背景として使用します。"
+      }
+    },
+    "GameSystem.AddPlayCountWhenQuickRetry": {
+      "title": {
+        "ja": "リトライ時のプレイ回数"
+      },
+      "help": {
+        "ja": "クイックリトライした譜面のプレイ回数を増やします。"
+      }
+    },
+    "GameSystem.AdxHidInput": {
+      "title": {
+        "ja": "ADX / NPRO HID 入力",
+        "zh-Hans": "ADX / NPRO HID 输入"
+      },
+      "help": {
+        "ja": "対応する HID ファームウェア向けの入力です。別方式の手台では有効にしないでください。"
+      }
+    },
+    "GameSystem.CustomCameraId": {
+      "title": {
+        "ja": "カメラの割り当て"
+      },
+      "help": {
+        "ja": "撮影用・QR 読み取り用など、用途別にカメラ ID を指定します。"
+      }
+    },
+    "GameSystem.DisableTimeout": {
+      "title": {
+        "ja": "カウントダウンの無効化"
+      },
+      "help": {
+        "ja": "ゲーム内の制限時間を無効にし、タイマーの表示方法を設定します。"
+      }
+    },
+    "GameSystem.EnableFreedomMode": {
+      "title": {
+        "ja": "SDGA の Freedom Mode"
+      },
+      "help": {
+        "ja": "対応する SDGA クライアントで Freedom Mode を有効にします。"
+      }
+    },
+    "GameSystem.ExteraMouseInput": {
+      "title": {
+        "ja": "マウスによるタッチ補助"
+      },
+      "help": {
+        "ja": "マウスでタッチを再現する際の判定半径とエリアの広さを調整します。"
+      }
+    },
+    "GameSystem.HeadphoneVolumeMultiply": {
+      "title": {
+        "ja": "ヘッドホン音量倍率"
+      },
+      "help": {
+        "ja": "プレイヤーごとにヘッドホン音量へ倍率を適用します。"
+      }
+    },
+    "GameSystem.HeadphoneVolumeOverride": {
+      "title": {
+        "ja": "ヘッドホン音量の固定"
+      },
+      "help": {
+        "ja": "プレイヤーごとにヘッドホン音量を指定値へ上書きします。"
+      }
+    },
+    "GameSystem.KeyMap": {
+      "title": {
+        "ja": "キー割り当て"
+      },
+      "help": {
+        "ja": "IO4 と DebugInput を個別に設定します。少なくとも一つの入力方式を確保してください。"
+      }
+    },
+    "GameSystem.LightBoardPort": {
+      "title": {
+        "ja": "LED ボードのシリアルポート"
+      },
+      "help": {
+        "ja": "各プレイヤーの LED ボードに接続するポートを指定します。"
+      }
+    },
+    "GameSystem.MaimollerIO": {
+      "title": {
+        "ja": "Maimoller 入出力",
+        "zh-Hans": "Maimoller 输入与灯光"
+      },
+      "help": {
+        "ja": "対応する Maimoller 機器のボタン、タッチ、LED を設定します。"
+      }
+    },
+    "GameSystem.OldCabLightBoardSupport": {
+      "title": {
+        "ja": "旧筐体の LED ボード"
+      },
+      "help": {
+        "ja": "旧型筐体の LED ボード向け互換機能です。"
+      }
+    },
+    "GameSystem.OptionLoadFix": {
+      "title": {
+        "ja": "追加データの読み込み補正"
+      },
+      "help": {
+        "ja": "バージョンに対応する追加データフォルダも読み込めるようにします。"
+      }
+    },
+    "GameSystem.PdxTouch": {
+      "title": {
+        "ja": "PDX タッチ入力"
+      },
+      "help": {
+        "ja": "PDX の専用タッチ接続とタッチ判定範囲を設定します。"
+      }
+    },
+    "GameSystem.QuickRetry": {
+      "title": {
+        "ja": "クイックリトライ"
+      },
+      "help": {
+        "ja": "下側の四つのボタンで現在の譜面をリトライします。宴譜面への適用も設定できます。"
+      }
+    },
+    "GameSystem.RemoveEncryption": {
+      "title": {
+        "ja": "通信暗号化の解除"
+      },
+      "help": {
+        "ja": "対応するサーバー接続用に暗号化や API のバージョン接尾辞を調整します。接続先の仕様に合わせてください。"
+      }
+    },
+    "GameSystem.SinglePlayer": {
+      "title": {
+        "ja": "1P モード"
+      },
+      "help": {
+        "ja": "2P 側の表示を抑え、一人用の画面やタッチの動作を設定します。"
+      }
+    },
+    "GameSystem.SongConstantSort": {
+      "title": {
+        "ja": "譜面定数による並び替え"
+      },
+      "help": {
+        "ja": "選曲画面の並び順に譜面定数を使用します。"
+      }
+    },
+    "GameSystem.Sound": {
+      "title": {
+        "ja": "音声出力"
+      },
+      "help": {
+        "ja": "排他出力、8 チャンネル出力、音量や音声形式を設定します。"
+      }
+    },
+    "GameSystem.SoundRouting": {
+      "title": {
+        "ja": "音声チャンネルの割り当て"
+      },
+      "help": {
+        "ja": "スピーカーとヘッドホンの各出力を、指定した音声チャンネルへ割り当てます。"
+      }
+    },
+    "GameSystem.StartupDirectToGame": {
+      "title": {
+        "ja": "起動後に直接プレイ"
+      },
+      "help": {
+        "ja": "起動時の直接プレイ機能と、使用する難易度やノーツ速度を設定します。"
+      }
+    },
+    "GameSystem.TestProof": {
+      "title": {
+        "ja": "テストキーの長押し"
+      },
+      "help": {
+        "ja": "テストモードへの移行を長押しに変更し、誤操作を防ぎます。"
+      }
+    },
+    "GameSystem.TouchPanelBaudRate": {
+      "title": {
+        "ja": "タッチパネルの通信速度"
+      },
+      "help": {
+        "ja": "対応するハードウェアでのみシリアル通信速度を変更してください。"
+      }
+    },
+    "GameSystem.TouchPanelPort": {
+      "title": {
+        "ja": "タッチパネルのポート"
+      },
+      "help": {
+        "ja": "各プレイヤーのタッチパネルに接続するシリアルポートを指定します。"
+      }
+    },
+    "GameSystem.TouchToButtonInput": {
+      "title": {
+        "ja": "タッチをボタン入力へ変換"
+      },
+      "help": {
+        "ja": "対応するタッチ操作を外周ボタンの入力へ変換します。"
+      }
+    },
+    "GameSystem.Unlock": {
+      "title": {
+        "ja": "コンテンツの解放"
+      },
+      "help": {
+        "ja": "対象コンテンツの解放を設定します。保存される内容は Mod の仕様に従います。"
+      }
+    },
+    "GameSystem.VirtualCoin": {
+      "title": {
+        "ja": "仮想コイン"
+      },
+      "help": {
+        "ja": "キーまたは対応する遠隔入力によるコイン投入を設定します。"
+      }
+    },
+    "GameSystem.VolumeSync": {
+      "title": {
+        "ja": "音量の同期"
+      },
+      "help": {
+        "ja": "対応する音量設定を同期します。"
+      }
+    },
+    "GameSystem.Window": {
+      "title": {
+        "ja": "画面設定"
+      },
+      "help": {
+        "ja": "AquaMai 側のウインドウと描画サイズです。AirmaiDX の表示設定が実行時に優先される項目があります。"
+      }
+    },
+    "GameSettings.CreditConfig": {
+      "title": {
+        "ja": "クレジット設定"
+      },
+      "help": {
+        "ja": "フリープレイと使用可能クレジット数を設定します。"
+      }
+    },
+    "GameSettings.ForceAsServer": {
+      "title": {
+        "ja": "サーバー役に固定"
+      },
+      "help": {
+        "ja": "クライアントをサーバー役として動作させます。店内マッチングの構成に合わせて設定してください。"
+      }
+    },
+    "GameSettings.JudgeAdjust": {
+      "title": {
+        "ja": "判定タイミング"
+      },
+      "help": {
+        "ja": "A 判定、B 判定、タッチ入力の遅延を調整します。"
+      }
+    },
+    "GameSettings.TouchSensitivity": {
+      "title": {
+        "ja": "タッチ感度"
+      },
+      "help": {
+        "ja": "Mod 側で感度を指定します。有効にすると Test モードの感度設定より優先されます。機器によって値の方向が異なります。"
+      }
+    },
+    "Tweaks.IgnoreAimeServerError": {
+      "title": {
+        "ja": "Aime エラーの扱い"
+      },
+      "help": {
+        "ja": "AimeDB のエラー判定が原因で灰色のネットワーク表示になる問題への互換設定です。"
+      }
+    },
+    "Tweaks.LedBrightnessControl": {
+      "title": {
+        "ja": "LED の明るさ"
+      },
+      "help": {
+        "ja": "外周ボタンと筐体 LED の明るさをプレイヤー別に調整します。"
+      }
+    },
+    "Tweaks.LockFrameRate": {
+      "title": {
+        "ja": "フレームレートの固定"
+      },
+      "help": {
+        "ja": "目標フレームレートと垂直同期の動作を変更します。問題がない場合は既定値を維持してください。"
+      }
+    },
+    "Tweaks.ResetTouch": {
+      "title": {
+        "ja": "タッチパネルのリセット"
+      },
+      "help": {
+        "ja": "曲の終了時、または指定したキー操作でタッチパネルをリセットします。"
+      }
+    },
+    "Tweaks.SkipUserVersionCheck": {
+      "title": {
+        "ja": "ユーザーバージョン確認を省略"
+      },
+      "help": {
+        "ja": "新しいバージョンで使用したアカウントの確認を省略します。アカウントのバージョンが現在のゲームに更新される場合があります。"
+      }
+    },
+    "Tweaks.TimeSaving.CheckSkip": {
+      "title": {
+        "ja": "起動時チェックの省略"
+      },
+      "help": {
+        "ja": "ネットワークやカメラなど、指定した起動時チェックを省略します。"
+      }
+    },
+    "Tweaks.TimeSaving.EntryToMusicSelection": {
+      "title": {
+        "ja": "ログイン後に直接選曲"
+      },
+      "help": {
+        "ja": "ログイン後の画面を省略して選曲へ進みます。"
+      }
+    },
+    "Tweaks.TimeSaving.ExitToSave": {
+      "title": {
+        "ja": "終了後に直接ログアウト"
+      },
+      "help": {
+        "ja": "プレイ終了後の写真やコレクションの画面を省略します。"
+      }
+    },
+    "Tweaks.TimeSaving.IWontTapOrSlideVigorously": {
+      "title": {
+        "ja": "タッチ操作の注意画面を省略"
+      },
+      "help": {
+        "ja": "データの準備ができたら、強く叩かないよう案内する画面を省略します。"
+      }
+    },
+    "Tweaks.TimeSaving.SkipEventInfo": {
+      "title": {
+        "ja": "イベント案内を省略"
+      },
+      "help": {
+        "ja": "ログイン時の新曲、エリア、イベントなどの案内を省略します。"
+      }
+    },
+    "Tweaks.TimeSaving.SkipGoodbyeScreen": {
+      "title": {
+        "ja": "終了メッセージを省略"
+      },
+      "help": {
+        "ja": "プレイ終了時の挨拶画面を省略します。"
+      }
+    },
+    "Tweaks.TimeSaving.SkipStartupDelays": {
+      "title": {
+        "ja": "起動時の待機を省略"
+      },
+      "help": {
+        "ja": "起動時に設定されている待機処理を短縮します。"
+      }
+    },
+    "Tweaks.TimeSaving.SkipStartupWarning": {
+      "title": {
+        "ja": "起動時の注意画面を省略"
+      },
+      "help": {
+        "ja": "起動時の警告・案内画面を省略します。"
+      }
+    },
+    "Tweaks.TimeSaving.SkipTrackStart": {
+      "title": {
+        "ja": "曲開始画面を省略"
+      },
+      "help": {
+        "ja": "楽曲開始前の画面を省略します。"
+      }
+    },
+    "Fancy.CustomButton": {
+      "title": {
+        "ja": "ボタン画像"
+      },
+      "help": {
+        "ja": "指定フォルダから外周ボタンの画像を読み込みます。"
+      }
+    },
+    "Fancy.CustomCreditsString": {
+      "title": {
+        "ja": "クレジット表示の文字列"
+      },
+      "help": {
+        "ja": "画面中央や右上の CREDIT(S) 表示を指定した文字列に変更します。"
+      }
+    },
+    "Fancy.CustomIntroCinematic": {
+      "title": {
+        "ja": "イントロ動画"
+      },
+      "help": {
+        "ja": "楽曲開始前にカスタム動画を再生します。"
+      }
+    },
+    "Fancy.CustomLogo": {
+      "title": {
+        "ja": "ロゴ画像"
+      },
+      "help": {
+        "ja": "SEGA と ALL.Net のロゴを指定した画像に置き換えます。"
+      }
+    },
+    "Fancy.CustomPlaceName": {
+      "title": {
+        "ja": "店舗名"
+      },
+      "help": {
+        "ja": "写真などに表示する店舗名を設定します。"
+      }
+    },
+    "Fancy.CustomSkins": {
+      "title": {
+        "ja": "カスタムスキン"
+      },
+      "help": {
+        "ja": "指定したパスからスキン画像を読み込みます。対応するリソースが必要です。"
+      }
+    },
+    "Fancy.CustomTrackStartDiff": {
+      "title": {
+        "ja": "難易度表示の画像"
+      },
+      "help": {
+        "ja": "楽曲開始時の難易度画像を変更します。カスタムスキンと対応画像が必要です。"
+      }
+    },
+    "Fancy.CustomVersionString": {
+      "title": {
+        "ja": "バージョン表示"
+      },
+      "help": {
+        "ja": "画面右上に表示するバージョン文字列を変更します。"
+      }
+    },
+    "Fancy.DemoMaster": {
+      "title": {
+        "ja": "MASTER のデモ再生"
+      },
+      "help": {
+        "ja": "デモ画面で MASTER 難易度を再生します。"
+      }
+    },
+    "Fancy.GamePlay.AlignCircleSlideJudgeDisplay": {
+      "title": {
+        "ja": "円弧スライドの判定表示"
+      },
+      "help": {
+        "ja": "円弧スライドの判定表示を判定線へ合わせます。"
+      }
+    },
+    "Fancy.GamePlay.BreakSlideJudgeBlink": {
+      "title": {
+        "ja": "BREAK スライドの点滅"
+      },
+      "help": {
+        "ja": "BREAK スライドの Critical 判定も点滅させます。カスタムスキンとの併用が推奨されています。"
+      }
+    },
+    "Fancy.GamePlay.CustomNoteTypes": {
+      "title": {
+        "ja": "カスタムノーツ"
+      },
+      "help": {
+        "ja": "独自のノーツ形式に関する機能です。"
+      }
+    },
+    "Fancy.GamePlay.DisableTrackStartTabs": {
+      "title": {
+        "ja": "楽曲開始時の情報を非表示"
+      },
+      "help": {
+        "ja": "TRACK、DX/スタンダードの枠、下部のキャラクターなどを非表示にします。"
+      }
+    },
+    "Fancy.GamePlay.ExtendNotesPool": {
+      "title": {
+        "ja": "ノーツ描画プールの拡張"
+      },
+      "help": {
+        "ja": "描画用ノーツのプールを増やし、不足を防ぎます。"
+      }
+    },
+    "Fancy.GamePlay.FanJudgeFlip": {
+      "title": {
+        "ja": "Wi-Fi スライドの判定方向"
+      },
+      "help": {
+        "ja": "Wi-Fi スライドの判定表示を上下の向きに合わせて調整します。"
+      }
+    },
+    "Fancy.GamePlay.FixJudgeTouchHoldInNormalArea": {
+      "title": {
+        "ja": "C エリア外のタッチ HOLD"
+      },
+      "help": {
+        "ja": "C エリア以外のタッチ HOLD 判定を補正します。実験的で、不安定な場合があります。"
+      }
+    },
+    "Fancy.GamePlay.HideHanabi": {
+      "title": {
+        "ja": "花火を非表示"
+      },
+      "help": {
+        "ja": "ゲーム中の花火エフェクトを非表示にします。"
+      }
+    },
+    "Fancy.GamePlay.JudgeDisplay4B": {
+      "title": {
+        "ja": "詳細な判定表示"
+      },
+      "help": {
+        "ja": "判定表示を細分化します。カスタムスキンと対応する画像リソースが必要です。"
+      }
+    },
+    "Fancy.GamePlay.RealisticRandomJudge": {
+      "title": {
+        "ja": "AutoPlay のランダム判定"
+      },
+      "help": {
+        "ja": "AutoPlay のランダム判定に、より細かな判定の分布を適用します。"
+      }
+    },
+    "Fancy.GamePlay.ReviveFinaleVSlide": {
+      "title": {
+        "ja": "同じ位置へ戻る V スライド"
+      },
+      "help": {
+        "ja": "Simai の 1v1 のように、始点と終点が同じ V スライドを許可します。"
+      }
+    },
+    "Fancy.GamePlay.SlideArrowAnimation": {
+      "title": {
+        "ja": "スライドの縮小アニメーション"
+      },
+      "help": {
+        "ja": "スライドの軌跡を内側へ縮むアニメーションで消します。"
+      }
+    },
+    "Fancy.GamePlay.SlideFadeInTweak": {
+      "title": {
+        "ja": "スライドのフェードイン"
+      },
+      "help": {
+        "ja": "スライドの軌跡を徐々に表示します。"
+      }
+    },
+    "Fancy.GamePlay.SlideLayerReverse": {
+      "title": {
+        "ja": "スライドの重なり順"
+      },
+      "help": {
+        "ja": "新しいスライドを手前に表示するよう、重なり順を反転します。"
+      }
+    },
+    "Fancy.GamePlay.TapInHoldFix": {
+      "title": {
+        "ja": "HOLD 中の TAP 判定"
+      },
+      "help": {
+        "ja": "通常モードでも HOLD 中の TAP を判定します。特殊な譜面向けの実験的機能です。"
+      }
+    },
+    "Fancy.GamePlay.TrackStartProcessTweak": {
+      "title": {
+        "ja": "曲開始アニメーションの遅延"
+      },
+      "help": {
+        "ja": "譜面確認動画の撮影向けに、曲開始画面のアニメーションを遅らせます。"
+      }
+    },
+    "Fancy.HideMask": {
+      "title": {
+        "ja": "円形マスクの解除"
+      },
+      "help": {
+        "ja": "ゲーム画面の円形マスクを取り除きます。"
+      }
+    },
+    "Fancy.IgnoreCommercialTimeout": {
+      "title": {
+        "ja": "待機動画の時間制限"
+      },
+      "help": {
+        "ja": "待機動画の合計 5 分の制限を無視します。"
+      }
+    },
+    "Fancy.RandomBgm": {
+      "title": {
+        "ja": "ランダム BGM"
+      },
+      "help": {
+        "ja": "指定フォルダの旧バージョンの Mai2Cue 音声を使用します。2P モードでは動作しません。"
+      }
+    },
+    "Fancy.ResourcesOverride": {
+      "title": {
+        "ja": "ゲーム内画像の置き換え",
+        "zh-Hans": "替换游戏资源",
+        "en": "Replace game resources"
+      },
+      "help": {
+        "ja": "シーン全体の画像を置き換える高度な機能です。誤ったリソースは表示に影響する場合があります。"
+      }
+    },
+    "Fancy.SetFade": {
+      "title": {
+        "ja": "画面遷移アニメーション"
+      },
+      "help": {
+        "ja": "画面の切り替えに使用するアニメーションを設定します。"
+      }
+    },
+    "Fancy.SkipGameResultAnimation": {
+      "title": {
+        "ja": "リザルトの演出を省略"
+      },
+      "help": {
+        "ja": "AutoPlay 時に AP・FC・FS などの演出を省略します。"
+      }
+    },
+    "Fancy.TrackCamouflage": {
+      "title": {
+        "ja": "楽曲情報のマスク"
+      },
+      "help": {
+        "ja": "楽曲の情報を隠す演出を設定します。カスタムイントロ動画とも併用できます。"
+      }
+    },
+    "Fancy.Triggers": {
+      "title": {
+        "ja": "イベント実行コマンド"
+      },
+      "help": {
+        "ja": "エントリー時や待機時に実行するコマンドを設定します。信頼できる内容だけを指定してください。"
+      }
+    },
+    "UX.CustomFnToKeyboard": {
+      "title": {
+        "ja": "機能キーをキーボードへ割り当て"
+      },
+      "help": {
+        "ja": "コントローラーのカスタム機能キーを、システムのキーボード操作へ割り当てます。"
+      }
+    },
+    "UX.DisableLightOutGame": {
+      "title": {
+        "ja": "待機中のボタン LED を消灯"
+      },
+      "help": {
+        "ja": "プレイしていない間はボタンの LED を消灯します。"
+      }
+    },
+    "UX.DontRuinMyAccount": {
+      "title": {
+        "ja": "AutoPlay 成績を保存しない"
+      },
+      "help": {
+        "ja": "AutoPlay 使用時に成績を保存しないようにします。"
+      }
+    },
+    "UX.FestaControl": {
+      "title": {
+        "ja": "Festa 表示"
+      },
+      "help": {
+        "ja": "Festa モードの表示を制御します。無効時はイベントやサーバー側の設定に従います。"
+      }
+    },
+    "UX.FixTrackNumDisplay": {
+      "title": {
+        "ja": "曲数の 2 桁表示"
+      },
+      "help": {
+        "ja": "通常モードで右上の曲数が 2 桁でも表示されるようにします。"
+      }
+    },
+    "UX.GrantFinalGateKey": {
+      "title": {
+        "ja": "Final Gate Key の付与",
+        "zh-Hans": "发放 Final Gate 钥匙",
+        "en": "Grant Final Gate Key"
+      },
+      "help": {
+        "ja": "対応するクライアントで Enter キーによる Final Gate Key の付与を有効にします。",
+        "zh-Hans": "在支持的版本中，通过回车键发放 Final Gate 钥匙。",
+        "en": "Use Enter to grant a Final Gate Key in supported clients."
+      }
+    },
+    "UX.HardwareAlert": {
+      "title": {
+        "ja": "ハードウェア警告"
+      },
+      "help": {
+        "ja": "各ハードウェアの異常を、警告として表示するか指定します。"
+      }
+    },
+    "UX.Hide1879": {
+      "title": {
+        "ja": "文字化けする楽曲を非表示"
+      },
+      "help": {
+        "ja": "通常モードで表示が崩れる Xaleid◆scopiX を非表示にします。"
+      }
+    },
+    "UX.HideSelfMadeCharts": {
+      "title": {
+        "ja": "カスタム譜面の非表示"
+      },
+      "help": {
+        "ja": "キー操作やユーザー別の設定でカスタム譜面を非表示にします。"
+      }
+    },
+    "UX.ImmediateSave": {
+      "title": {
+        "ja": "1 曲ごとに保存"
+      },
+      "help": {
+        "ja": "楽曲のプレイが終わるたびにデータを保存します。"
+      }
+    },
+    "UX.JudgeAccuracyInfo": {
+      "title": {
+        "ja": "判定の詳細集計"
+      },
+      "help": {
+        "ja": "リザルトに詳しい判定情報を表示します。"
+      }
+    },
+    "UX.JudgeDisplayPro": {
+      "title": {
+        "ja": "判定表示のカスタマイズ"
+      },
+      "help": {
+        "ja": "ノーツごとの判定表示を変更します。有効時はゲーム標準の表示プリセットより優先されます。"
+      }
+    },
+    "UX.NoAmDaemonAlert": {
+      "title": {
+        "ja": "AMDaemon の起動警告",
+        "zh-Hans": "AMDaemon 未运行提示"
+      },
+      "help": {
+        "ja": "AMDaemon が動作せず黒画面になる場合に警告を表示します。"
+      }
+    },
+    "UX.OneKeyEntryEnd": {
+      "title": {
+        "ja": "1 キーで入場・終了"
+      },
+      "help": {
+        "ja": "入場時は選曲へ進み、選曲中は現在のプレイを終了するキーを設定します。"
+      }
+    },
+    "UX.OneKeyRetrySkip": {
+      "title": {
+        "ja": "1 キーでリトライ・スキップ"
+      },
+      "help": {
+        "ja": "プレイ中のリトライとスキップに使用するキーを設定します。"
+      }
+    },
+    "UX.PracticeMode": {
+      "title": {
+        "ja": "練習モード"
+      },
+      "help": {
+        "ja": "対応する練習モードの操作と利用条件を設定します。"
+      }
+    },
+    "UX.QuickEndPlay": {
+      "title": {
+        "ja": "演奏後の早送り"
+      },
+      "help": {
+        "ja": "ノーツが終わった後に、曲を早く終了するボタンを表示します。"
+      }
+    },
+    "UX.RemoveCharacterCopyrightRestriction": {
+      "title": {
+        "ja": "リザルト写真のキャラクター制限"
+      },
+      "help": {
+        "ja": "通常は写真に表示できないキャラクターも、リザルト写真へ表示できるようにします。"
+      }
+    },
+    "UX.SelectionDetail": {
+      "title": {
+        "ja": "選曲中の詳細情報"
+      },
+      "help": {
+        "ja": "選択中の楽曲の詳細情報を表示します。"
+      }
+    },
+    "Utils.AntiLag": {
+      "title": {
+        "ja": "動作優先度の調整",
+        "zh-Hans": "性能调优",
+        "en": "Process tuning"
+      },
+      "help": {
+        "ja": "バックグラウンド動作やプロセスの優先度を調整します。macOS / Wine での効果は環境に依存します。"
+      }
+    },
+    "Utils.DisplayFrameRate": {
+      "title": {
+        "ja": "フレームレート表示"
+      },
+      "help": {
+        "ja": "ゲーム内にフレームレートを表示します。"
+      }
+    },
+    "Utils.DisplayTouchInGame": {
+      "title": {
+        "ja": "タッチ位置の表示"
+      },
+      "help": {
+        "ja": "ゲーム中のタッチ位置を表示し、入力を確認します。"
+      }
+    },
+    "Utils.EarlyContinue": {
+      "title": {
+        "ja": "早めにコンティニュー"
+      },
+      "help": {
+        "ja": "指定した曲数のタイミングでコンティニューへ進む動作を設定します。"
+      }
+    },
+    "Utils.FreedomTimer": {
+      "title": {
+        "ja": "Freedom Mode の時間"
+      },
+      "help": {
+        "ja": "制限時間の長さや、時間を追加する操作を設定します。"
+      }
+    },
+    "Utils.InstantQuit": {
+      "title": {
+        "ja": "即時終了"
+      },
+      "help": {
+        "ja": "通常の終了待機を省いてゲームを終了します。"
+      }
+    },
+    "Utils.LedOffOnQuit": {
+      "title": {
+        "ja": "終了時に LED を消灯"
+      },
+      "help": {
+        "ja": "ゲーム終了時に対応する LED を消灯します。"
+      }
+    },
+    "Utils.LogNetworkRequests": {
+      "title": {
+        "ja": "通信ログ"
+      },
+      "help": {
+        "ja": "リクエストやレスポンスを MelonLoader のログへ記録します。共有前に機密情報を確認してください。"
+      }
+    },
+    "Utils.LogUserId": {
+      "title": {
+        "ja": "ユーザー ID のログ"
+      },
+      "help": {
+        "ja": "ログイン時のユーザー ID をログへ記録します。"
+      }
+    },
+    "Utils.MoveAnswerSound": {
+      "title": {
+        "ja": "アンサー音のタイミング"
+      },
+      "help": {
+        "ja": "アンサー音のタイミングをプレイヤー別に調整します。"
+      }
+    },
+    "Utils.ScreenPositionAdjust": {
+      "title": {
+        "ja": "画面位置の補正"
+      },
+      "help": {
+        "ja": "エリア別に表示位置を補正します。マウスでタッチを再現する場合は対応する補助入力が必要です。"
+      }
+    },
+    "Utils.ShowErrorLog": {
+      "title": {
+        "ja": "エラーログの表示"
+      },
+      "help": {
+        "ja": "ゲーム内にエラー情報を表示します。"
+      }
+    },
+    "Utils.ShowNetErrorDetail": {
+      "title": {
+        "ja": "ネットワークエラーの詳細"
+      },
+      "help": {
+        "ja": "灰色のネットワーク表示になった際、原因の詳細をゲーム内に表示します。"
+      }
+    },
+    "Utils.UnstableRate": {
+      "title": {
+        "ja": "タイミングのばらつき"
+      },
+      "help": {
+        "ja": "各ノーツの入力タイミングと、そのばらつきを画面中央に表示します。"
+      }
+    },
+    "DeprecationWarning": {
+      "title": {
+        "ja": "廃止された設定"
+      },
+      "help": {
+        "ja": "現在のバージョンでは使用されなくなった設定です。"
+      }
+    },
+    "Enhancement.ServerAnnouncement": {
+      "title": {
+        "ja": "サーバーのお知らせ",
+        "zh-Hans": "服务器公告"
+      },
+      "help": {
+        "ja": "対応するサーバーから配信される案内を表示します。"
+      }
+    },
+    "Enhancement.ServerNotice": {
+      "title": {
+        "ja": "サーバーの通知",
+        "zh-Hans": "服务器提示"
+      },
+      "help": {
+        "ja": "対応するサーバーの通知機能を設定します。"
+      }
+    },
+    "Enhancement.ServerResources": {
+      "title": {
+        "ja": "サーバーのリソース",
+        "zh-Hans": "服务器资源"
+      },
+      "help": {
+        "ja": "対応するサーバーのリソース機能を設定します。"
+      }
+    },
+    "Fix.Common": {
+      "title": {
+        "ja": "共通の互換修正",
+        "zh-Hans": "通用兼容修复"
+      },
+      "help": {
+        "ja": "このバージョンの共通互換処理です。"
+      }
+    },
+    "Fix.DebugFeature": {
+      "title": {
+        "ja": "デバッグ機能の互換修正",
+        "zh-Hans": "调试功能兼容"
+      },
+      "help": {
+        "ja": "デバッグ入力の互換処理です。"
+      }
+    },
+    "Fix.DisableReboot": {
+      "title": {
+        "ja": "再起動処理の抑制",
+        "zh-Hans": "禁用自动重启"
+      },
+      "help": {
+        "ja": "ゲームからの再起動要求を抑制します。"
+      }
+    },
+    "Fix.FixCheckAuth": {
+      "title": {
+        "ja": "認証チェックの互換修正",
+        "zh-Hans": "认证请求兼容"
+      },
+      "help": {
+        "ja": "このバージョンの認証チェックに関する互換処理です。"
+      }
+    },
+    "Fix.FixLevelDisplay": {
+      "title": {
+        "ja": "レベル表示の修正",
+        "zh-Hans": "等级显示修复"
+      },
+      "help": {
+        "ja": "難易度表示に関する互換修正です。"
+      }
+    },
+    "Fix.FixLongMusicRestart": {
+      "title": {
+        "ja": "長い楽曲の再起動対策"
+      },
+      "help": {
+        "ja": "長い楽曲に関する再起動の問題を修正します。"
+      }
+    },
+    "Fix.FixSlideAutoPlay": {
+      "title": {
+        "ja": "AutoPlay のスライド修正",
+        "zh-Hans": "Slide 自动演奏修复"
+      },
+      "help": {
+        "ja": "AutoPlay 時のスライドの動作を補正します。"
+      }
+    },
+    "Fix.LedBoardReconnect": {
+      "title": {
+        "ja": "LED ボードの再接続"
+      },
+      "help": {
+        "ja": "対応する LED ボードとの接続復旧を補助します。"
+      }
+    },
+    "Fix.Legacy.FixConnSlide": {
+      "title": {
+        "ja": "旧接続スライドの修正",
+        "zh-Hans": "旧版连接 Slide 修复"
+      },
+      "help": {
+        "ja": "旧バージョンの接続スライドに関する互換修正です。"
+      }
+    },
+    "Fix.Legacy.FixQuickRetry130": {
+      "title": {
+        "ja": "旧リトライの修正",
+        "zh-Hans": "旧版快速重试修复"
+      },
+      "help": {
+        "ja": "旧バージョンのクイックリトライに関する互換修正です。"
+      }
+    },
+    "Fix.MaimollerFix": {
+      "title": {
+        "ja": "Maimoller の互換修正",
+        "zh-Hans": "Maimoller 兼容修复"
+      },
+      "help": {
+        "ja": "Maimoller 機器との互換処理です。"
+      }
+    },
+    "Fix.Stability.FixMissingCharaCrash": {
+      "title": {
+        "ja": "キャラクター欠落時の対策",
+        "zh-Hans": "缺失角色崩溃修复"
+      },
+      "help": {
+        "ja": "キャラクターが見つからない場合の異常終了を防ぎます。"
+      }
+    },
+    "Fix.Stability.SanitizeUserData": {
+      "title": {
+        "ja": "ユーザーデータの検査",
+        "zh-Hans": "用户资料兼容修复"
+      },
+      "help": {
+        "ja": "読み込んだユーザーデータの互換性を確認します。"
+      }
+    },
+    "GameSystem.TouchAreaRemapper": {
+      "title": {
+        "ja": "タッチエリアの再割り当て"
+      },
+      "help": {
+        "ja": "タッチエリアの対応関係を変更します。"
+      }
+    },
+    "UX.TestModeHook": {
+      "title": {
+        "ja": "Test モードの連携",
+        "zh-Hans": "测试菜单扩展"
+      },
+      "help": {
+        "ja": "Test モードの追加連携機能です。"
+      }
+    },
+    "Utils.LogUnity": {
+      "title": {
+        "ja": "Unity ログ"
+      },
+      "help": {
+        "ja": "デバッグ用に Unity のログを出力します。"
+      }
+    }
+  },
+  "fields": {
+    "A": {
+      "zh-Hans": "A 判定调整",
+      "en": "A judgment offset",
+      "ja": "A 判定の補正"
+    },
+    "B": {
+      "zh-Hans": "B 判定调整",
+      "en": "B judgment offset",
+      "ja": "B 判定の補正"
+    },
+    "AAreaExtraRadius": {
+      "zh-Hans": "A 区附加半径",
+      "en": "A-area extra radius",
+      "ja": "A エリアの追加半径"
+    },
+    "BAreaExtraRadius": {
+      "zh-Hans": "B 区附加半径",
+      "en": "B-area extra radius",
+      "ja": "B エリアの追加半径"
+    },
+    "CAreaExtraRadius": {
+      "zh-Hans": "C 区附加半径",
+      "en": "C-area extra radius",
+      "ja": "C エリアの追加半径"
+    },
+    "DAreaExtraRadius": {
+      "zh-Hans": "D 区附加半径",
+      "en": "D-area extra radius",
+      "ja": "D エリアの追加半径"
+    },
+    "EAreaExtraRadius": {
+      "zh-Hans": "E 区附加半径",
+      "en": "E-area extra radius",
+      "ja": "E エリアの追加半径"
+    },
+    "A_1P": {
+      "zh-Hans": "1P A 判定调整",
+      "en": "1P A judgment offset",
+      "ja": "1P の A 判定補正"
+    },
+    "A_2P": {
+      "zh-Hans": "2P A 判定调整",
+      "en": "2P A judgment offset",
+      "ja": "2P の A 判定補正"
+    },
+    "B_1P": {
+      "zh-Hans": "1P B 判定调整",
+      "en": "1P B judgment offset",
+      "ja": "1P の B 判定補正"
+    },
+    "B_2P": {
+      "zh-Hans": "2P B 判定调整",
+      "en": "2P B judgment offset",
+      "ja": "2P の B 判定補正"
+    },
+    "ActivateWhileBackground": {
+      "zh-Hans": "后台时保持调优",
+      "en": "Apply while in background",
+      "ja": "バックグラウンドでも適用"
+    },
+    "AddAsFallback": {
+      "zh-Hans": "作为字体回退",
+      "en": "Use as fallback font",
+      "ja": "フォールバックフォントとして使用"
+    },
+    "AddTimeKey": {
+      "zh-Hans": "增加时间按键",
+      "en": "Add-time key",
+      "ja": "時間追加キー"
+    },
+    "AddTimeLongPress": {
+      "zh-Hans": "长按增加时间",
+      "en": "Hold to add time",
+      "ja": "長押しで時間追加"
+    },
+    "AddTimeSeconds": {
+      "zh-Hans": "每次增加秒数",
+      "en": "Seconds to add",
+      "ja": "追加する秒数"
+    },
+    "AddTrackCount": {
+      "zh-Hans": "增加曲数",
+      "en": "Additional tracks",
+      "ja": "追加曲数"
+    },
+    "AdjustKey": {
+      "zh-Hans": "位置调整按键",
+      "en": "Adjustment key",
+      "ja": "位置調整キー"
+    },
+    "AfterTrack": {
+      "zh-Hans": "每曲结束后重置",
+      "en": "Reset after each track",
+      "ja": "曲の終了後にリセット"
+    },
+    "AllNetLogoDir": {
+      "zh-Hans": "ALL.Net 标志目录",
+      "en": "ALL.Net logo directory",
+      "ja": "ALL.Net ロゴのフォルダ"
+    },
+    "AllowRetryOnlyInFreedomMode": {
+      "zh-Hans": "仅自由模式允许重开",
+      "en": "Retry only in Freedom Mode",
+      "ja": "Freedom Mode のみリトライ可能"
+    },
+    "AllowTicketInFreePlay": {
+      "zh-Hans": "免费模式允许用券",
+      "en": "Allow tickets in free play",
+      "ja": "フリープレイでチケットを許可"
+    },
+    "Alternative2p": {
+      "zh-Hans": "2P 兼容方式",
+      "en": "Alternative 2P mode",
+      "ja": "2P の代替方式"
+    },
+    "AlwaysShowCamouflage": {
+      "zh-Hans": "始终隐藏曲目信息",
+      "en": "Always mask track information",
+      "ja": "常に楽曲情報をマスク"
+    },
+    "AutoSkip": {
+      "zh-Hans": "自动进入下一步",
+      "en": "Automatically proceed",
+      "ja": "自動で次へ進む"
+    },
+    "Autoplay": {
+      "zh-Hans": "自动游玩按键",
+      "en": "AutoPlay key",
+      "ja": "AutoPlay キー"
+    },
+    "BaudRate": {
+      "zh-Hans": "串口波特率",
+      "en": "Serial baud rate",
+      "ja": "シリアル通信速度"
+    },
+    "BitsPerSample": {
+      "zh-Hans": "每采样位数",
+      "en": "Bits per sample",
+      "ja": "サンプルのビット数"
+    },
+    "Borderless": {
+      "zh-Hans": "无边框窗口",
+      "en": "Borderless window",
+      "ja": "枠なしウインドウ"
+    },
+    "Button1": {
+      "zh-Hans": "功能键 1",
+      "en": "Function button 1",
+      "ja": "機能ボタン 1"
+    },
+    "Button2": {
+      "zh-Hans": "功能键 2",
+      "en": "Function button 2",
+      "ja": "機能ボタン 2"
+    },
+    "Button3": {
+      "zh-Hans": "功能键 3",
+      "en": "Function button 3",
+      "ja": "機能ボタン 3"
+    },
+    "Button4": {
+      "zh-Hans": "功能键 4",
+      "en": "Function button 4",
+      "ja": "機能ボタン 4"
+    },
+    "Button1p": {
+      "zh-Hans": "1P 按键",
+      "en": "1P buttons",
+      "ja": "1P のボタン"
+    },
+    "Button2p": {
+      "zh-Hans": "2P 按键",
+      "en": "2P buttons",
+      "ja": "2P のボタン"
+    },
+    "ButtonDir": {
+      "zh-Hans": "按键图片目录",
+      "en": "Button image directory",
+      "ja": "ボタン画像のフォルダ"
+    },
+    "Cabinet1p": {
+      "zh-Hans": "1P 机台灯亮度",
+      "en": "1P cabinet brightness",
+      "ja": "1P 筐体 LED の明るさ"
+    },
+    "Cabinet2p": {
+      "zh-Hans": "2P 机台灯亮度",
+      "en": "2P cabinet brightness",
+      "ja": "2P 筐体 LED の明るさ"
+    },
+    "CamouflageDir": {
+      "zh-Hans": "曲目伪装资源目录",
+      "en": "Track-mask resource directory",
+      "ja": "楽曲マスク用リソースのフォルダ"
+    },
+    "Characters": {
+      "zh-Hans": "旅行伙伴",
+      "en": "Travel characters",
+      "ja": "旅行のキャラクター"
+    },
+    "ChimeCamera": {
+      "zh-Hans": "二维码摄像头",
+      "en": "QR scanner camera",
+      "ja": "QR 読み取り用カメラ"
+    },
+    "CodeReader_1P": {
+      "zh-Hans": "1P 读卡器警告",
+      "en": "1P reader alert",
+      "ja": "1P リーダーの警告"
+    },
+    "CodeReader_2P": {
+      "zh-Hans": "2P 读卡器警告",
+      "en": "2P reader alert",
+      "ja": "2P リーダーの警告"
+    },
+    "CoinKey": {
+      "zh-Hans": "投币按键",
+      "en": "Coin key",
+      "ja": "コイン投入キー"
+    },
+    "CompactMode": {
+      "zh-Hans": "紧凑显示",
+      "en": "Compact display",
+      "ja": "コンパクト表示"
+    },
+    "Count": {
+      "zh-Hans": "音符池数量",
+      "en": "Note pool count",
+      "ja": "ノーツプールの数"
+    },
+    "Courses": {
+      "zh-Hans": "段位课程",
+      "en": "Courses",
+      "ja": "段位コース"
+    },
+    "CreditsString": {
+      "zh-Hans": "点数显示文字",
+      "en": "Credit display text",
+      "ja": "クレジット表示の文字列"
+    },
+    "CustomFn1": {
+      "zh-Hans": "自定义功能键 1",
+      "en": "Custom function key 1",
+      "ja": "カスタム機能キー 1"
+    },
+    "CustomFn2": {
+      "zh-Hans": "自定义功能键 2",
+      "en": "Custom function key 2",
+      "ja": "カスタム機能キー 2"
+    },
+    "CustomFn3": {
+      "zh-Hans": "自定义功能键 3",
+      "en": "Custom function key 3",
+      "ja": "カスタム機能キー 3"
+    },
+    "CustomFn4": {
+      "zh-Hans": "自定义功能键 4",
+      "en": "Custom function key 4",
+      "ja": "カスタム機能キー 4"
+    },
+    "DefaultAutoplay": {
+      "zh-Hans": "默认自动游玩",
+      "en": "Default AutoPlay",
+      "ja": "既定の AutoPlay"
+    },
+    "DefaultDifficulty": {
+      "zh-Hans": "默认难度",
+      "en": "Default difficulty",
+      "ja": "既定の難易度"
+    },
+    "DefaultHide": {
+      "zh-Hans": "默认隐藏自制谱",
+      "en": "Hide custom charts by default",
+      "ja": "カスタム譜面を既定で非表示"
+    },
+    "DefaultNoteSpeed": {
+      "zh-Hans": "默认音符速度",
+      "en": "Default note speed",
+      "ja": "既定のノーツ速度"
+    },
+    "DefaultOn": {
+      "zh-Hans": "默认显示",
+      "en": "Show by default",
+      "ja": "既定で表示"
+    },
+    "DefaultSlideSpeed": {
+      "zh-Hans": "默认 Slide 速度",
+      "en": "Default slide speed",
+      "ja": "既定のスライド速度"
+    },
+    "DefaultTouchSpeed": {
+      "zh-Hans": "默认 Touch 速度",
+      "en": "Default touch speed",
+      "ja": "既定のタッチ速度"
+    },
+    "DiagnosticLog": {
+      "zh-Hans": "详细诊断日志",
+      "en": "Detailed diagnostic log",
+      "ja": "詳細な診断ログ"
+    },
+    "DisableDebugFeatureHotkeys": {
+      "zh-Hans": "禁用调试快捷键",
+      "en": "Disable debug hotkeys",
+      "ja": "デバッグショートカットを無効化"
+    },
+    "DisableDebugInput": {
+      "zh-Hans": "禁用 DebugInput",
+      "en": "Disable DebugInput",
+      "ja": "DebugInput を無効化"
+    },
+    "DisableIO4": {
+      "zh-Hans": "禁用 IO4 输入",
+      "en": "Disable IO4 input",
+      "ja": "IO4 入力を無効化"
+    },
+    "DisableIO4System": {
+      "zh-Hans": "禁用 IO4 系统按键",
+      "en": "Disable IO4 system buttons",
+      "ja": "IO4 のシステムキーを無効化"
+    },
+    "DisableIO4_1P": {
+      "zh-Hans": "禁用 1P IO4 输入",
+      "en": "Disable 1P IO4 input",
+      "ja": "1P の IO4 入力を無効化"
+    },
+    "DisableIO4_2P": {
+      "zh-Hans": "禁用 2P IO4 输入",
+      "en": "Disable 2P IO4 input",
+      "ja": "2P の IO4 入力を無効化"
+    },
+    "DisplayArea": {
+      "zh-Hans": "显示触摸位置",
+      "en": "Show touch positions",
+      "ja": "タッチ位置を表示"
+    },
+    "DisplayInGameConfig": {
+      "zh-Hans": "显示在游戏设置中",
+      "en": "Show in game settings",
+      "ja": "ゲーム設定に表示"
+    },
+    "Enable8Channel": {
+      "zh-Hans": "启用八声道",
+      "en": "Enable 8-channel audio",
+      "ja": "8 チャンネル音声を有効化"
+    },
+    "EnableExclusive": {
+      "zh-Hans": "音频独占输出",
+      "en": "Exclusive audio output",
+      "ja": "排他音声出力"
+    },
+    "EnableInUtage": {
+      "zh-Hans": "宴谱也启用",
+      "en": "Enable for UTAGE charts",
+      "ja": "宴譜面でも有効"
+    },
+    "EnableOnlyInGuestMode": {
+      "zh-Hans": "仅游客模式启用",
+      "en": "Enable only for guests",
+      "ja": "ゲストモードのみ有効"
+    },
+    "EventBlackList": {
+      "zh-Hans": "排除的活动",
+      "en": "Excluded events",
+      "ja": "除外するイベント"
+    },
+    "Events": {
+      "zh-Hans": "游戏活动",
+      "en": "Game events",
+      "ja": "ゲーム内イベント"
+    },
+    "ExecOnEntry": {
+      "zh-Hans": "入场时执行的命令",
+      "en": "Command on entry",
+      "ja": "入場時に実行するコマンド"
+    },
+    "ExecOnIdle": {
+      "zh-Hans": "待机时执行的命令",
+      "en": "Command while idle",
+      "ja": "待機時に実行するコマンド"
+    },
+    "FadeType": {
+      "zh-Hans": "转场类型",
+      "en": "Transition type",
+      "ja": "画面遷移の種類"
+    },
+    "FixHanabi": {
+      "zh-Hans": "修复烟花显示",
+      "en": "Correct firework display",
+      "ja": "花火表示を補正"
+    },
+    "ForPracticeMode": {
+      "zh-Hans": "练习模式也应用",
+      "en": "Apply in practice mode",
+      "ja": "練習モードにも適用"
+    },
+    "Frames": {
+      "zh-Hans": "背景框",
+      "en": "Background frames",
+      "ja": "背景フレーム"
+    },
+    "Height": {
+      "zh-Hans": "渲染或窗口高度",
+      "en": "Render or window height",
+      "ja": "描画またはウインドウの高さ"
+    },
+    "HideCreditsNumber": {
+      "zh-Hans": "隐藏点数数字",
+      "en": "Hide credit number",
+      "ja": "クレジット数を非表示"
+    },
+    "HideSubMonitor": {
+      "zh-Hans": "隐藏副屏",
+      "en": "Hide secondary screen",
+      "ja": "サブ画面を非表示"
+    },
+    "HideTimer": {
+      "zh-Hans": "隐藏倒计时",
+      "en": "Hide countdown",
+      "ja": "タイマーを非表示"
+    },
+    "HotPlugSupport": {
+      "zh-Hans": "支持热插拔",
+      "en": "Support hot-plugging",
+      "ja": "ホットプラグ対応"
+    },
+    "Icons": {
+      "zh-Hans": "头像",
+      "en": "Icons",
+      "ja": "アイコン"
+    },
+    "ImageAssetsDir": {
+      "zh-Hans": "本地图片目录",
+      "en": "Local image directory",
+      "ja": "ローカル画像のフォルダ"
+    },
+    "InContinueProcess": {
+      "zh-Hans": "续关时也移除计时",
+      "en": "Remove continue timer",
+      "ja": "コンティニュー時もタイマーを無効化"
+    },
+    "InGameStart": {
+      "zh-Hans": "入场时也移除计时",
+      "en": "Remove entry timer",
+      "ja": "入場時もタイマーを無効化"
+    },
+    "InfinityTime": {
+      "zh-Hans": "无限时间",
+      "en": "Unlimited time",
+      "ja": "時間を無制限にする"
+    },
+    "InstanceSkip": {
+      "zh-Hans": "立即跳过等待",
+      "en": "Skip waits immediately",
+      "ja": "待機を即座にスキップ"
+    },
+    "IntroMovieDir": {
+      "zh-Hans": "开场视频目录",
+      "en": "Intro movie directory",
+      "ja": "イントロ動画のフォルダ"
+    },
+    "IsFesta": {
+      "zh-Hans": "启用 Festa",
+      "en": "Enable Festa",
+      "ja": "Festa を有効化"
+    },
+    "IsFreePlay": {
+      "zh-Hans": "免费游玩",
+      "en": "Free play",
+      "ja": "フリープレイ"
+    },
+    "IsPlaySound": {
+      "zh-Hans": "播放投币音效",
+      "en": "Play coin sound",
+      "ja": "コイン音を再生"
+    },
+    "IsUseRemote": {
+      "zh-Hans": "允许远程投币",
+      "en": "Allow remote coin input",
+      "ja": "遠隔コイン入力を許可"
+    },
+    "JacketAsMovie": {
+      "zh-Hans": "用封面作背景",
+      "en": "Use jacket as background",
+      "ja": "ジャケットを背景に使用"
+    },
+    "Key": {
+      "zh-Hans": "触发按键",
+      "en": "Trigger key",
+      "ja": "操作キー"
+    },
+    "LED_1P": {
+      "zh-Hans": "1P 灯光警告",
+      "en": "1P LED alert",
+      "ja": "1P LED の警告"
+    },
+    "LED_2P": {
+      "zh-Hans": "2P 灯光警告",
+      "en": "2P LED alert",
+      "ja": "2P LED の警告"
+    },
+    "Led1p": {
+      "zh-Hans": "1P 灯光",
+      "en": "1P LED output",
+      "ja": "1P の LED"
+    },
+    "Led2p": {
+      "zh-Hans": "2P 灯光",
+      "en": "2P LED output",
+      "ja": "2P の LED"
+    },
+    "LeftQrCamera": {
+      "zh-Hans": "1P DX Pass 摄像头",
+      "en": "1P DX Pass camera",
+      "ja": "1P DX Pass カメラ"
+    },
+    "LoadMp4Movie": {
+      "zh-Hans": "读取本地 MP4",
+      "en": "Load local MP4 movies",
+      "ja": "ローカル MP4 を読み込む"
+    },
+    "LoadSourceMovie": {
+      "zh-Hans": "读取游戏原有视频",
+      "en": "Load original game movies",
+      "ja": "ゲーム内の動画を読み込む"
+    },
+    "Locale": {
+      "zh-Hans": "模组界面语言",
+      "en": "Mod interface language",
+      "ja": "Mod の表示言語"
+    },
+    "LockCredits": {
+      "zh-Hans": "固定可用点数",
+      "en": "Fixed credit count",
+      "ja": "クレジット数の固定"
+    },
+    "LogoFullScreen": {
+      "zh-Hans": "标志铺满屏幕",
+      "en": "Fill screen with logo",
+      "ja": "ロゴを画面全体に表示"
+    },
+    "LongPress": {
+      "zh-Hans": "长按触发",
+      "en": "Hold to trigger",
+      "ja": "長押しで操作"
+    },
+    "Mai2CueDir": {
+      "zh-Hans": "BGM 音频目录",
+      "en": "BGM audio directory",
+      "ja": "BGM 音声のフォルダ"
+    },
+    "Maps": {
+      "zh-Hans": "区域地图",
+      "en": "Area maps",
+      "ja": "エリアマップ"
+    },
+    "MaruGothicPaths": {
+      "zh-Hans": "圆体字体路径",
+      "en": "Maru Gothic font paths",
+      "ja": "丸ゴシックのフォントパス"
+    },
+    "MoveValue_1P": {
+      "zh-Hans": "1P 音效偏移",
+      "en": "1P answer-sound offset",
+      "ja": "1P アンサー音の補正"
+    },
+    "MoveValue_2P": {
+      "zh-Hans": "2P 音效偏移",
+      "en": "2P answer-sound offset",
+      "ja": "2P アンサー音の補正"
+    },
+    "MovieAssetsDir": {
+      "zh-Hans": "背景视频目录",
+      "en": "Background movie directory",
+      "ja": "背景動画のフォルダ"
+    },
+    "MusicVolume": {
+      "zh-Hans": "乐曲音量",
+      "en": "Music volume",
+      "ja": "楽曲の音量"
+    },
+    "NewRodinPaths": {
+      "zh-Hans": "粗体字体路径",
+      "en": "New Rodin font paths",
+      "ja": "新ロダンのフォントパス"
+    },
+    "OnlyInFreedomMode": {
+      "zh-Hans": "仅自由模式启用",
+      "en": "Enable only in Freedom Mode",
+      "ja": "Freedom Mode のみ有効"
+    },
+    "OnlyPlayWhenNotPlayed": {
+      "zh-Hans": "仅首次播放",
+      "en": "Play only the first time",
+      "ja": "初回のみ再生"
+    },
+    "OverridePath": {
+      "zh-Hans": "覆盖路径",
+      "en": "Override path",
+      "ja": "上書き用のパス"
+    },
+    "P1": {
+      "zh-Hans": "1P 设置值",
+      "en": "1P value",
+      "ja": "1P の設定値"
+    },
+    "P2": {
+      "zh-Hans": "2P 设置值",
+      "en": "2P value",
+      "ja": "2P の設定値"
+    },
+    "P1DisableButtons": {
+      "zh-Hans": "禁用 1P 按键",
+      "en": "Disable 1P buttons",
+      "ja": "1P のボタンを無効化"
+    },
+    "P2DisableButtons": {
+      "zh-Hans": "禁用 2P 按键",
+      "en": "Disable 2P buttons",
+      "ja": "2P のボタンを無効化"
+    },
+    "Partners": {
+      "zh-Hans": "搭档",
+      "en": "Partners",
+      "ja": "パートナー"
+    },
+    "Password": {
+      "zh-Hans": "连接密码",
+      "en": "Connection password",
+      "ja": "接続パスワード"
+    },
+    "Path1p": {
+      "zh-Hans": "1P 设备路径",
+      "en": "1P device path",
+      "ja": "1P 機器のパス"
+    },
+    "Path2p": {
+      "zh-Hans": "2P 设备路径",
+      "en": "2P device path",
+      "ja": "2P 機器のパス"
+    },
+    "Paths": {
+      "zh-Hans": "字体路径",
+      "en": "Font paths",
+      "ja": "フォントのパス"
+    },
+    "PhotoCamera": {
+      "zh-Hans": "玩家拍照摄像头",
+      "en": "Player photo camera",
+      "ja": "プレイヤー撮影用カメラ"
+    },
+    "PlaceName": {
+      "zh-Hans": "店铺名称",
+      "en": "Shop name",
+      "ja": "店舗名"
+    },
+    "Plates": {
+      "zh-Hans": "姓名框",
+      "en": "Nameplates",
+      "ja": "ネームプレート"
+    },
+    "PlayerCamera": {
+      "zh-Hans": "玩家摄像头警告",
+      "en": "Player camera alert",
+      "ja": "プレイヤーカメラの警告"
+    },
+    "Port": {
+      "zh-Hans": "监听端口",
+      "en": "Listening port",
+      "ja": "待受ポート"
+    },
+    "PortName_1P": {
+      "zh-Hans": "1P 串口",
+      "en": "1P serial port",
+      "ja": "1P のシリアルポート"
+    },
+    "PortName_2P": {
+      "zh-Hans": "2P 串口",
+      "en": "2P serial port",
+      "ja": "2P のシリアルポート"
+    },
+    "PortName_1PLED": {
+      "zh-Hans": "1P 灯光串口",
+      "en": "1P LED serial port",
+      "ja": "1P LED のシリアルポート"
+    },
+    "PortName_2PLED": {
+      "zh-Hans": "2P 灯光串口",
+      "en": "2P LED serial port",
+      "ja": "2P LED のシリアルポート"
+    },
+    "PrintCameraList": {
+      "zh-Hans": "在日志列出摄像头",
+      "en": "List cameras in log",
+      "ja": "カメラ一覧をログに出力"
+    },
+    "QuickerRetry": {
+      "zh-Hans": "加速重开流程",
+      "en": "Faster retry flow",
+      "ja": "リトライ処理を短縮"
+    },
+    "Radius": {
+      "zh-Hans": "触摸半径",
+      "en": "Touch radius",
+      "ja": "タッチ判定の半径"
+    },
+    "Request": {
+      "zh-Hans": "记录请求正文",
+      "en": "Log request body",
+      "ja": "リクエスト本文を記録"
+    },
+    "RequestOmittedApis": {
+      "zh-Hans": "不记录请求的接口",
+      "en": "APIs excluded from request logging",
+      "ja": "リクエストを記録しない API"
+    },
+    "Response": {
+      "zh-Hans": "记录响应正文",
+      "en": "Log response body",
+      "ja": "レスポンス本文を記録"
+    },
+    "ResponseErrorOnly": {
+      "zh-Hans": "仅记录错误响应",
+      "en": "Log only error responses",
+      "ja": "エラー応答のみ記録"
+    },
+    "ResponseOmittedApis": {
+      "zh-Hans": "不记录响应的接口",
+      "en": "APIs excluded from response logging",
+      "ja": "レスポンスを記録しない API"
+    },
+    "RetryKey": {
+      "zh-Hans": "重开按键",
+      "en": "Retry key",
+      "ja": "リトライキー"
+    },
+    "RetryLongPress": {
+      "zh-Hans": "长按重开",
+      "en": "Hold to retry",
+      "ja": "長押しでリトライ"
+    },
+    "RightQrCamera": {
+      "zh-Hans": "2P DX Pass 摄像头",
+      "en": "2P DX Pass camera",
+      "ja": "2P DX Pass カメラ"
+    },
+    "SamplesPerSec": {
+      "zh-Hans": "采样率",
+      "en": "Sample rate",
+      "ja": "サンプリング周波数"
+    },
+    "SavePath": {
+      "zh-Hans": "保存路径",
+      "en": "Save path",
+      "ja": "保存先のパス"
+    },
+    "Seconds": {
+      "zh-Hans": "时间长度（秒）",
+      "en": "Duration in seconds",
+      "ja": "時間（秒）"
+    },
+    "SegaLogoDir": {
+      "zh-Hans": "SEGA 标志目录",
+      "en": "SEGA logo directory",
+      "ja": "SEGA ロゴのフォルダ"
+    },
+    "Select_1P": {
+      "zh-Hans": "1P 选择键",
+      "en": "1P select key",
+      "ja": "1P の選択キー"
+    },
+    "Select_2P": {
+      "zh-Hans": "2P 选择键",
+      "en": "2P select key",
+      "ja": "2P の選択キー"
+    },
+    "SelfMadeChartsDenyUsersFile": {
+      "zh-Hans": "隐藏自制谱的用户列表",
+      "en": "Users with custom charts hidden",
+      "ja": "カスタム譜面を非表示にするユーザー一覧"
+    },
+    "SelfMadeChartsWhiteListUsersFile": {
+      "zh-Hans": "可见自制谱的用户列表",
+      "en": "Users allowed to see custom charts",
+      "ja": "カスタム譜面を表示するユーザー一覧"
+    },
+    "Service": {
+      "zh-Hans": "服务键",
+      "en": "Service key",
+      "ja": "サービスキー"
+    },
+    "SetHighPriority": {
+      "zh-Hans": "提高进程优先级",
+      "en": "Raise process priority",
+      "ja": "プロセスの優先度を上げる"
+    },
+    "ShowBattleAchievement": {
+      "zh-Hans": "显示对战成绩",
+      "en": "Show battle achievement",
+      "ja": "対戦成績を表示"
+    },
+    "ShowFreedomModeTimer": {
+      "zh-Hans": "显示自由模式计时",
+      "en": "Show Freedom Mode timer",
+      "ja": "Freedom Mode のタイマーを表示"
+    },
+    "ShowInfinity": {
+      "zh-Hans": "显示无限时间符号",
+      "en": "Show infinity symbol",
+      "ja": "無限時間の記号を表示"
+    },
+    "ShowNotice": {
+      "zh-Hans": "显示提示",
+      "en": "Show notice",
+      "ja": "案内を表示"
+    },
+    "ShowTip": {
+      "zh-Hans": "显示保存提示",
+      "en": "Show save notification",
+      "ja": "保存通知を表示"
+    },
+    "SkinsDir": {
+      "zh-Hans": "皮肤资源目录",
+      "en": "Skin resource directory",
+      "ja": "スキン用リソースのフォルダ"
+    },
+    "SkipKey": {
+      "zh-Hans": "跳过按键",
+      "en": "Skip key",
+      "ja": "スキップキー"
+    },
+    "SkipLongPress": {
+      "zh-Hans": "长按跳过",
+      "en": "Hold to skip",
+      "ja": "長押しでスキップ"
+    },
+    "SkipPowerOnNetworkCheck": {
+      "zh-Hans": "跳过开机网络检查",
+      "en": "Skip startup network check",
+      "ja": "起動時のネットワーク確認を省略"
+    },
+    "SkipStartupCameraCheck": {
+      "zh-Hans": "跳过开机摄像头检查",
+      "en": "Skip startup camera check",
+      "ja": "起動時のカメラ確認を省略"
+    },
+    "Songs": {
+      "zh-Hans": "乐曲",
+      "en": "Songs",
+      "ja": "楽曲"
+    },
+    "TargetFrameRate": {
+      "zh-Hans": "目标帧率",
+      "en": "Target frame rate",
+      "ja": "目標フレームレート"
+    },
+    "Test": {
+      "zh-Hans": "测试键",
+      "en": "Test key",
+      "ja": "テストキー"
+    },
+    "TestKey": {
+      "zh-Hans": "进入测试模式的按键",
+      "en": "Test-mode key",
+      "ja": "Test モードへ入るキー"
+    },
+    "Tickets": {
+      "zh-Hans": "跑图券",
+      "en": "Travel tickets",
+      "ja": "ちほーチケット"
+    },
+    "Titles": {
+      "zh-Hans": "称号",
+      "en": "Titles",
+      "ja": "称号"
+    },
+    "Touch1p": {
+      "zh-Hans": "1P 触摸",
+      "en": "1P touch input",
+      "ja": "1P のタッチ入力"
+    },
+    "Touch2p": {
+      "zh-Hans": "2P 触摸",
+      "en": "2P touch input",
+      "ja": "2P のタッチ入力"
+    },
+    "TouchDelay": {
+      "zh-Hans": "触摸延迟",
+      "en": "Touch delay",
+      "ja": "タッチ入力の遅延"
+    },
+    "TouchSensor_1P": {
+      "zh-Hans": "1P 触摸警告",
+      "en": "1P touch sensor alert",
+      "ja": "1P タッチセンサーの警告"
+    },
+    "TouchSensor_2P": {
+      "zh-Hans": "2P 触摸警告",
+      "en": "2P touch sensor alert",
+      "ja": "2P タッチセンサーの警告"
+    },
+    "Url": {
+      "zh-Hans": "记录请求地址",
+      "en": "Log request URL",
+      "ja": "リクエスト URL を記録"
+    },
+    "UseLegacy": {
+      "zh-Hans": "使用旧连接方式",
+      "en": "Use legacy connection",
+      "ja": "旧接続方式を使用"
+    },
+    "UseNewErrorHandler": {
+      "zh-Hans": "使用新错误处理",
+      "en": "Use new error handler",
+      "ja": "新しいエラー処理を使用"
+    },
+    "UseOriginalGameLanguage": {
+      "zh-Hans": "警告使用游戏语言",
+      "en": "Use game language for alerts",
+      "ja": "警告にゲームの言語を使用"
+    },
+    "Utage": {
+      "zh-Hans": "宴会场",
+      "en": "UTAGE mode",
+      "ja": "宴会場"
+    },
+    "ValidBitsPerSample": {
+      "zh-Hans": "有效采样位数",
+      "en": "Valid bits per sample",
+      "ja": "有効なサンプルのビット数"
+    },
+    "Version": {
+      "zh-Hans": "配置格式版本",
+      "en": "Configuration format version",
+      "ja": "設定形式のバージョン"
+    },
+    "VersionString": {
+      "zh-Hans": "版本显示文字",
+      "en": "Version display text",
+      "ja": "バージョン表示の文字列"
+    },
+    "WhiteBackground": {
+      "zh-Hans": "白色背景",
+      "en": "White background",
+      "ja": "白い背景"
+    },
+    "Width": {
+      "zh-Hans": "渲染或窗口宽度",
+      "en": "Render or window width",
+      "ja": "描画またはウインドウの幅"
+    },
+    "Windowed": {
+      "zh-Hans": "窗口模式",
+      "en": "Windowed mode",
+      "ja": "ウインドウモード"
+    },
+    "VolumeP1Headphone": {
+      "zh-Hans": "1P 耳机音量",
+      "en": "1P headphone volume",
+      "ja": "1P ヘッドホンの音量"
+    },
+    "RouteP1HeadphoneLeftTo": {
+      "zh-Hans": "1P 耳机左声道输出",
+      "en": "1P headphone left output",
+      "ja": "1P ヘッドホン 左の出力先"
+    },
+    "RouteP1HeadphoneRightTo": {
+      "zh-Hans": "1P 耳机右声道输出",
+      "en": "1P headphone right output",
+      "ja": "1P ヘッドホン 右の出力先"
+    },
+    "VolumeP1Speaker": {
+      "zh-Hans": "1P 喇叭音量",
+      "en": "1P speaker volume",
+      "ja": "1P スピーカーの音量"
+    },
+    "RouteP1SpeakerLeftTo": {
+      "zh-Hans": "1P 喇叭左声道输出",
+      "en": "1P speaker left output",
+      "ja": "1P スピーカー 左の出力先"
+    },
+    "RouteP1SpeakerRightTo": {
+      "zh-Hans": "1P 喇叭右声道输出",
+      "en": "1P speaker right output",
+      "ja": "1P スピーカー 右の出力先"
+    },
+    "VolumeP2Headphone": {
+      "zh-Hans": "2P 耳机音量",
+      "en": "2P headphone volume",
+      "ja": "2P ヘッドホンの音量"
+    },
+    "RouteP2HeadphoneLeftTo": {
+      "zh-Hans": "2P 耳机左声道输出",
+      "en": "2P headphone left output",
+      "ja": "2P ヘッドホン 左の出力先"
+    },
+    "RouteP2HeadphoneRightTo": {
+      "zh-Hans": "2P 耳机右声道输出",
+      "en": "2P headphone right output",
+      "ja": "2P ヘッドホン 右の出力先"
+    },
+    "VolumeP2Speaker": {
+      "zh-Hans": "2P 喇叭音量",
+      "en": "2P speaker volume",
+      "ja": "2P スピーカーの音量"
+    },
+    "RouteP2SpeakerLeftTo": {
+      "zh-Hans": "2P 喇叭左声道输出",
+      "en": "2P speaker left output",
+      "ja": "2P スピーカー 左の出力先"
+    },
+    "RouteP2SpeakerRightTo": {
+      "zh-Hans": "2P 喇叭右声道输出",
+      "en": "2P speaker right output",
+      "ja": "2P スピーカー 右の出力先"
+    }
+  },
+  "entryHelp": {
+    "Fancy.CustomButton.ButtonDir": {
+      "ja": "ボタン画像を読み込むフォルダのパスです。"
+    },
+    "Fancy.CustomCreditsString.CreditsString": {
+      "ja": "CREDIT(S) の代わりに表示する文字列です。空欄にすると文字を表示しません。"
+    },
+    "Fancy.CustomCreditsString.HideCreditsNumber": {
+      "ja": "クレジット数の表示を非表示にします。"
+    },
+    "Fancy.CustomIntroCinematic.IntroMovieDir": {
+      "ja": "イントロ動画を読み込むフォルダです。"
+    },
+    "Fancy.CustomIntroCinematic.OnlyPlayWhenNotPlayed": {
+      "ja": "両プレイヤーとも未プレイの楽曲でのみイントロを再生します。"
+    },
+    "Fancy.CustomLogo.SegaLogoDir": {
+      "ja": "このフォルダの PNG 画像をランダムに選び、SEGA ロゴと置き換えます。"
+    },
+    "Fancy.CustomLogo.AllNetLogoDir": {
+      "ja": "このフォルダの PNG 画像をランダムに選び、ALL.Net ロゴと置き換えます。"
+    },
+    "Fancy.CustomLogo.LogoFullScreen": {
+      "ja": "下画面いっぱいにロゴを表示します。"
+    },
+    "Fancy.GamePlay.ExtendNotesPool.Count": {
+      "ja": "ノーツ描画プールに追加するオブジェクト数です。"
+    },
+    "Fancy.SetFade.FadeType": {
+      "ja": "遷移形式：通常は 0、Plus は 1。SDEZ 1.60 では Festa の 2 も使用できます。"
+    },
+    "Fancy.TrackCamouflage.CamouflageDir": {
+      "ja": "偽装情報とジャケットのフォルダです。情報は <楽曲 ID>.toml、画像は <楽曲 ID>_jacket.jpg または .png を使用します。Name、Artist、NoteDesigner、HideNoteDesigner、UnlockScore で表示を設定します。UnlockScore は既定で 0（記録があれば解除）、102 にすると常に偽装します。.ab 画像には対応しません。"
+    },
+    "Fancy.TrackCamouflage.AlwaysShowCamouflage": {
+      "ja": "UnlockScore とプレイ記録を無視し、常に偽装表示を使用します。"
+    },
+    "Fancy.Triggers.ExecOnIdle": {
+      "ja": "待機中に実行するコマンドです。"
+    },
+    "Fancy.Triggers.ExecOnEntry": {
+      "ja": "ゲーム開始時に実行するコマンドです。"
+    },
+    "GameSettings.CreditConfig.IsFreePlay": {
+      "ja": "有効にするとフリープレイ、無効にするとコイン制になります。"
+    },
+    "GameSettings.CreditConfig.AllowTicketInFreePlay": {
+      "ja": "フリープレイでも有料機能のチケット購入を許可します。"
+    },
+    "GameSettings.CreditConfig.LockCredits": {
+      "ja": "コイン制でクレジット数を固定します。0 で固定を解除します。"
+    },
+    "GameSettings.JudgeAdjust.TouchDelay": {
+      "ja": "タッチ入力に追加する遅延です。"
+    },
+    "GameSystem.Assets.Fonts.Paths": {
+      "ja": "フォントのパスです。複数のパスはセミコロンで区切り、フォールバック順に指定します。既定は Microsoft YaHei Bold です。"
+    },
+    "GameSystem.Assets.Fonts.AddAsFallback": {
+      "ja": "追加フォントを代替フォントとして登録し、可能な場合はゲーム本来のフォントを使用します。"
+    },
+    "GameSystem.Assets.Fonts.MaruGothicPaths": {
+      "ja": "SEGA_MaruGothicDB SDF 用のフォントパスです。複数のパスはセミコロンで区切ります。空欄では共通のパスを使用します。"
+    },
+    "GameSystem.Assets.Fonts.NewRodinPaths": {
+      "ja": "SEGA_NewRodinN v2-EB_0 SDF 用のフォントパスです。複数のパスはセミコロンで区切ります。空欄では共通のパスを使用します。"
+    },
+    "GameSystem.Assets.MovieLoader.LoadSourceMovie": {
+      "ja": "ゲーム本体の動画を読み込みます。"
+    },
+    "GameSystem.Assets.MovieLoader.LoadMp4Movie": {
+      "ja": "LocalAssets の MP4 動画を読み込みます。"
+    },
+    "GameSystem.Assets.MovieLoader.MovieAssetsDir": {
+      "ja": "MP4 動画を保存するフォルダです。"
+    },
+    "GameSystem.Assets.MovieLoader.JacketAsMovie": {
+      "ja": "動画の代わりにジャケットを表示します。LoadLocalImages と併用してください。"
+    },
+    "GameSystem.CustomCameraId.PrintCameraList": {
+      "ja": "起動時にカメラ一覧をログへ出力します。カメラ ID 設定の確認に使用できます。"
+    },
+    "GameSystem.CustomCameraId.LeftQrCamera": {
+      "ja": "1P の DX パス用カメラです。"
+    },
+    "GameSystem.CustomCameraId.RightQrCamera": {
+      "ja": "2P の DX パス用カメラです。"
+    },
+    "GameSystem.CustomCameraId.PhotoCamera": {
+      "ja": "プレイヤー撮影用カメラです。"
+    },
+    "GameSystem.CustomCameraId.ChimeCamera": {
+      "ja": "WeChat QR コード用カメラです。"
+    },
+    "GameSystem.DisableTimeout.InContinueProcess": {
+      "ja": "コンティニュー画面の制限時間を無効にします。"
+    },
+    "GameSystem.DisableTimeout.InGameStart": {
+      "ja": "ゲーム開始時の制限時間を無効にします。"
+    },
+    "GameSystem.DisableTimeout.HideTimer": {
+      "ja": "タイマー表示を非表示にします。"
+    },
+    "GameSystem.DisableTimeout.ShowInfinity": {
+      "ja": "無限大の記号を表示します。"
+    },
+    "GameSystem.DisableTimeout.InstanceSkip": {
+      "ja": "エントリー画面とモード選択をすばやくスキップします。"
+    },
+    "GameSystem.ExteraMouseInput.Radius": {
+      "ja": "タッチ領域の半径です。指の大きさに合わせて設定し、テストモードで確認してください。"
+    },
+    "GameSystem.ExteraMouseInput.DisplayArea": {
+      "ja": "タッチ位置を表示します。タッチ入力でのみ有効です。"
+    },
+    "GameSystem.HeadphoneVolumeOverride.P1": {
+      "ja": "1P のヘッドホン音量を固定します。-1 はユーザー設定、0〜20 は固定音量（20 が最大）です。"
+    },
+    "GameSystem.HeadphoneVolumeOverride.P2": {
+      "ja": "2P のヘッドホン音量を固定します。-1 はユーザー設定、0〜20 は固定音量（20 が最大）です。"
+    },
+    "GameSystem.KeyMap.DisableIO4_1P": {
+      "ja": "1P の IO4 入力を無効にします。IO4 互換基板および Segatools の IO4 エミュレーションからの入力を無視します。"
+    },
+    "GameSystem.KeyMap.DisableIO4_2P": {
+      "ja": "2P の IO4 入力を無効にします。"
+    },
+    "GameSystem.KeyMap.DisableIO4System": {
+      "ja": "テスト、サービスなどのシステムボタン入力を無効にします。"
+    },
+    "GameSystem.KeyMap.DisableDebugInput": {
+      "ja": "DebugInput を無効にします。以下のキー割り当ても無効になります。IO4 互換基板、Segatools の IO4 エミュレーションなどが必要です。Segatools の設定は segatools.ini の [io4] と [button] を確認してください。"
+    },
+    "GameSystem.KeyMap.DisableDebugFeatureHotkeys": {
+      "ja": "Enter による一時停止、左右キーによるシークなど、DebugFeature のショートカットを無効にします。"
+    },
+    "GameSystem.LightBoardPort.PortName_1PLED": {
+      "ja": "1P の LED 用シリアルポートです。"
+    },
+    "GameSystem.LightBoardPort.PortName_2PLED": {
+      "ja": "2P の LED 用シリアルポートです。"
+    },
+    "GameSystem.MaimollerIO.Touch1p": {
+      "ja": "1P のタッチを有効にします。ほかの方式と併用する場合、Maimoller ではない側は無効にしてください。"
+    },
+    "GameSystem.MaimollerIO.Button1p": {
+      "ja": "1P のボタンを有効にします。"
+    },
+    "GameSystem.MaimollerIO.Led1p": {
+      "ja": "1P の LED を有効にします。"
+    },
+    "GameSystem.MaimollerIO.Touch2p": {
+      "ja": "2P のタッチを有効にします。"
+    },
+    "GameSystem.MaimollerIO.Button2p": {
+      "ja": "2P のボタンを有効にします。"
+    },
+    "GameSystem.MaimollerIO.Led2p": {
+      "ja": "2P の LED を有効にします。"
+    },
+    "GameSystem.MaimollerIO.UseLegacy": {
+      "ja": "メーカー DLL を使う従来方式を使用します。Sinmai_Data/Plugins に libadxhid.dll と hidapi.dll が必要です。ADXHIDIOMod.dll は置かないでください。"
+    },
+    "GameSystem.MaimollerIO.Alternative2p": {
+      "ja": "ほかの方式との併用で 2P の Maimoller が動作しない場合の互換設定です。従来方式でのみ有効です。"
+    },
+    "GameSystem.OptionLoadFix.OverridePath": {
+      "ja": "Option フォルダの独自パスです。"
+    },
+    "GameSystem.PdxTouch.Radius": {
+      "ja": "タッチ領域の半径です。基準の解像度は 1440 × 1440 です。"
+    },
+    "GameSystem.PdxTouch.Path1p": {
+      "ja": "1P の USB シリアル番号またはポートパスです。設定ツールの識別情報を指定してください。空欄では最初の検出デバイスを使用します。"
+    },
+    "GameSystem.PdxTouch.Path2p": {
+      "ja": "2P の USB デバイス識別情報です。"
+    },
+    "GameSystem.PdxTouch.DiagnosticLog": {
+      "ja": "タッチレポートの診断情報を UserData/AquaMaiTouch.log に記録します。"
+    },
+    "GameSystem.QuickRetry.QuickerRetry": {
+      "ja": "クイックリトライをさらに高速化します。"
+    },
+    "GameSystem.QuickRetry.EnableInUtage": {
+      "ja": "宴譜面でもクイックリトライを有効にします。"
+    },
+    "GameSystem.SinglePlayer.HideSubMonitor": {
+      "ja": "メイン領域のみを表示し、サブモニターを非表示にします。"
+    },
+    "GameSystem.SinglePlayer.AutoSkip": {
+      "ja": "1 人プレイでカードログインしたときのカウントダウンを自動でスキップします。"
+    },
+    "GameSystem.SinglePlayer.FixHanabi": {
+      "ja": "1 人プレイ時の花火表示を修正します。HideHanabi が有効な場合は自動で無効になります。"
+    },
+    "GameSystem.SinglePlayer.ShowFreedomModeTimer": {
+      "ja": "サブモニターに Freedom Mode の残り時間を表示します。"
+    },
+    "GameSystem.Sound.EnableExclusive": {
+      "ja": "オーディオの排他モードを有効にします。"
+    },
+    "GameSystem.Sound.BitsPerSample": {
+      "ja": "音声サンプルのビット数です。意味が分からない場合は変更しないでください。"
+    },
+    "GameSystem.Sound.ValidBitsPerSample": {
+      "ja": "音声の有効ビット数です。意味が分からない場合は変更しないでください。"
+    },
+    "GameSystem.Sound.SamplesPerSec": {
+      "ja": "音声のサンプリングレートです。意味が分からない場合は変更しないでください。"
+    },
+    "GameSystem.Sound.Enable8Channel": {
+      "ja": "8 チャンネル出力を有効にします。"
+    },
+    "GameSystem.Sound.MusicVolume": {
+      "ja": "楽曲の音量です。"
+    },
+    "GameSystem.StartupDirectToGame.DefaultDifficulty": {
+      "ja": "コマンドラインで指定がない場合の既定の難易度です。"
+    },
+    "GameSystem.StartupDirectToGame.DefaultNoteSpeed": {
+      "ja": "コマンドラインで指定がない場合のノーツ速度です。"
+    },
+    "GameSystem.StartupDirectToGame.DefaultTouchSpeed": {
+      "ja": "コマンドラインで指定がない場合のタッチ速度です。"
+    },
+    "GameSystem.StartupDirectToGame.DefaultSlideSpeed": {
+      "ja": "コマンドラインで指定がない場合のスライド速度です。例：normal、-0.5、0.5。"
+    },
+    "GameSystem.StartupDirectToGame.DefaultAutoplay": {
+      "ja": "コマンドラインで指定がない場合の AutoPlay 判定です。例：Critical、Perfect、Great、Good、Miss、Random、None。"
+    },
+    "GameSystem.TestProof.TestKey": {
+      "ja": "Test 以外を指定すると、そのキーの長押しでテストモードに入ります。Test キーをほかの用途に割り当てられます。"
+    },
+    "GameSystem.TouchAreaRemapper.Map1P": {
+      "ja": "物理エリアの順 A1〜A8、B1〜B8、C1〜C2、D1〜D8、E1〜E8 に、ゲームへ報告するエリアを指定します。34 項目すべてを重複なく含めてください。空欄では 1P の変換を無効にします。"
+    },
+    "GameSystem.TouchAreaRemapper.Map2P": {
+      "ja": "2P のタッチ変換表です。形式は 1P と同じです。空欄では 2P の変換を無効にします。"
+    },
+    "GameSystem.TouchPanelPort.PortName_1P": {
+      "ja": "1P のタッチ用シリアルポートです。"
+    },
+    "GameSystem.TouchPanelPort.PortName_2P": {
+      "ja": "2P のタッチ用シリアルポートです。"
+    },
+    "GameSystem.Unlock.Maps": {
+      "ja": "このバージョンに含まれないマップを解放します。"
+    },
+    "GameSystem.Unlock.Songs": {
+      "ja": "全楽曲を解放し、MASTER / Re:MASTER の解放画面をスキップします。解放状態は保存されます。"
+    },
+    "GameSystem.Unlock.Tickets": {
+      "ja": "通常はイベント限定のチケットを解放します。"
+    },
+    "GameSystem.Unlock.Courses": {
+      "ja": "すべての段位認定コースを解放します。十段到達前でも真段位を選択できます。"
+    },
+    "GameSystem.Unlock.Utage": {
+      "ja": "DX RATING 10000 未満でも宴譜面を解放します。"
+    },
+    "GameSystem.Unlock.EventBlackList": {
+      "ja": "指定したイベントを解放の対象外にします。用途が分からない場合は既定値を使用してください。"
+    },
+    "GameSystem.Unlock.Events": {
+      "ja": "すべてのイベントを有効にします。"
+    },
+    "GameSystem.Window.Windowed": {
+      "ja": "ゲームをウインドウで表示します。"
+    },
+    "GameSystem.Window.Borderless": {
+      "ja": "ウインドウの枠を非表示にします。"
+    },
+    "GameSystem.Window.Width": {
+      "ja": "ウインドウ表示では幅、全画面では描画解像度を指定します。0 の場合、ウインドウ表示では前回のサイズ、全画面ではディスプレイの現在の解像度を使用します。表示が不正な場合は画面の解像度を指定してください。"
+    },
+    "GameSystem.Window.Height": {
+      "ja": "高さを指定します。0 の扱いは幅と同じです。"
+    },
+    "GameSystem.Window.ExclusiveFullscreen": {
+      "ja": "全画面ウインドウの代わりに排他全画面を使用します。フォーカスを失うと最小化します。接続先の GPU で描画し、Windows の「全画面表示の最適化」を無効にする必要があります。これは AquaMai 側の機能説明であり、macOS での動作保証ではありません。"
+    },
+    "General.Locale": {
+      "ja": "AquaMai の表示言語です。対応値は en と zh です。空欄ではシステム言語に従います。設定ファイルの説明言語にも反映されます。AirmaiDX 自体の表示言語とは別です。"
+    },
+    "Tweaks.ResetTouch.AfterTrack": {
+      "ja": "楽曲のプレイ後にタッチパネルをリセットします。"
+    },
+    "Tweaks.ResetTouch.Key": {
+      "ja": "手動リセットに使用するキーです。"
+    },
+    "Tweaks.TimeSaving.CheckSkip.SkipStartupCameraCheck": {
+      "ja": "起動時のカメラチェックをスキップします。"
+    },
+    "Tweaks.TimeSaving.CheckSkip.SkipPowerOnNetworkCheck": {
+      "ja": "起動時のネットワークチェックをスキップします。"
+    },
+    "Tweaks.TimeSaving.EntryToMusicSelection.EnableOnlyInGuestMode": {
+      "ja": "ゲストモードでのみ有効にします。"
+    },
+    "UX.DontRuinMyAccount.ShowNotice": {
+      "ja": "AutoPlay 有効時に通知を表示します。"
+    },
+    "UX.DontRuinMyAccount.ForPracticeMode": {
+      "ja": "PracticeMode / DebugFeature 使用時にも成績を保存しません。"
+    },
+    "UX.FestaControl.IsFesta": {
+      "ja": "Festa モードの画面を表示するかを指定します。"
+    },
+    "UX.HardwareAlert.UseOriginalGameLanguage": {
+      "ja": "警告をゲーム本来の言語で表示します。翻訳パックを使用している場合は無効にしてください。"
+    },
+    "UX.HideSelfMadeCharts.DefaultHide": {
+      "ja": "ログイン時、既定で自作譜面を非表示にします。"
+    },
+    "UX.HideSelfMadeCharts.Key": {
+      "ja": "自作譜面の表示を切り替えるキーです。"
+    },
+    "UX.HideSelfMadeCharts.SelfMadeChartsDenyUsersFile": {
+      "ja": "1 行に 1 つのユーザー ID を記載します。該当ユーザーのログイン時に自作譜面を非表示にします。"
+    },
+    "UX.HideSelfMadeCharts.SelfMadeChartsWhiteListUsersFile": {
+      "ja": "1 行に 1 つのユーザー ID を記載します。該当ユーザーにのみ自作譜面を表示します。"
+    },
+    "UX.OneKeyRetrySkip.AllowRetryOnlyInFreedomMode": {
+      "ja": "残り時間がある Freedom Mode でのみリトライを許可します。"
+    },
+    "UX.PracticeMode.Key": {
+      "ja": "練習モードの画面を表示するキーです。"
+    },
+    "UX.PracticeMode.OnlyInFreedomMode": {
+      "ja": "残り時間がある Freedom Mode でのみ練習モードを許可します。"
+    },
+    "UX.SelectionDetail.ShowBattleAchievement": {
+      "ja": "フレンド対戦の目標達成率を表示します。"
+    },
+    "Utils.EarlyContinue.AddTrackCount": {
+      "ja": "追加する曲数です。0 では 1P と 2P に各 3 曲を追加します。"
+    },
+    "Utils.FreedomTimer.AddTimeKey": {
+      "ja": "Freedom Mode の時間を追加するキーです。None で無効にします。"
+    },
+    "Utils.FreedomTimer.AddTimeLongPress": {
+      "ja": "時間の追加を長押しに限定します。"
+    },
+    "Utils.FreedomTimer.AddTimeSeconds": {
+      "ja": "1 回の操作で追加する秒数です。"
+    },
+    "Utils.LogNetworkRequests.ResponseErrorOnly": {
+      "ja": "成功した応答は記録せず、エラー応答のみを記録します。"
+    },
+    "Utils.MoveAnswerSound.DisplayInGameConfig": {
+      "ja": "ゲーム内に設定項目を表示します。無効な場合はユーザーの設定を無視します。"
+    },
+    "Utils.MoveAnswerSound.MoveValue_1P": {
+      "ja": "1P のアンサー音をミリ秒単位でずらします。ゲーム内のユーザー設定に加算されます。正の値で遅く、負の値で早くなります。"
+    },
+    "Utils.MoveAnswerSound.MoveValue_2P": {
+      "ja": "2P のアンサー音をミリ秒単位でずらします。動作は 1P と同じです。"
+    },
+    "Utils.ScreenPositionAdjust.CompactMode": {
+      "ja": "上画面と下画面を隙間なく配置します。"
+    },
+    "Utils.ScreenPositionAdjust.AdjustKey": {
+      "ja": "位置調整モードに入るキーです。"
+    },
+    "Utils.ShowErrorLog.UseNewErrorHandler": {
+      "ja": "新しいエラーハンドラーを使用します。"
+    },
+    "GameSystem.PdxTouch.AAreaExtraRadius": {
+      "ja": "A エリアの半径に加算する値です。負の値を指定すると範囲が狭くなります。"
+    },
+    "GameSystem.PdxTouch.BAreaExtraRadius": {
+      "ja": "B エリアの半径に加算する値です。負の値を指定すると範囲が狭くなります。"
+    },
+    "GameSystem.PdxTouch.CAreaExtraRadius": {
+      "ja": "C エリアの半径に加算する値です。負の値を指定すると範囲が狭くなります。"
+    },
+    "GameSystem.PdxTouch.DAreaExtraRadius": {
+      "ja": "D エリアの半径に加算する値です。負の値を指定すると範囲が狭くなります。"
+    },
+    "GameSystem.PdxTouch.EAreaExtraRadius": {
+      "ja": "E エリアの半径に加算する値です。負の値を指定すると範囲が狭くなります。"
+    },
+    "GameSystem.ExteraMouseInput.AAreaExtraRadius": {
+      "ja": "A エリアの半径に加算する値です。負の値を指定すると範囲が狭くなります。"
+    },
+    "GameSystem.ExteraMouseInput.BAreaExtraRadius": {
+      "ja": "B エリアの半径に加算する値です。負の値を指定すると範囲が狭くなります。"
+    },
+    "GameSystem.ExteraMouseInput.CAreaExtraRadius": {
+      "ja": "C エリアの半径に加算する値です。負の値を指定すると範囲が狭くなります。"
+    },
+    "GameSystem.ExteraMouseInput.DAreaExtraRadius": {
+      "ja": "D エリアの半径に加算する値です。負の値を指定すると範囲が狭くなります。"
+    },
+    "GameSystem.ExteraMouseInput.EAreaExtraRadius": {
+      "ja": "E エリアの半径に加算する値です。負の値を指定すると範囲が狭くなります。"
+    },
+    "GameSettings.JudgeAdjust.A_1P": {
+      "ja": "1P の A 判定を補正します。"
+    },
+    "GameSettings.JudgeAdjust.B_1P": {
+      "ja": "1P の B 判定を補正します。"
+    },
+    "Tweaks.LedBrightnessControl.Button1p": {
+      "ja": "1P のボタン LED の明るさです。0.0〜1.0 で指定します。"
+    },
+    "Tweaks.LedBrightnessControl.Cabinet1p": {
+      "ja": "1P の筐体 LED の明るさです。0.0〜1.0 で指定します。"
+    },
+    "GameSettings.JudgeAdjust.A_2P": {
+      "ja": "2P の A 判定を補正します。"
+    },
+    "GameSettings.JudgeAdjust.B_2P": {
+      "ja": "2P の B 判定を補正します。"
+    },
+    "Tweaks.LedBrightnessControl.Button2p": {
+      "ja": "2P のボタン LED の明るさです。0.0〜1.0 で指定します。"
+    },
+    "Tweaks.LedBrightnessControl.Cabinet2p": {
+      "ja": "2P の筐体 LED の明るさです。0.0〜1.0 で指定します。"
+    },
+    "GameSystem.Unlock.Titles": {
+      "ja": "すべての称号を解放します。"
+    },
+    "GameSystem.Unlock.Icons": {
+      "ja": "すべてのアイコンを解放します。"
+    },
+    "GameSystem.Unlock.Plates": {
+      "ja": "すべてのネームプレートを解放します。"
+    },
+    "GameSystem.Unlock.Frames": {
+      "ja": "すべてのフレームを解放します。"
+    },
+    "GameSystem.Unlock.Partners": {
+      "ja": "すべてのパートナーを解放します。"
+    },
+    "GameSystem.Unlock.Characters": {
+      "ja": "すべてのキャラクターを解放します。"
+    },
+    "UX.HardwareAlert.TouchSensor_1P": {
+      "ja": "1P のタッチセンサーのハードウェア警告設定です。"
+    },
+    "UX.HardwareAlert.TouchSensor_2P": {
+      "ja": "2P のタッチセンサーのハードウェア警告設定です。"
+    },
+    "UX.HardwareAlert.LED_1P": {
+      "ja": "1P の LEDのハードウェア警告設定です。"
+    },
+    "UX.HardwareAlert.LED_2P": {
+      "ja": "2P の LEDのハードウェア警告設定です。"
+    },
+    "UX.HardwareAlert.PlayerCamera": {
+      "ja": "プレイヤー撮影カメラのハードウェア警告設定です。"
+    },
+    "UX.HardwareAlert.CodeReader_1P": {
+      "ja": "1P の DX パスリーダーのハードウェア警告設定です。"
+    },
+    "UX.HardwareAlert.CodeReader_2P": {
+      "ja": "2P の DX パスリーダーのハードウェア警告設定です。"
+    },
+    "UX.HardwareAlert.ChimeCamera": {
+      "ja": "WeChat QR カメラのハードウェア警告設定です。"
+    }
+  }
+}

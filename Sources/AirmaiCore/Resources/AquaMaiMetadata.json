@@ -1,0 +1,4267 @@
+{
+  "formatVersion": 1,
+  "source": {
+    "repository": "https://github.com/MewoLab/AquaMai",
+    "commit": "c64077a2e2ecaa4f557f09fec84028a058940944",
+    "license": "Apache-2.0",
+    "scope": "Localized attribute documentation; reference only, not runtime defaults"
+  },
+  "sections": {
+    "DeprecationWarning": {
+      "title": {
+        "zh-Hans": "废弃配置项",
+        "en": "Deprecation Warning"
+      },
+      "help": {
+        "zh-Hans": "这些配置项已经被废弃，在当前版本不再生效\n删除它们以去除启动时的警告信息",
+        "en": "These options have been deprecated and no longer work in the current version.\nRemove them to get rid of the warning message at startup."
+      },
+      "entries": {
+        "V1_0_ModKeyMap_TestMode": {
+          "title": {
+            "zh-Hans": "V1_0_ModKeyMap_TestMode",
+            "en": "V1 0 Mod Key Map Test Mode"
+          },
+          "help": {
+            "zh-Hans": "",
+            "en": ""
+          }
+        }
+      },
+      "source": "AquaMai.Mods/DeprecationWarning.cs",
+      "alwaysEnabled": false
+    },
+    "Enhancement.ServerAnnouncement": {
+      "title": {
+        "zh-Hans": "ServerAnnouncement",
+        "en": "Server Announcement"
+      },
+      "help": {
+        "zh-Hans": "显示来自兼容服务端的公告\n（对其他服务器无副作用，不会发出额外请求）",
+        "en": "Show announcement from compatible server\n(no side effects for other servers, no extra requests made)"
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Enhancement/ServerAnnouncement.cs",
+      "alwaysEnabled": false
+    },
+    "Enhancement.ServerNotice": {
+      "title": {
+        "zh-Hans": "ServerNotice",
+        "en": "Server Notice"
+      },
+      "help": {
+        "zh-Hans": "在用户登录之类的时候，显示来自兼容服务器的额外信息\n（对其他服务器无副作用，不会发出额外请求）",
+        "en": "Show extra information from compatible server\n(no side effects for other servers, no extra requests made)"
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Enhancement/ServerNotice.cs",
+      "alwaysEnabled": false
+    },
+    "Enhancement.ServerResources": {
+      "title": {
+        "zh-Hans": "ServerResources",
+        "en": "Server Resources"
+      },
+      "help": {
+        "zh-Hans": "加载服务器下发的资源（如果支持）",
+        "en": ""
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Enhancement/ServerResources.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.CustomButton": {
+      "title": {
+        "zh-Hans": "自定义按钮",
+        "en": "Custom Button"
+      },
+      "help": {
+        "zh-Hans": "从指定目录加载按钮贴图",
+        "en": "Custom button textures\nLoad button textures from specified directory"
+      },
+      "entries": {
+        "ButtonDir": {
+          "title": {
+            "zh-Hans": "贴图目录",
+            "en": "Button Dir"
+          },
+          "help": {
+            "zh-Hans": "按钮贴图的目录",
+            "en": "path to button texture directory"
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Fancy/CustomButton.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.CustomCreditsString": {
+      "title": {
+        "zh-Hans": "自定义点数文本",
+        "en": "Custom Credits String"
+      },
+      "help": {
+        "zh-Hans": "自定义中间和右上角的 \"CREDIT(S)\"（可用点数）文本",
+        "en": "Set the \"CREDIT(S)\" string displayed at the middle and top-right corner of the screen."
+      },
+      "entries": {
+        "CreditsString": {
+          "title": {
+            "zh-Hans": "点数文本",
+            "en": "Credits String"
+          },
+          "help": {
+            "zh-Hans": "用于替换 \"CREDIT(S)\" 的自定义文本，留空则为空白",
+            "en": "Custom string to replace the \"CREDIT(S)\". Empty for a blank string."
+          }
+        },
+        "HideCreditsNumber": {
+          "title": {
+            "zh-Hans": "隐藏点数",
+            "en": "Hide Credits Number"
+          },
+          "help": {
+            "zh-Hans": "隐藏 \"CREDIT(S)\" 后的可用点数数量",
+            "en": "Hide the number of credits after the \"CREDITS(S)\" string."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Fancy/CustomCreditsString.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.CustomIntroCinematic": {
+      "title": {
+        "zh-Hans": "开场视频",
+        "en": "Custom Intro Cinematic"
+      },
+      "help": {
+        "zh-Hans": "播放自定义乐曲开场视频",
+        "en": "Play custom intro cinematic before track start"
+      },
+      "entries": {
+        "IntroMovieDir": {
+          "title": {
+            "zh-Hans": "+",
+            "en": "Intro Movie Dir"
+          },
+          "help": {
+            "zh-Hans": "开场视频文件夹的路径\n",
+            "en": "The folder should contain intro movie files (mp4/acb/awb)\n"
+          }
+        },
+        "OnlyPlayWhenNotPlayed": {
+          "title": {
+            "zh-Hans": "仅在未玩过乐曲时播放",
+            "en": "Only Play When Not Played"
+          },
+          "help": {
+            "zh-Hans": "开启后，仅当 1P 2P 双方均没有玩过这首乐曲时播放开场视频",
+            "en": "Only play the intro cinematic when both players have not played the song"
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Fancy/CustomIntroCinematic.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.CustomLogo": {
+      "title": {
+        "zh-Hans": "自定义 Logo",
+        "en": "Custom Logo"
+      },
+      "help": {
+        "zh-Hans": "用自定义的图片替换「SEGA」和「ALL.Net」的标志",
+        "en": "Replace the \"SEGA\" and \"ALL.Net\" logos with custom ones."
+      },
+      "entries": {
+        "SegaLogoDir": {
+          "title": {
+            "zh-Hans": "SEGA Logo 目录",
+            "en": "Sega Logo Dir"
+          },
+          "help": {
+            "zh-Hans": "从此目录中随机选择一张 PNG 图片用于「SEGA」标志",
+            "en": "Replace the \"SEGA\" logo with a random PNG image from this directory."
+          }
+        },
+        "AllNetLogoDir": {
+          "title": {
+            "zh-Hans": "ALL.Net Logo 目录",
+            "en": "All Net Logo Dir"
+          },
+          "help": {
+            "zh-Hans": "从此目录中随机选择一张 PNG 图片用于「ALL.Net」标志",
+            "en": "Replace the \"ALL.Net\" logo with a random PNG image from this directory."
+          }
+        },
+        "LogoFullScreen": {
+          "title": {
+            "zh-Hans": "Logo 全屏幕",
+            "en": "Logo Full Screen"
+          },
+          "help": {
+            "zh-Hans": "将标志全屏占满下屏幕",
+            "en": "FullScreen the logo for the bottom screen."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Fancy/CustomLogo.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.CustomPlaceName": {
+      "title": {
+        "zh-Hans": "自定义店铺名",
+        "en": "Custom Place Name"
+      },
+      "help": {
+        "zh-Hans": "自定义拍照的店铺名称\n同时在 SDGA 中会启用店铺名称的显示（但是不会在游戏里有设置）",
+        "en": "Custom shop name in photo.\nAlso enable shop name display in SDGA."
+      },
+      "entries": {
+        "PlaceName": {
+          "title": {
+            "zh-Hans": "店铺名称",
+            "en": "Place Name"
+          },
+          "help": {
+            "zh-Hans": "店铺名称",
+            "en": ""
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Fancy/CustomPlaceName.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.CustomSkins": {
+      "title": {
+        "zh-Hans": "自定义皮肤",
+        "en": "Custom Skins"
+      },
+      "help": {
+        "zh-Hans": "提供自定义皮肤的能力（高级功能）\n从自定义路径中加载皮肤贴图",
+        "en": "Provide the ability to use custom skins (advanced feature).\nLoad skin textures from custom paths."
+      },
+      "entries": {
+        "SkinsDir": {
+          "title": {
+            "zh-Hans": "皮肤目录",
+            "en": "Skins Dir"
+          },
+          "help": {
+            "zh-Hans": "皮肤目录",
+            "en": ""
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Fancy/CustomSkins.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.CustomTrackStartDiff": {
+      "title": {
+        "zh-Hans": "自定义难度显示",
+        "en": "Custom Track Start Diff"
+      },
+      "help": {
+        "zh-Hans": "自定义在歌曲开始界面上显示的难度贴图 (并不是真的自定义难度)\n需要启用自定义皮肤功能\n会通过自定义皮肤加载四个图片资源: musicBase, musicTab, musicLvBase, musicLvText",
+        "en": "Custom track start difficulty image (not really custom difficulty).\nRequires CustomSkins to be enabled.\nWill load four image resources through custom skins: musicBase, musicTab, musicLvBase, musicLvText."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fancy/CustomTrackStartDiff.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.CustomVersionString": {
+      "title": {
+        "zh-Hans": "自定义版本文本",
+        "en": "Custom Version String"
+      },
+      "help": {
+        "zh-Hans": "把右上角的版本更改为自定义文本",
+        "en": "Set the version string displayed at the top-right corner of the screen."
+      },
+      "entries": {
+        "VersionString": {
+          "title": {
+            "zh-Hans": "版本文本",
+            "en": "Version String"
+          },
+          "help": {
+            "zh-Hans": "版本文本",
+            "en": ""
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Fancy/CustomVersionString.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.DemoMaster": {
+      "title": {
+        "zh-Hans": "闲置播放紫谱",
+        "en": "Demo Master"
+      },
+      "help": {
+        "zh-Hans": "在闲置时的演示画面上播放紫谱而不是绿谱",
+        "en": "Play \"Master\" difficulty on Demo screen."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fancy/DemoMaster.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.GamePlay.AlignCircleSlideJudgeDisplay": {
+      "title": {
+        "zh-Hans": "圆弧判定对齐",
+        "en": "Align Circle Slide Judge Display"
+      },
+      "help": {
+        "zh-Hans": "让圆弧形的 Slide 的判定显示与判定线精确对齐 (原本会有一点歪)\n就像 majdata 里那样",
+        "en": "Make the judgment display of circular Slides align precisely with the judgment line (originally a bit off).\nJust like in majdata."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fancy/GamePlay/AlignCircleSlideJudgeDisplay.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.GamePlay.BreakSlideJudgeBlink": {
+      "title": {
+        "zh-Hans": "Break 星星闪烁",
+        "en": "Break Slide Judge Blink"
+      },
+      "help": {
+        "zh-Hans": "这个 Patch 让 BreakSlide 的 Critical 判定也可以像 BreakTap 一样闪烁\n推荐与自定义皮肤一起使用 (否则视觉效果可能并不好)",
+        "en": "This Patch makes the Critical judgment of BreakSlide also flicker like BreakTap.\nRecommended to use with custom skins (otherwise the visual effect may not be good)."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fancy/GamePlay/BreakSlideJudgeBlink.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.GamePlay.CustomNoteTypes": {
+      "title": {
+        "zh-Hans": "自定义 Note 类型",
+        "en": "Custom Note Types"
+      },
+      "help": {
+        "zh-Hans": "自定义 Note 类型",
+        "en": "Custom Note Types."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fancy/GamePlay/CustomNoteTypes/CustomNoteTypes.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.GamePlay.DisableTrackStartTabs": {
+      "title": {
+        "zh-Hans": "隐藏曲目信息",
+        "en": "Disable Track Start Tabs"
+      },
+      "help": {
+        "zh-Hans": "在歌曲开始界面, 把 TRACK X 字样, DX/标准谱面的显示框, 以及画面下方的滴蜡熊隐藏掉\n录制谱面确认用",
+        "en": "Disable the TRACK X text, DX/Standard display box, and the derakkuma at the bottom of the screen in the song start screen.\nFor recording chart confirmation."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fancy/GamePlay/DisableTrackStartTabs.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.GamePlay.ExtendNotesPool": {
+      "title": {
+        "zh-Hans": "扩展音符池",
+        "en": "Extend Notes Pool"
+      },
+      "help": {
+        "zh-Hans": "增加更多待命的音符贴图，防止奇怪的自制谱用完音符贴图池",
+        "en": "Add notes sprite to the pool to prevent use up."
+      },
+      "entries": {
+        "Count": {
+          "title": {
+            "zh-Hans": "增加数量",
+            "en": "Count"
+          },
+          "help": {
+            "zh-Hans": "要增加的对象数量",
+            "en": "Number of objects to add."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Fancy/GamePlay/ExtendNotesPool.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.GamePlay.FanJudgeFlip": {
+      "title": {
+        "zh-Hans": "WiFi 判定翻转",
+        "en": "Fan Judge Flip"
+      },
+      "help": {
+        "zh-Hans": "这个 Patch 让 WiFi Slide 的判定显示有上下的区别 (原本所有 WiFi 的判定显示都是朝向圆心的), 就像 majdata 里那样\n这个 bug 产生的原因是 SBGA 忘记给 WiFi 的 EndButtonId 赋值了",
+        "en": "Make the judgment display of WiFi Slide different in up and down (originally all WiFi judgment displays are towards the center), just like in majdata.\nThe reason for this bug is that SEGA forgot to assign EndButtonId to WiFi."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fancy/GamePlay/FanJudgeFlip.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.GamePlay.FixJudgeTouchHoldInNormalArea": {
+      "title": {
+        "zh-Hans": "修复非 C 区 Hold",
+        "en": "Fix Judge Touch Hold In Normal Area"
+      },
+      "help": {
+        "zh-Hans": "使游戏可以正常判定非 C 区的 Touch Hold。实验性实现，据反馈不稳定",
+        "en": "Enable the game to correctly judge Touch Hold outside the C zone. Experimental implementation, reported to be unstable"
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fancy/GamePlay/FixJudgeTouchHoldInNormalArea.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.GamePlay.HideHanabi": {
+      "title": {
+        "zh-Hans": "隐藏烟花",
+        "en": "Hide Hanabi"
+      },
+      "help": {
+        "zh-Hans": "隐藏烟花",
+        "en": "Hide hanabi completely."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fancy/GamePlay/HideHanabi.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.GamePlay.JudgeDisplay4B": {
+      "title": {
+        "zh-Hans": "精细判定显示",
+        "en": "Judge Display4 B"
+      },
+      "help": {
+        "zh-Hans": "更精细的判定表示\n需开启 CustomSkins 并下载资源文件\nhttps://github.com/hykilpikonna/AquaDX/releases/download/nightly/JudgeDisplay4B.7z",
+        "en": "More detailed judgment display.\nRequires CustomSkins to be enabled and the resource file to be downloaded.\nhttps://github.com/hykilpikonna/AquaDX/releases/download/nightly/JudgeDisplay4B.7z"
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fancy/GamePlay/JudgeDisplay4B.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.GamePlay.RealisticRandomJudge": {
+      "title": {
+        "zh-Hans": "真随机判定",
+        "en": "Realistic Random Judge"
+      },
+      "help": {
+        "zh-Hans": "让 AutoPlay 的随机判定模式真的会随机产生所有的判定 (精确到子判定)\n原本的随机判定只会等概率产生 Critical, LateGreat1st, LateGood, Miss(TooLate)\n这里改成三角分布产生从 Miss(TooFast) ~ Critical ~ Miss(TooLate) 的所有 15 种判定结果\n当然, 此处并不会考虑原本那个 Note 是不是真的有对应的判定 (比如 Slide 实际上不应该有小 p 之类的)",
+        "en": "Make the AutoPlay random judgment mode really randomize all judgments (down to sub-judgments).\nThe original random judgment will only produce all 15 judgment results from Miss(TooFast) ~ Critical ~ Miss(TooLate).\nHere, it is changed to a triangular distribution to produce all 15 judgment results from Miss(TooFast) ~ Critical ~ Miss(TooLate).\nOf course, it will not consider whether the original Note really has a corresponding judgment (such as Slide should not have non-Critical Prefect)."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fancy/GamePlay/RealisticRandomJudge.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.GamePlay.ReviveFinaleVSlide": {
+      "title": {
+        "zh-Hans": "允许 1v1 星星",
+        "en": "Revive Finale VSlide"
+      },
+      "help": {
+        "zh-Hans": "允许形如 \"1v1\" 的，起点和终点相同的 v 型星星",
+        "en": "Allow v-shaped slide with the same starting and ending point, such as \"1v1\" in Simai notation"
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fancy/GamePlay/ReviveFinaleVSlide.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.GamePlay.SlideArrowAnimation": {
+      "title": {
+        "zh-Hans": "星星缩入动画",
+        "en": "Slide Arrow Animation"
+      },
+      "help": {
+        "zh-Hans": "使 Slide Track 消失时有类似 AstroDX 一样的向内缩入的动画",
+        "en": "Make the Slide Track disappear with an inward-shrinking animation, similar to AstroDX."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fancy/GamePlay/SlideArrowAnimation.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.GamePlay.SlideFadeInTweak": {
+      "title": {
+        "zh-Hans": "星星渐入",
+        "en": "Slide Fade In Tweak"
+      },
+      "help": {
+        "zh-Hans": "让星星在启动拍等待期间从 50% 透明度渐入为 100%，取代原本在击打星星头时就完成渐入",
+        "en": "Slides will fade in instead of instantly appearing."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fancy/GamePlay/SlideFadeInTweak.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.GamePlay.SlideLayerReverse": {
+      "title": {
+        "zh-Hans": "反转星星层级",
+        "en": "Slide Layer Reverse"
+      },
+      "help": {
+        "zh-Hans": "反转 Slide 层级, 使新出现的 Slide 像旧框一样显示在上层\n启用以支持通过叠加多个星星达成的变色效果",
+        "en": "Invert the Slide hierarchy, so that the new Slide appears on top like Maimai classic.\nEnable to support color changing effects achieved by overlaying multiple stars."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fancy/GamePlay/SlideLayerReverse.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.GamePlay.TapInHoldFix": {
+      "title": {
+        "zh-Hans": "Hold 夹 Tap",
+        "en": "Tap In Hold Fix"
+      },
+      "help": {
+        "zh-Hans": "让普通模式也能像宴会场一样，在 Hold 音符期间正常判定其他音符，兼容特殊设计谱面（如飞行志）\n实验性功能，未测试对其他谱面的影响",
+        "en": "Allow normal mode to judge Tap notes normally during Hold notes, like in UTAGE. Compatible with specially designed charts\nExperimental feature, untested on other charts"
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fancy/GamePlay/TapInHoldFix.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.GamePlay.TrackStartProcessTweak": {
+      "title": {
+        "zh-Hans": "延迟开始动画",
+        "en": "Track Start Process Tweak"
+      },
+      "help": {
+        "zh-Hans": "推迟了歌曲开始界面的动画\n录制谱面确认用",
+        "en": "Delayed the animation of the song start screen.\nFor recording chart confirmation."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fancy/GamePlay/TrackStartProcessTweak.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.HideMask": {
+      "title": {
+        "zh-Hans": "移除圆形遮罩",
+        "en": "Hide Mask"
+      },
+      "help": {
+        "zh-Hans": "移除圆形遮罩",
+        "en": "Remove the circle mask of the game screen."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fancy/HideMask.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.IgnoreCommercialTimeout": {
+      "title": {
+        "zh-Hans": "无限闲置视频时长",
+        "en": "Ignore Commercial Timeout"
+      },
+      "help": {
+        "zh-Hans": "忽略闲置时的视频广告画面的5分钟总时长限制",
+        "en": "Ignores 5 mins total timeout on commercial screen."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fancy/IgnoreCommercialTimeout.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.RandomBgm": {
+      "title": {
+        "zh-Hans": "随机 BGM",
+        "en": "Random Bgm"
+      },
+      "help": {
+        "zh-Hans": "在配置的目录下放置了旧版游戏的 Mai2Cue.{acb,awb} 并重命名的话，可以在播放游戏 BGM 的时候随机播放这里面的旧版游戏 BGM\n无法在 2P 模式下工作",
+        "en": "Random BGM.\nPut Mai2Cue.{acb,awb} of old version of the game in the configured directory and rename them.\nWon't work with 2P mode."
+      },
+      "entries": {
+        "Mai2CueDir": {
+          "title": {
+            "zh-Hans": "Mai2Cue 目录",
+            "en": "Mai2 Cue Dir"
+          },
+          "help": {
+            "zh-Hans": "Mai2Cue 目录",
+            "en": ""
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Fancy/RandomBgm.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.ResourcesOverride": {
+      "title": {
+        "zh-Hans": "力大砖飞",
+        "en": "Resources Override"
+      },
+      "help": {
+        "zh-Hans": "【危险功能】适用于便捷魔改的自定义全场景图片。警告：可能对游戏造成未知性能影响，可能与其他模组冲突？",
+        "en": "[Dangerous] Full-scene texture / sprite replacement. Static injection."
+      },
+      "entries": {
+        "SkinsDir": {
+          "title": {
+            "zh-Hans": "资源目录",
+            "en": "Skins Dir"
+          },
+          "help": {
+            "zh-Hans": "资源目录",
+            "en": ""
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Fancy/ResourcesOverride.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.SetFade": {
+      "title": {
+        "zh-Hans": "转场动画",
+        "en": "Set Fade"
+      },
+      "help": {
+        "zh-Hans": "修改转场动画为其他变种",
+        "en": "Set Fade Animation"
+      },
+      "entries": {
+        "FadeType": {
+          "title": {
+            "zh-Hans": "转场类型",
+            "en": "Fade Type"
+          },
+          "help": {
+            "zh-Hans": "类型: Non-Plus 0, Plus 1. (SDEZ 1.60 限定可选 Festa 2)",
+            "en": "Type: Non-Plus 0, Plus 1. (If SDEZ 1.60 can choose Festa 2)"
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Fancy/SetFade.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.SkipGameResultAnimation": {
+      "title": {
+        "zh-Hans": "跳过结算特效",
+        "en": "Skip Game Result Animation"
+      },
+      "help": {
+        "zh-Hans": "在 AutoPlay 模式下跳过结算画面的 AP/FC/FS 等庆祝特效，方便录制谱面确认",
+        "en": "Skip AP/FC/FS celebration effects on result screen during AutoPlay. Useful for chart recording."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fancy/SkipGameResultAnimation.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.TrackCamouflage": {
+      "title": {
+        "zh-Hans": "曲目伪装术",
+        "en": "Track Camouflage"
+      },
+      "help": {
+        "zh-Hans": "仿 KoP 决赛曲揭晓时的曲目信息隐藏特性，配合自定义乐曲开场视频功能使用效果更佳",
+        "en": "Mimicking KoP final song's hidden track information feature, better paired with custom intro cinematic feature"
+      },
+      "entries": {
+        "CamouflageDir": {
+          "title": {
+            "zh-Hans": "CamouflageDir",
+            "en": "Camouflage Dir"
+          },
+          "help": {
+            "zh-Hans": "曲目伪装信息和封面文件夹的路径\n- 曲目伪装信息的文件名为 <曲目ID>.toml，TOML 文档可填入的字段包括：\n  - Name: 伪装后的曲目名\n  - Artist: 伪装后的曲师\n  - NoteDesigner：伪装后的谱师（可选，如不指定则默认不伪装，显示原本的谱师）\n    - 或者：亦可用 HideNoteDesigner = true 来隐藏谱师、显示为和绿黄谱一样的 \"-\"\n  - UnlockScore：解除伪装所需要的最低达成率，例如 97.0\n    - 可选，默认为0，即只要玩家打过一次、有过成绩，就不再伪装；而通过指定为102的方式，则可以实现永远伪装\n- 伪装封面的文件名为 <曲目ID>_jacket.jpg/png。目前仅支持jpg、png这两种格式，不支持ab。",
+            "en": "Track camouflage info and jacket file directory\n- Camouflage info filename is <Music ID>.toml. TOML fields:\n  - Name: disguised track name\n  - Artist: disguised artist\n  - NoteDesigner: disguised note designer (optional; if omitted, the real note designer is shown)\n    - Or set HideNoteDesigner = true to hide it and show \"-\" like Basic/Advanced charts\n  - UnlockScore: minimum achievement % to remove camouflage, e.g. 97.0\n    - Optional, default 0 — any existing score removes camouflage; set to 102 to keep camouflage forever\n- Camouflage jacket filename is <Music ID>_jacket.jpg/png. Only jpg/png are supported (not .ab)."
+          }
+        },
+        "AlwaysShowCamouflage": {
+          "title": {
+            "zh-Hans": "AlwaysShowCamouflage",
+            "en": "Always Show Camouflage"
+          },
+          "help": {
+            "zh-Hans": "无视 UnlockScore / 游玩记录检测，始终显示伪装后的曲目信息",
+            "en": "Always enable track camouflage, ignoring UnlockScore / play record checks"
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Fancy/TrackCamouflage.cs",
+      "alwaysEnabled": false
+    },
+    "Fancy.Triggers": {
+      "title": {
+        "zh-Hans": "触发器",
+        "en": "Triggers"
+      },
+      "help": {
+        "zh-Hans": "在一定时机执行命令的触发器",
+        "en": "Triggers for executing commands at certain events."
+      },
+      "entries": {
+        "ExecOnIdle": {
+          "title": {
+            "zh-Hans": "闲置时执行",
+            "en": "Exec On Idle"
+          },
+          "help": {
+            "zh-Hans": "在游戏闲置的时候执行指定的命令脚本\n比如说可以在游戏闲置时降低显示器的亮度",
+            "en": "Execute some command on game idle."
+          }
+        },
+        "ExecOnEntry": {
+          "title": {
+            "zh-Hans": "登录时执行",
+            "en": "Exec On Entry"
+          },
+          "help": {
+            "zh-Hans": "在玩家登录的时候执行指定的命令脚本",
+            "en": "Execute some command on game start."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Fancy/Triggers.cs",
+      "alwaysEnabled": false
+    },
+    "Fix.Common": {
+      "title": {
+        "zh-Hans": "Common",
+        "en": "Common"
+      },
+      "help": {
+        "zh-Hans": "",
+        "en": ""
+      },
+      "entries": {
+        "PreventIniFileClear": {
+          "title": {
+            "zh-Hans": "防止配置清空",
+            "en": "Prevent Ini File Clear"
+          },
+          "help": {
+            "zh-Hans": "防止配置清空",
+            "en": ""
+          }
+        },
+        "FixDebugInput": {
+          "title": {
+            "zh-Hans": "修复调试输入",
+            "en": "Fix Debug Input"
+          },
+          "help": {
+            "zh-Hans": "修复调试输入",
+            "en": ""
+          }
+        },
+        "BypassCakeHashCheck": {
+          "title": {
+            "zh-Hans": "绕过 Cake 检查",
+            "en": "Bypass Cake Hash Check"
+          },
+          "help": {
+            "zh-Hans": "绕过 Cake 检查",
+            "en": ""
+          }
+        },
+        "RestoreCertificateValidation": {
+          "title": {
+            "zh-Hans": "恢复证书验证",
+            "en": "Restore Certificate Validation"
+          },
+          "help": {
+            "zh-Hans": "恢复证书验证",
+            "en": ""
+          }
+        },
+        "ForceNonTarget": {
+          "title": {
+            "zh-Hans": "强制非目标模式",
+            "en": "Force Non Target"
+          },
+          "help": {
+            "zh-Hans": "强制非目标模式",
+            "en": ""
+          }
+        },
+        "ForceNonReporting": {
+          "title": {
+            "zh-Hans": "解决 Reporting 问题",
+            "en": "Force Non Reporting"
+          },
+          "help": {
+            "zh-Hans": "解决 Reporting 问题",
+            "en": ""
+          }
+        },
+        "ForceIgnoreError": {
+          "title": {
+            "zh-Hans": "强制忽略错误",
+            "en": "Force Ignore Error"
+          },
+          "help": {
+            "zh-Hans": "强制忽略错误",
+            "en": ""
+          }
+        },
+        "BypassSpecialNumCheck": {
+          "title": {
+            "zh-Hans": "SpecialNum",
+            "en": "Bypass Special Num Check"
+          },
+          "help": {
+            "zh-Hans": "SpecialNum",
+            "en": ""
+          }
+        },
+        "DisableDataUploader": {
+          "title": {
+            "zh-Hans": "禁用无用上传",
+            "en": "Disable Data Uploader"
+          },
+          "help": {
+            "zh-Hans": "禁用无用上传",
+            "en": ""
+          }
+        },
+        "FixGetMusicVersion": {
+          "title": {
+            "zh-Hans": "修复 MusicVersion",
+            "en": "Fix Get Music Version"
+          },
+          "help": {
+            "zh-Hans": "修复 MusicVersion",
+            "en": ""
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Fix/Common.cs",
+      "alwaysEnabled": false
+    },
+    "Fix.DebugFeature": {
+      "title": {
+        "zh-Hans": "DebugFeature",
+        "en": "Debug Feature"
+      },
+      "help": {
+        "zh-Hans": "",
+        "en": ""
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fix/DebugFeature.cs",
+      "alwaysEnabled": false
+    },
+    "Fix.DisableReboot": {
+      "title": {
+        "zh-Hans": "DisableReboot",
+        "en": "Disable Reboot"
+      },
+      "help": {
+        "zh-Hans": "",
+        "en": ""
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fix/DisableReboot.cs",
+      "alwaysEnabled": false
+    },
+    "Fix.FixCheckAuth": {
+      "title": {
+        "zh-Hans": "FixCheckAuth",
+        "en": "Fix Check Auth"
+      },
+      "help": {
+        "zh-Hans": "",
+        "en": ""
+      },
+      "entries": {
+        "AllowHttpsUpgrade": {
+          "title": {
+            "zh-Hans": "允许 HTTPS 升级",
+            "en": "Allow Https Upgrade"
+          },
+          "help": {
+            "zh-Hans": "允许 HTTPS 升级",
+            "en": ""
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Fix/FixCheckAuth.cs",
+      "alwaysEnabled": false
+    },
+    "Fix.Legacy.FixConnSlide": {
+      "title": {
+        "zh-Hans": "FixConnSlide",
+        "en": "Fix Conn Slide"
+      },
+      "help": {
+        "zh-Hans": "",
+        "en": ""
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fix/FixConnSlide.cs",
+      "alwaysEnabled": false
+    },
+    "Fix.FixLevelDisplay": {
+      "title": {
+        "zh-Hans": "FixLevelDisplay",
+        "en": "Fix Level Display"
+      },
+      "help": {
+        "zh-Hans": "",
+        "en": ""
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fix/FixLevelDisplay.cs",
+      "alwaysEnabled": false
+    },
+    "Fix.FixLongMusicRestart": {
+      "title": {
+        "zh-Hans": "Long Music 重开修复",
+        "en": "Fix Long Music Restart"
+      },
+      "help": {
+        "zh-Hans": "修复 Long Music 重开时重复扣除 Track 数",
+        "en": ""
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fix/FixLongMusicRestart.cs",
+      "alwaysEnabled": false
+    },
+    "Fix.FixSlideAutoPlay": {
+      "title": {
+        "zh-Hans": "FixSlideAutoPlay",
+        "en": "Fix Slide Auto Play"
+      },
+      "help": {
+        "zh-Hans": "",
+        "en": ""
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fix/FixSlideAutoPlay.cs",
+      "alwaysEnabled": false
+    },
+    "Fix.LedBoardReconnect": {
+      "title": {
+        "zh-Hans": "LED 控制板断线重连",
+        "en": "Led Board Reconnect"
+      },
+      "help": {
+        "zh-Hans": "LED 控制板物理断开后停止异常串口线程，并在端口恢复后自动重连。",
+        "en": "Stop the LED board's failed serial worker after a physical disconnect and reconnect it when the port returns."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fix/LedBoardReconnect.cs",
+      "alwaysEnabled": false
+    },
+    "Fix.Legacy.FixQuickRetry130": {
+      "title": {
+        "zh-Hans": "FixQuickRetry130",
+        "en": "Fix Quick Retry130"
+      },
+      "help": {
+        "zh-Hans": "",
+        "en": ""
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fix/Legacy/FixQuickRetry130.cs",
+      "alwaysEnabled": false
+    },
+    "Fix.MaimollerFix": {
+      "title": {
+        "zh-Hans": "MaimollerFix",
+        "en": "Maimoller Fix"
+      },
+      "help": {
+        "zh-Hans": "",
+        "en": ""
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fix/MaimollerFix.cs",
+      "alwaysEnabled": false
+    },
+    "Fix.Stability.FixMissingCharaCrash": {
+      "title": {
+        "zh-Hans": "FixMissingCharaCrash",
+        "en": "Fix Missing Chara Crash"
+      },
+      "help": {
+        "zh-Hans": "",
+        "en": ""
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fix/Stability/FixMissingCharaCrash.cs",
+      "alwaysEnabled": false
+    },
+    "Fix.Stability.SanitizeUserData": {
+      "title": {
+        "zh-Hans": "SanitizeUserData",
+        "en": "Sanitize User Data"
+      },
+      "help": {
+        "zh-Hans": "",
+        "en": ""
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Fix/Stability/SanitizeUserData.cs",
+      "alwaysEnabled": false
+    },
+    "GameSettings.CreditConfig": {
+      "title": {
+        "zh-Hans": "点数设置",
+        "en": "Credit Config"
+      },
+      "help": {
+        "zh-Hans": "设置游戏为付费游玩（锁定可用点数）或免费游玩",
+        "en": "Set the game to Paid Play (lock credits) or Free Play."
+      },
+      "entries": {
+        "IsFreePlay": {
+          "title": {
+            "zh-Hans": "免费游玩",
+            "en": "Is Free Play"
+          },
+          "help": {
+            "zh-Hans": "是否免费游玩（设为 false 时为付费游玩）",
+            "en": "Set to Free Play (set to false for Paid Play)."
+          }
+        },
+        "AllowTicketInFreePlay": {
+          "title": {
+            "zh-Hans": "免费时购票",
+            "en": "Allow Ticket In Free Play"
+          },
+          "help": {
+            "zh-Hans": "可以在免费游玩时购买付费功能票",
+            "en": "Allow purchasing paid feature tickets in Free Play mode."
+          }
+        },
+        "LockCredits": {
+          "title": {
+            "zh-Hans": "锁定点数",
+            "en": "Lock Credits"
+          },
+          "help": {
+            "zh-Hans": "锁定可用点数数量（仅在付费游玩时有效），设为 0 以禁用",
+            "en": "Lock credits amount (only valid in Paid Play). Set to 0 to disable."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSettings/CreditConfig.cs",
+      "alwaysEnabled": false
+    },
+    "GameSettings.ForceAsServer": {
+      "title": {
+        "zh-Hans": "强制为服务器",
+        "en": "Force As Server"
+      },
+      "help": {
+        "zh-Hans": "如果要配置店内招募的话，应该要把这个关闭",
+        "en": "If you want to configure in-shop party-link, you should turn this off."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/GameSettings/ForceAsServer.cs",
+      "alwaysEnabled": false
+    },
+    "GameSettings.JudgeAdjust": {
+      "title": {
+        "zh-Hans": "判定调整",
+        "en": "Judge Adjust"
+      },
+      "help": {
+        "zh-Hans": "全局分玩家调整 A/B 判（单位和游戏里一样）或增加触摸延迟",
+        "en": "Globally adjust A/B judgment per player (unit same as in-game options) or increase touch delay."
+      },
+      "entries": {
+        "A_1P": {
+          "title": {
+            "zh-Hans": "1P A判",
+            "en": "A 1 P"
+          },
+          "help": {
+            "zh-Hans": "1P A判",
+            "en": "Adjust A judgment for 1P."
+          }
+        },
+        "A_2P": {
+          "title": {
+            "zh-Hans": "2P A判",
+            "en": "A 2 P"
+          },
+          "help": {
+            "zh-Hans": "2P A判",
+            "en": "Adjust A judgment for 2P."
+          }
+        },
+        "B_1P": {
+          "title": {
+            "zh-Hans": "1P B判",
+            "en": "B 1 P"
+          },
+          "help": {
+            "zh-Hans": "1P B判",
+            "en": "Adjust B judgment for 1P."
+          }
+        },
+        "B_2P": {
+          "title": {
+            "zh-Hans": "2P B判",
+            "en": "B 2 P"
+          },
+          "help": {
+            "zh-Hans": "2P B判",
+            "en": "Adjust B judgment for 2P."
+          }
+        },
+        "TouchDelay": {
+          "title": {
+            "zh-Hans": "触摸延迟",
+            "en": "Touch Delay"
+          },
+          "help": {
+            "zh-Hans": "增加触摸延迟（不建议使用）",
+            "en": "Increase touch delay."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSettings/JudgeAdjust.cs",
+      "alwaysEnabled": false
+    },
+    "GameSettings.TouchSensitivity": {
+      "title": {
+        "zh-Hans": "触摸灵敏度",
+        "en": "Touch Sensitivity"
+      },
+      "help": {
+        "zh-Hans": "使用自定义触摸灵敏度\n这里启用之后 Test 里的就不再起作用了\n这里禁用之后就还是用 Test 里的调\n\n在 Test 模式下调整的灵敏度不是线性的\nA 区默认灵敏度 90, 80, 70, 60, 50, 40, 30, 26, 23, 20, 10\n其他区域默认灵敏度 70, 60, 50, 40, 30, 20, 15, 10, 5, 1, 1\nTest 里设置的 0 对应的是 40, 20 这一档，-5 是 90, 70，+5 是 10, 1\nTest 里的数字越大，这里的数字越小，对于官机来说，灵敏度更大\n而 ADX 的灵敏度是反的，所以对于 ADX，这里的数字越大，灵敏度越大",
+        "en": "Use custom touch sensitivity.\nWhen enabled, the settings in Test mode will not take effect.\nWhen disabled, the settings in Test mode is used.\n\nSensitivity adjustments in Test mode are not linear.\nDefault sensitivity in area A: 90, 80, 70, 60, 50, 40, 30, 26, 23, 20, 10.\nDefault sensitivity in other areas: 70, 60, 50, 40, 30, 20, 15, 10, 5, 1, 1.\nA setting of 0 in Test mode corresponds to 40, 20 here, -5 corresponds to 90, 70, +5 corresponds to 10, 1.\nThe higher the number in Test mode, the lower the number here, resulting in higher sensitivity for official machines.\nFor ADX, the sensitivity is reversed, so the higher the number here, the higher the sensitivity."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/GameSettings/TouchSensitivity.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.AddPlayCountWhenQuickRetry": {
+      "title": {
+        "zh-Hans": "重开计次",
+        "en": "Add Play Count When Quick Retry"
+      },
+      "help": {
+        "zh-Hans": "在一键重开（无论何种触发方式）时，增加当前谱面的游玩次数",
+        "en": "Add play count when quick retry (regardless of trigger type)."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/GameSystem/AddPlayCountWhenQuickRetry.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.AdxHidInput": {
+      "title": {
+        "zh-Hans": "ADX / NPRO HID",
+        "en": "Adx Hid Input"
+      },
+      "help": {
+        "zh-Hans": "使用 ADX / NPRO 的自定义输入（没有 ADX / NPRO 的话开了也不会加载，也没有坏处）",
+        "en": "Input using ADX / NPRO HID (If you are not using ADX / NPRO, enabling this won't do anything)"
+      },
+      "entries": {
+        "HotPlugSupport": {
+          "title": {
+            "zh-Hans": "热插拔支持",
+            "en": "Hot Plug Support"
+          },
+          "help": {
+            "zh-Hans": "热插拔支持",
+            "en": ""
+          }
+        },
+        "P1Button1": {
+          "title": {
+            "zh-Hans": "1P 按钮 1",
+            "en": "P1 Button1"
+          },
+          "help": {
+            "zh-Hans": "向上的三角键",
+            "en": ""
+          }
+        },
+        "P1Button2": {
+          "title": {
+            "zh-Hans": "1P 按钮 2",
+            "en": "P1 Button2"
+          },
+          "help": {
+            "zh-Hans": "三角键中间的圆形按键",
+            "en": ""
+          }
+        },
+        "P1Button3": {
+          "title": {
+            "zh-Hans": "1P 按钮 3",
+            "en": "P1 Button3"
+          },
+          "help": {
+            "zh-Hans": "向下的三角键",
+            "en": ""
+          }
+        },
+        "P1Button4": {
+          "title": {
+            "zh-Hans": "1P 按钮 4",
+            "en": "P1 Button4"
+          },
+          "help": {
+            "zh-Hans": "最下方的圆形按键",
+            "en": ""
+          }
+        },
+        "P1DisableButtons": {
+          "title": {
+            "zh-Hans": "1P 禁用外键输入",
+            "en": "P1 Disable Buttons"
+          },
+          "help": {
+            "zh-Hans": "1P 禁用外键输入",
+            "en": ""
+          }
+        },
+        "P2Button1": {
+          "title": {
+            "zh-Hans": "2P 按钮 1",
+            "en": "P2 Button1"
+          },
+          "help": {
+            "zh-Hans": "向上的三角键",
+            "en": ""
+          }
+        },
+        "P2Button2": {
+          "title": {
+            "zh-Hans": "2P 按钮 2",
+            "en": "P2 Button2"
+          },
+          "help": {
+            "zh-Hans": "三角键中间的圆形按键",
+            "en": ""
+          }
+        },
+        "P2Button3": {
+          "title": {
+            "zh-Hans": "2P 按钮 3",
+            "en": "P2 Button3"
+          },
+          "help": {
+            "zh-Hans": "向下的三角键",
+            "en": ""
+          }
+        },
+        "P2Button4": {
+          "title": {
+            "zh-Hans": "2P 按钮 4",
+            "en": "P2 Button4"
+          },
+          "help": {
+            "zh-Hans": "最下方的圆形按键",
+            "en": ""
+          }
+        },
+        "P2DisableButtons": {
+          "title": {
+            "zh-Hans": "2P 禁用外键输入",
+            "en": "P2 Disable Buttons"
+          },
+          "help": {
+            "zh-Hans": "2P 禁用外键输入",
+            "en": ""
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/AdxHidInput/AdxHidInput.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.Assets.IgnoreLoadFailedAssetBundle": {
+      "title": {
+        "zh-Hans": "IgnoreLoadFailedAssetBundle",
+        "en": "Ignore Load Failed Asset Bundle"
+      },
+      "help": {
+        "zh-Hans": "忽略加载失败的 .ab 图片资源",
+        "en": "Ignore .ab image resources that fail to load"
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/GameSystem/Assets/AssetBundleManager.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.Assets.Fonts": {
+      "title": {
+        "zh-Hans": "自定义字体",
+        "en": "Fonts"
+      },
+      "help": {
+        "zh-Hans": "使用自定义字体作为回退（解决中文字形缺失问题），或完全替换游戏原字体",
+        "en": "Use custom font(s) as fallback or fully replace the original game font."
+      },
+      "entries": {
+        "Paths": {
+          "title": {
+            "zh-Hans": "字体路径",
+            "en": "Paths"
+          },
+          "help": {
+            "zh-Hans": "使用分号分隔多个路径以构成 Fallback 链\n默认为微软雅黑 Bold",
+            "en": "Font path(s).\nUse semicolon to separate multiple paths for a fallback chain.\nMicrosoft YaHei Bold by default."
+          }
+        },
+        "AddAsFallback": {
+          "title": {
+            "zh-Hans": "作为回退字体",
+            "en": "Add As Fallback"
+          },
+          "help": {
+            "zh-Hans": "将自定义字体作为游戏原字体的回退，尽可能使用游戏原字体",
+            "en": "Add custom font(s) as fallback, use original game font when possible."
+          }
+        },
+        "MaruGothicPaths": {
+          "title": {
+            "zh-Hans": "MaruGothicPaths",
+            "en": "Maru Gothic Paths"
+          },
+          "help": {
+            "zh-Hans": "SEGA_MaruGothicDB（文本用圆体）的单独字体路径\n使用分号分隔多个路径\n留空则使用上方的总设置",
+            "en": "Font path(s) specifically for SEGA_MaruGothicDB SDF.\nUse semicolon to separate multiple paths.\nIf empty, uses the general paths above."
+          }
+        },
+        "NewRodinPaths": {
+          "title": {
+            "zh-Hans": "NewRodinPaths",
+            "en": "New Rodin Paths"
+          },
+          "help": {
+            "zh-Hans": "SEGA_NewRodinN v2-EB_0（标题用粗体）的单独字体路径\n使用分号分隔多个路径\n留空则使用上方的总设置",
+            "en": "Font path(s) specifically for SEGA_NewRodinN v2-EB_0 SDF.\nUse semicolon to separate multiple paths.\nIf empty, uses the general paths above."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/Assets/Fonts.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.Assets.LoadAssetBundleWithoutManifest": {
+      "title": {
+        "zh-Hans": "无视 Manifest",
+        "en": "Load Asset Bundle Without Manifest"
+      },
+      "help": {
+        "zh-Hans": "加载所有存在的 .ab 图片资源（无视 AssetBundleImages.manifest）\n导入了删除曲包之类的话，应该需要开启这个",
+        "en": "Load all existing \".ab\" image resources regardless of the AssetBundleImages manifest."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/GameSystem/Assets/LoadAssetBundleWithoutManifest.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.Assets.LoadLocalImages": {
+      "title": {
+        "zh-Hans": "直读图片",
+        "en": "Load Local Images"
+      },
+      "help": {
+        "zh-Hans": "从指定目录下加载资源图片（自制谱用）",
+        "en": "Load asset images from the configured directory (for self-made charts)."
+      },
+      "entries": {
+        "ImageAssetsDir": {
+          "title": {
+            "zh-Hans": "图片路径",
+            "en": "Image Assets Dir"
+          },
+          "help": {
+            "zh-Hans": "图片路径",
+            "en": ""
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/Assets/LoadLocalImages.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.Assets.MovieLoader": {
+      "title": {
+        "zh-Hans": "直读 PV",
+        "en": "Movie Loader"
+      },
+      "help": {
+        "zh-Hans": "自定义歌曲游玩界面背景\n优先级: 首先读游戏自带 PV, 然后读本地 mp4 格式 PV, 最后读封面",
+        "en": "Custom Play Song Background\nPriority: game source PV > local mp4 PV > jacket"
+      },
+      "entries": {
+        "LoadSourceMovie": {
+          "title": {
+            "zh-Hans": "游戏自带 PV",
+            "en": "Load Source Movie"
+          },
+          "help": {
+            "zh-Hans": "加载游戏自带的 PV",
+            "en": "Load Movie from game source"
+          }
+        },
+        "LoadMp4Movie": {
+          "title": {
+            "zh-Hans": "本地 MP4",
+            "en": "Load Mp4 Movie"
+          },
+          "help": {
+            "zh-Hans": "从 LocalAssets 中加载 MP4 文件作为 PV",
+            "en": "Load Movie from LocalAssets mp4 files"
+          }
+        },
+        "MovieAssetsDir": {
+          "title": {
+            "zh-Hans": "MP4 路径",
+            "en": "Movie Assets Dir"
+          },
+          "help": {
+            "zh-Hans": "加载 MP4 文件的路径",
+            "en": "MP4 files directory"
+          }
+        },
+        "JacketAsMovie": {
+          "title": {
+            "zh-Hans": "封面作为背景",
+            "en": "Jacket As Movie"
+          },
+          "help": {
+            "zh-Hans": "用封面作为背景 PV\n请和 `LoadLocalImages` 一起用",
+            "en": "Use jacket as movie\nUse together with `LoadLocalImages`."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/Assets/MovieLoader.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.CustomCameraId": {
+      "title": {
+        "zh-Hans": "自定义摄像头",
+        "en": "Custom Camera Id"
+      },
+      "help": {
+        "zh-Hans": "使用自定义的摄像头 ID 而不是默认的\n启用后可以指定游戏使用的摄像头",
+        "en": "Use custom CameraId rather than the default ones.\nIf enabled, you can customize the game to use the specified camera."
+      },
+      "entries": {
+        "PrintCameraList": {
+          "title": {
+            "zh-Hans": "打印摄像头列表",
+            "en": "Print Camera List"
+          },
+          "help": {
+            "zh-Hans": "启动时打印摄像头列表到日志中，可以作为修改的依据",
+            "en": "Print the camera list to the log when starting, can be used as a basis for modification."
+          }
+        },
+        "LeftQrCamera": {
+          "title": {
+            "zh-Hans": "DX Pass 1P",
+            "en": "Left Qr Camera"
+          },
+          "help": {
+            "zh-Hans": "DX Pass 1P",
+            "en": "DX Pass 1P."
+          }
+        },
+        "RightQrCamera": {
+          "title": {
+            "zh-Hans": "DX Pass 2P",
+            "en": "Right Qr Camera"
+          },
+          "help": {
+            "zh-Hans": "DX Pass 2P",
+            "en": "DX Pass 2P."
+          }
+        },
+        "PhotoCamera": {
+          "title": {
+            "zh-Hans": "玩家摄像头",
+            "en": "Photo Camera"
+          },
+          "help": {
+            "zh-Hans": "玩家摄像头",
+            "en": "Player Camera."
+          }
+        },
+        "ChimeCamera": {
+          "title": {
+            "zh-Hans": "二维码扫描器",
+            "en": "Chime Camera"
+          },
+          "help": {
+            "zh-Hans": "二维码扫描器",
+            "en": "WeChat QRCode Camera."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/CustomCameraId.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.DisableTimeout": {
+      "title": {
+        "zh-Hans": "去除倒计时",
+        "en": "Disable Timeout"
+      },
+      "help": {
+        "zh-Hans": "去除并隐藏游戏中的倒计时",
+        "en": "Disable timers (hidden and set to 65535 seconds)."
+      },
+      "entries": {
+        "InContinueProcess": {
+          "title": {
+            "zh-Hans": "移除续关倒计时",
+            "en": "In Continue Process"
+          },
+          "help": {
+            "zh-Hans": "移除续关倒计时",
+            "en": "Disable timer in ContinueProcess"
+          }
+        },
+        "InGameStart": {
+          "title": {
+            "zh-Hans": "移除开始倒计时",
+            "en": "In Game Start"
+          },
+          "help": {
+            "zh-Hans": "也移除刷卡和选择模式界面的倒计时",
+            "en": "Disable game start timer."
+          }
+        },
+        "HideTimer": {
+          "title": {
+            "zh-Hans": "隐藏计时器",
+            "en": "Hide Timer"
+          },
+          "help": {
+            "zh-Hans": "隐藏计时器",
+            "en": "Hide the timer display."
+          }
+        },
+        "ShowInfinity": {
+          "title": {
+            "zh-Hans": "显示无穷符号",
+            "en": "Show Infinity"
+          },
+          "help": {
+            "zh-Hans": "仅在 隐藏计时器 关闭时显示",
+            "en": "Show infinity symbol"
+          }
+        },
+        "InstanceSkip": {
+          "title": {
+            "zh-Hans": "快速跳过",
+            "en": "Instance Skip"
+          },
+          "help": {
+            "zh-Hans": "在登录和选择模式界面，按一下跳过按钮就可以立即跳过",
+            "en": "Quickly skip entry and mode select"
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/DisableTimeout.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.EnableFreedomMode": {
+      "title": {
+        "zh-Hans": "SDGA 启用自由模式",
+        "en": "Enable Freedom Mode"
+      },
+      "help": {
+        "zh-Hans": "在 SDGA 上启用自由模式。如果你安装了独立的 FreedomUnlocker，请删除它",
+        "en": "Enable Freedom Mode on SDGA. If you have installed a separate FreedomUnlocker, please delete it."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/GameSystem/EnableFreedomMode.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.ExteraMouseInput": {
+      "title": {
+        "zh-Hans": "触屏优化",
+        "en": "Extera Mouse Input"
+      },
+      "help": {
+        "zh-Hans": "启用触摸输入和半径，以获得更真实的触摸屏体验",
+        "en": "Enable touch input with radius for a more realistic touchscreen experience."
+      },
+      "entries": {
+        "Radius": {
+          "title": {
+            "zh-Hans": "触摸半径",
+            "en": "Radius"
+          },
+          "help": {
+            "zh-Hans": "触摸区域半径大小。请根据手指大小调整，可以去 Test 中测试",
+            "en": "Touch area radius size. Adjust according to the size of your finger, you can test in Test Mode."
+          }
+        },
+        "AAreaExtraRadius": {
+          "title": {
+            "zh-Hans": "A 区额外半径",
+            "en": "AArea Extra Radius"
+          },
+          "help": {
+            "zh-Hans": "A 区（外圈按键）的额外半径，可以为负值来缩小",
+            "en": "Extra radius for A area (outer ring buttons). Can be negative to shrink."
+          }
+        },
+        "BAreaExtraRadius": {
+          "title": {
+            "zh-Hans": "B 区额外半径",
+            "en": "BArea Extra Radius"
+          },
+          "help": {
+            "zh-Hans": "B 区（中圈传感器）的额外半径，可以为负值来缩小",
+            "en": "Extra radius for B area (middle ring sensors). Can be negative to shrink."
+          }
+        },
+        "CAreaExtraRadius": {
+          "title": {
+            "zh-Hans": "C 区额外半径",
+            "en": "CArea Extra Radius"
+          },
+          "help": {
+            "zh-Hans": "C 区（中心传感器）的额外半径，可以为负值来缩小",
+            "en": "Extra radius for C area (center sensors). Can be negative to shrink."
+          }
+        },
+        "DAreaExtraRadius": {
+          "title": {
+            "zh-Hans": "D 区额外半径",
+            "en": "DArea Extra Radius"
+          },
+          "help": {
+            "zh-Hans": "D 区（内圈传感器）的额外半径，可以为负值来缩小",
+            "en": "Extra radius for D area (inner ring sensors). Can be negative to shrink."
+          }
+        },
+        "EAreaExtraRadius": {
+          "title": {
+            "zh-Hans": "E 区额外半径",
+            "en": "EArea Extra Radius"
+          },
+          "help": {
+            "zh-Hans": "E 区（最内圈传感器）的额外半径，可以为负值来缩小",
+            "en": "Extra radius for E area (innermost ring sensors). Can be negative to shrink."
+          }
+        },
+        "DisplayArea": {
+          "title": {
+            "zh-Hans": "显示触摸点",
+            "en": "Display Area"
+          },
+          "help": {
+            "zh-Hans": "显示触摸点（仅限触屏输入）",
+            "en": "Display touch points (only for touch input)."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/ExteraMouseInput.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.HeadphoneVolumeMultiply": {
+      "title": {
+        "zh-Hans": "耳机音量倍率",
+        "en": "Headphone Volume Multiply"
+      },
+      "help": {
+        "zh-Hans": "将 1P/2P 用户设置的耳机音量乘以一个倍率，可以调低或调高，但不能高于原本的 20。",
+        "en": "Multiply 1P/2P headphone volume by a factor. Can decrease or increase, but not higher than original 20."
+      },
+      "entries": {
+        "P1": {
+          "title": {
+            "zh-Hans": "1P",
+            "en": "P1"
+          },
+          "help": {
+            "zh-Hans": "1P",
+            "en": ""
+          }
+        },
+        "P2": {
+          "title": {
+            "zh-Hans": "2P",
+            "en": "P2"
+          },
+          "help": {
+            "zh-Hans": "2P",
+            "en": ""
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/HeadphoneVolumeMultiply.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.HeadphoneVolumeOverride": {
+      "title": {
+        "zh-Hans": "耳机音量覆盖",
+        "en": "Headphone Volume Override"
+      },
+      "help": {
+        "zh-Hans": "将 1P/2P 耳机音量强制覆盖为固定值，忽略用户的游戏内设置。设为 -1 则禁用（使用用户设置）。范围：0–20。",
+        "en": "Override 1P/2P headphone volume to a fixed value, ignoring the user's in-game setting. Set to -1 to disable (use user setting). Range: 0–20."
+      },
+      "entries": {
+        "P1": {
+          "title": {
+            "zh-Hans": "1P 音量覆盖",
+            "en": "P1"
+          },
+          "help": {
+            "zh-Hans": "1P 耳机音量覆盖值。-1 = 使用用户设置，0–20 = 固定音量（20 为最大值）。",
+            "en": "1P headphone volume override. -1 = use user setting, 0–20 = fixed volume (20 is max)."
+          }
+        },
+        "P2": {
+          "title": {
+            "zh-Hans": "2P 音量覆盖",
+            "en": "P2"
+          },
+          "help": {
+            "zh-Hans": "2P 耳机音量覆盖值。-1 = 使用用户设置，0–20 = 固定音量（20 为最大值）。",
+            "en": "2P headphone volume override. -1 = use user setting, 0–20 = fixed volume (20 is max)."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/HeadphoneVolumeOverride.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.KeyMap": {
+      "title": {
+        "zh-Hans": "按键映射",
+        "en": "Key Map"
+      },
+      "help": {
+        "zh-Hans": "启用或禁用 IO4 和 DebugInput。配置 DebugInput 的按键映射。\nDebugInput 与 IO4（兼容 IO4 板 / segatools IO4 模拟）独立工作。\n（你应该至少启用一个输入源，除非你使用其他输入方案如 AdxHidInput。）",
+        "en": "Enable or disable IO4 and DebugInput. Configure the key mapping for DebugInput.\nDebugInput works independently of IO4 (IO4-compatible board / segatools IO4 emulation).\n(You should enable at least one input source, unless you use other input solutions like AdxHidInput.)"
+      },
+      "entries": {
+        "DisableIO4_1P": {
+          "title": {
+            "zh-Hans": "禁用 IO4（1P）",
+            "en": "Disable IO4 1 P"
+          },
+          "help": {
+            "zh-Hans": "禁用 IO4（兼容 IO4 板 / segatools IO4 模拟）输入。\n在禁用 IO4 输入后，你的兼容 IO4 板或 segatools IO4 模拟将被忽略。",
+            "en": "Disable IO4 (IO4-compatible board / segatools IO4 emulation) input.\nWith IO4 input disabled, your IO4-compatible board or segatools IO4 emulation is ignored."
+          }
+        },
+        "DisableIO4_2P": {
+          "title": {
+            "zh-Hans": "禁用 IO4（2P）",
+            "en": "Disable IO4 2 P"
+          },
+          "help": {
+            "zh-Hans": "禁用 IO4（2P）",
+            "en": ""
+          }
+        },
+        "DisableIO4System": {
+          "title": {
+            "zh-Hans": "禁用 IO4（系统按键）",
+            "en": "Disable IO4 System"
+          },
+          "help": {
+            "zh-Hans": "禁用系统按键的 IO4 输入，输入源同上。",
+            "en": "System buttons (test, service) input."
+          }
+        },
+        "DisableDebugInput": {
+          "title": {
+            "zh-Hans": "禁用 DebugInput",
+            "en": "Disable Debug Input"
+          },
+          "help": {
+            "zh-Hans": "禁用 DebugInput，下列按键映射将不起作用。\n在禁用 DebugInput 后，你需要兼容 IO4 板、segatools IO4 模拟或其他自定义输入方案才能游玩。\n如果使用 IO4 模拟，你可以在 segatools.ini 的 [io4] 和 [button] 部分配置按键映射。",
+            "en": "Disable DebugInput. The key mapping below will not work.\nWith DebugInput disabled, you'll need a IO4-compatible board, segatools IO4 emulation or other custom input solutions to play.\nYou may want to configure IO4 emulation key mapping in segatools.ini's [io4] and [button] section."
+          }
+        },
+        "DisableDebugFeatureHotkeys": {
+          "title": {
+            "zh-Hans": "禁用调试快捷键",
+            "en": "Disable Debug Feature Hotkeys"
+          },
+          "help": {
+            "zh-Hans": "禁用 DebugFeature Polyfill 的快捷键，比如说回车暂停，左右键快进快退等。",
+            "en": "Disable DebugFeature Polyfill hotkeys, like Enter to pause, Left/Right to seek, etc."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/KeyMap.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.LightBoardPort": {
+      "title": {
+        "zh-Hans": "灯光串口",
+        "en": "Light Board Port"
+      },
+      "help": {
+        "zh-Hans": "调整灯板串口号，默认值 COM21 COM23\n需要设备管理器配置，如果你不清楚你是否可以使用，请不要使用",
+        "en": "Adjust the port of the Light Boards' serial port, default value is COM21 COM23.\nRequires configuration by Device Manager. If you are unsure, don't use it."
+      },
+      "entries": {
+        "PortName_1PLED": {
+          "title": {
+            "zh-Hans": "1P灯光串口号",
+            "en": "Port Name 1 PLED"
+          },
+          "help": {
+            "zh-Hans": "1P灯光串口号",
+            "en": "Port for 1P LED."
+          }
+        },
+        "PortName_2PLED": {
+          "title": {
+            "zh-Hans": "2P灯光串口号",
+            "en": "Port Name 2 PLED"
+          },
+          "help": {
+            "zh-Hans": "2P灯光串口号",
+            "en": "Port for 2P LED."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/LightBoardPort.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.MaimollerIO": {
+      "title": {
+        "zh-Hans": "Maimoller IO V2",
+        "en": "Maimoller IO"
+      },
+      "help": {
+        "zh-Hans": "适配 Maimoller 控制器的输入（按钮和触屏）和输出（LED），替代厂商提供的 ADXHIDIOMod.dll。\n如果你没有使用 Maimoller 控制器，请勿启用。\n请删除 ADXHIDIOMod.dll（如果有）并关闭 mai2.ini 中的 DummyTouchpanel。",
+        "en": "Input (buttons and touch) and output (LEDs) for Maimoller controllers, replacing the stock ADXHIDIOMod.dll.\nDon't enable this if you're not using Maimoller controllers.\nPlease remove ADXHIDIOMod.dll (if any) and disable DummyTouchpanel in mai2.ini."
+      },
+      "entries": {
+        "Touch1p": {
+          "title": {
+            "zh-Hans": "启用 1P 触屏",
+            "en": "Touch1p"
+          },
+          "help": {
+            "zh-Hans": "如果混用 Maimoller 与其他协议，请对不是 Maimoller 的一侧禁用",
+            "en": "Enable 1P TouchScreen (If you mix Maimoller with other protocols, please disable for the side that is not Maimoller)"
+          }
+        },
+        "Button1p": {
+          "title": {
+            "zh-Hans": "启用 1P 按键",
+            "en": "Button1p"
+          },
+          "help": {
+            "zh-Hans": "启用 1P 按键",
+            "en": "Enable 1P Buttons"
+          }
+        },
+        "Led1p": {
+          "title": {
+            "zh-Hans": "启用 1P 灯光",
+            "en": "Led1p"
+          },
+          "help": {
+            "zh-Hans": "启用 1P 灯光",
+            "en": "Enable 1P LEDs"
+          }
+        },
+        "Touch2p": {
+          "title": {
+            "zh-Hans": "启用 2P 触屏",
+            "en": "Touch2p"
+          },
+          "help": {
+            "zh-Hans": "启用 2P 触屏",
+            "en": "Enable 2P"
+          }
+        },
+        "Button2p": {
+          "title": {
+            "zh-Hans": "启用 2P 按键",
+            "en": "Button2p"
+          },
+          "help": {
+            "zh-Hans": "启用 2P 按键",
+            "en": "Enable 2P Buttons"
+          }
+        },
+        "Led2p": {
+          "title": {
+            "zh-Hans": "启用 2P 灯光",
+            "en": "Led2p"
+          },
+          "help": {
+            "zh-Hans": "启用 2P 灯光",
+            "en": "Enable 2P LEDs"
+          }
+        },
+        "UseLegacy": {
+          "title": {
+            "zh-Hans": "启用兼容模式",
+            "en": "Use Legacy"
+          },
+          "help": {
+            "zh-Hans": "使用基于厂商 DLL 的旧版实现\n请在 Sinmai_Data/Plugins 文件夹下放置 libadxhid.dll 和 hidapi.dll。但请不要放置 ADXHIDIOMod.dll",
+            "en": "Use legacy implementation based on vendor DLLs\nYou must have libadxhid.dll and hidapi.dll in your Sinmai_Data/Plugins folder. But please do not place ADXHIDIOMod.dll"
+          }
+        },
+        "Alternative2p": {
+          "title": {
+            "zh-Hans": "兼容性 2P 模式",
+            "en": "Alternative2p"
+          },
+          "help": {
+            "zh-Hans": "当混用 Maimoller 与其他协议并且 Maimoller 在 2P 上，而且 Maimoller 无法正常使用时开启（仅对旧版实现有效）",
+            "en": "When mixing Maimoller with other protocols and Maimoller is on 2P, and Maimoller is not working properly, enable this (only works for legacy implementation)"
+          }
+        },
+        "P1Button1": {
+          "title": {
+            "zh-Hans": "1P 按钮 1（三角形）",
+            "en": "P1 Button1"
+          },
+          "help": {
+            "zh-Hans": "1P 按钮 1（三角形）",
+            "en": ""
+          }
+        },
+        "P1Button2": {
+          "title": {
+            "zh-Hans": "1P 按钮 2（圆形）",
+            "en": "P1 Button2"
+          },
+          "help": {
+            "zh-Hans": "1P 按钮 2（圆形）",
+            "en": ""
+          }
+        },
+        "P1Button3": {
+          "title": {
+            "zh-Hans": "1P 按钮 3（圆形）",
+            "en": "P1 Button3"
+          },
+          "help": {
+            "zh-Hans": "1P 按钮 3（圆形）",
+            "en": ""
+          }
+        },
+        "P1Button4": {
+          "title": {
+            "zh-Hans": "1P 按钮 4（圆形）",
+            "en": "P1 Button4"
+          },
+          "help": {
+            "zh-Hans": "1P 按钮 4（圆形）",
+            "en": ""
+          }
+        },
+        "P2Button1": {
+          "title": {
+            "zh-Hans": "2P 按钮 1（三角形）",
+            "en": "P2 Button1"
+          },
+          "help": {
+            "zh-Hans": "2P 按钮 1（三角形）",
+            "en": ""
+          }
+        },
+        "P2Button2": {
+          "title": {
+            "zh-Hans": "2P 按钮 2（圆形）",
+            "en": "P2 Button2"
+          },
+          "help": {
+            "zh-Hans": "2P 按钮 2（圆形）",
+            "en": ""
+          }
+        },
+        "P2Button3": {
+          "title": {
+            "zh-Hans": "2P 按钮 3（圆形）",
+            "en": "P2 Button3"
+          },
+          "help": {
+            "zh-Hans": "2P 按钮 3（圆形）",
+            "en": ""
+          }
+        },
+        "P2Button4": {
+          "title": {
+            "zh-Hans": "2P 按钮 4（圆形）",
+            "en": "P2 Button4"
+          },
+          "help": {
+            "zh-Hans": "2P 按钮 4（圆形）",
+            "en": ""
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/MaimollerIO/MaimollerIO.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.OldCabLightBoardSupport": {
+      "title": {
+        "zh-Hans": "旧框灯板支持",
+        "en": "Old Cab Light Board Support"
+      },
+      "help": {
+        "zh-Hans": "跳过 BoardNo 检查以使用 837-15070-02（旧框灯板），并映射新框顶板 LED 至重低音扬声器 LED、顶板 LED 以及中央 LED",
+        "en": "Skip BoardNo check to use the old cab light board 837-15070-02, and remapping the Billboard LED to woofer LED, roof LED and center LED"
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/GameSystem/OldCabLightBoardSupport.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.OptionLoadFix": {
+      "title": {
+        "zh-Hans": "Opt 加载修复",
+        "en": "Option Load Fix"
+      },
+      "help": {
+        "zh-Hans": "在 StreamingAssets 加载 Opt 时，不仅加载 A 开头的，也加载版本对应字母开头的",
+        "en": "When loading Opt in StreamingAssets, not only load those starting with A, but also those starting with the letter corresponding to the version"
+      },
+      "entries": {
+        "OverridePath": {
+          "title": {
+            "zh-Hans": "自定义路径",
+            "en": "Override Path"
+          },
+          "help": {
+            "zh-Hans": "自定义 Option 文件夹的路径（没事别填）",
+            "en": "Custom path to the Option folder"
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/OptionLoadFix.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.PdxTouch": {
+      "title": {
+        "zh-Hans": "PDX 独占触摸",
+        "en": "Pdx Touch"
+      },
+      "help": {
+        "zh-Hans": "PDX 独占触摸",
+        "en": ""
+      },
+      "entries": {
+        "Radius": {
+          "title": {
+            "zh-Hans": "触摸体积半径",
+            "en": "Radius"
+          },
+          "help": {
+            "zh-Hans": "基准是 1440x1440",
+            "en": ""
+          }
+        },
+        "AAreaExtraRadius": {
+          "title": {
+            "zh-Hans": "A 区额外半径",
+            "en": "AArea Extra Radius"
+          },
+          "help": {
+            "zh-Hans": "A 区（外圈按键）的额外半径，可以为负值来缩小",
+            "en": "Extra radius for A area (outer ring buttons). Can be negative to shrink."
+          }
+        },
+        "BAreaExtraRadius": {
+          "title": {
+            "zh-Hans": "B 区额外半径",
+            "en": "BArea Extra Radius"
+          },
+          "help": {
+            "zh-Hans": "B 区（中圈传感器）的额外半径，可以为负值来缩小",
+            "en": "Extra radius for B area (middle ring sensors). Can be negative to shrink."
+          }
+        },
+        "CAreaExtraRadius": {
+          "title": {
+            "zh-Hans": "C 区额外半径",
+            "en": "CArea Extra Radius"
+          },
+          "help": {
+            "zh-Hans": "C 区（中心传感器）的额外半径，可以为负值来缩小",
+            "en": "Extra radius for C area (center sensors). Can be negative to shrink."
+          }
+        },
+        "DAreaExtraRadius": {
+          "title": {
+            "zh-Hans": "D 区额外半径",
+            "en": "DArea Extra Radius"
+          },
+          "help": {
+            "zh-Hans": "D 区（内圈传感器）的额外半径，可以为负值来缩小",
+            "en": "Extra radius for D area (inner ring sensors). Can be negative to shrink."
+          }
+        },
+        "EAreaExtraRadius": {
+          "title": {
+            "zh-Hans": "E 区额外半径",
+            "en": "EArea Extra Radius"
+          },
+          "help": {
+            "zh-Hans": "E 区（最内圈传感器）的额外半径，可以为负值来缩小",
+            "en": "Extra radius for E area (innermost ring sensors). Can be negative to shrink."
+          }
+        },
+        "Path1p": {
+          "title": {
+            "zh-Hans": "1P 设备标识",
+            "en": "Path1p"
+          },
+          "help": {
+            "zh-Hans": "USB 序列号或端口路径，例如 2.2。请使用配置工具中显示的标识。留空则使用第一个检测到的设备作为 1P",
+            "en": ""
+          }
+        },
+        "Path2p": {
+          "title": {
+            "zh-Hans": "2P 设备标识",
+            "en": "Path2p"
+          },
+          "help": {
+            "zh-Hans": "2P 设备标识",
+            "en": ""
+          }
+        },
+        "DiagnosticLog": {
+          "title": {
+            "zh-Hans": "触摸诊断日志",
+            "en": "Diagnostic Log"
+          },
+          "help": {
+            "zh-Hans": "将触摸报告诊断信息写入 UserData/AquaMaiTouch.log",
+            "en": "Write touch report diagnostics to UserData/AquaMaiTouch.log."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/PdxTouch/PdxTouch.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.QuickRetry": {
+      "title": {
+        "zh-Hans": "快速重开",
+        "en": "Quick Retry"
+      },
+      "help": {
+        "zh-Hans": "按住下方四个按钮（3456）快速重开本局游戏（像在 Freedom Mode 中一样，默认仅对非宴谱有效）",
+        "en": "Hold the bottom four buttons (3456) for quick retry (like in Freedom Mode, default non-utage only)."
+      },
+      "entries": {
+        "QuickerRetry": {
+          "title": {
+            "zh-Hans": "更快触发",
+            "en": "Quicker Retry"
+          },
+          "help": {
+            "zh-Hans": "将长按时间修改为 0.5 秒",
+            "en": "Make quick retry faster."
+          }
+        },
+        "EnableInUtage": {
+          "title": {
+            "zh-Hans": "宴谱启用",
+            "en": "Enable In Utage"
+          },
+          "help": {
+            "zh-Hans": "在宴谱中强制启用",
+            "en": "Force enable in Utage."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/QuickRetry.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.RemoveEncryption": {
+      "title": {
+        "zh-Hans": "移除加密",
+        "en": "Remove Encryption"
+      },
+      "help": {
+        "zh-Hans": "如果你在用未经修改的客户端，会默认加密到服务器的连接，而连接私服的时候不应该加密\n开了这个选项之后就不会加密连接了，同时也会移除不同版本的客户端可能会对 API 接口加的后缀\n正常情况下，请保持这个选项开启",
+        "en": "If you are using an unmodified client, requests to the server will be encrypted by default, but requests to the private server should not be encrypted.\nWith this option enabled, the connection will not be encrypted, and the suffix added by different versions of the client to the API names are also removed.\nPlease keep this option enabled normally."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/GameSystem/RemoveEncryption.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.SinglePlayer": {
+      "title": {
+        "zh-Hans": "单人模式",
+        "en": "Single Player"
+      },
+      "help": {
+        "zh-Hans": "单人模式，不显示 2P",
+        "en": "Single player: Show 1P only, at the center of the screen."
+      },
+      "entries": {
+        "HideSubMonitor": {
+          "title": {
+            "zh-Hans": "隐藏副屏",
+            "en": "Hide Sub Monitor"
+          },
+          "help": {
+            "zh-Hans": "只显示主区域，不显示副屏",
+            "en": "Only show the main area, without the sub-monitor."
+          }
+        },
+        "AutoSkip": {
+          "title": {
+            "zh-Hans": "自动跳过倒计时",
+            "en": "Auto Skip"
+          },
+          "help": {
+            "zh-Hans": "单人模式下刷卡登录直接进入下一个界面，无需跳过倒计时",
+            "en": "Automatically skip the countdown when logging in with a card in single-player mode."
+          }
+        },
+        "FixHanabi": {
+          "title": {
+            "zh-Hans": "修复烟花效果",
+            "en": "Fix Hanabi"
+          },
+          "help": {
+            "zh-Hans": "修复单人模式下的烟花效果（如果启用了 HideHanabi，则会自动禁用）",
+            "en": "Fix hanabi effect under single-player mode (disabled automatically if HideHanabi is enabled)."
+          }
+        },
+        "ShowFreedomModeTimer": {
+          "title": {
+            "zh-Hans": "显示自由模式计时",
+            "en": "Show Freedom Mode Timer"
+          },
+          "help": {
+            "zh-Hans": "使用自由模式时，在副屏显示计时器",
+            "en": "Show the timer in free mode on the sub-monitor."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/SinglePlayer.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.SongConstantSort": {
+      "title": {
+        "zh-Hans": "定数排序",
+        "en": "Song Constant Sort"
+      },
+      "help": {
+        "zh-Hans": "按照乐曲实际的细化定数来排序乐曲列表。请在游戏内切换至该排列模式",
+        "en": "Sorts the song list by precise difficulty constants. Please switch to this sorting mode in game."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/GameSystem/SongConstantSort.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.Sound": {
+      "title": {
+        "zh-Hans": "音频输出设置",
+        "en": "Sound"
+      },
+      "help": {
+        "zh-Hans": "音频独占与八声道设置",
+        "en": "Audio Exclusive and 8-Channel Settings"
+      },
+      "entries": {
+        "EnableExclusive": {
+          "title": {
+            "zh-Hans": "音频独占",
+            "en": "Enable Exclusive"
+          },
+          "help": {
+            "zh-Hans": "音频独占",
+            "en": "Enable Audio Exclusive"
+          }
+        },
+        "BitsPerSample": {
+          "title": {
+            "zh-Hans": "BitsPerSample",
+            "en": "Bits Per Sample"
+          },
+          "help": {
+            "zh-Hans": "如果不知道是什么，请不要修改",
+            "en": "If you don't know what it is, please don't modify it"
+          }
+        },
+        "ValidBitsPerSample": {
+          "title": {
+            "zh-Hans": "ValidBitsPerSample",
+            "en": "Valid Bits Per Sample"
+          },
+          "help": {
+            "zh-Hans": "如果不知道是什么，请不要修改",
+            "en": "If you don't know what it is, please don't modify it"
+          }
+        },
+        "SamplesPerSec": {
+          "title": {
+            "zh-Hans": "SamplesPerSec",
+            "en": "Samples Per Sec"
+          },
+          "help": {
+            "zh-Hans": "如果不知道是什么，请不要修改",
+            "en": "If you don't know what it is, please don't modify it"
+          }
+        },
+        "Enable8Channel": {
+          "title": {
+            "zh-Hans": "八声道",
+            "en": "Enable8 Channel"
+          },
+          "help": {
+            "zh-Hans": "八声道",
+            "en": "Enable 8-Channel"
+          }
+        },
+        "MusicVolume": {
+          "title": {
+            "zh-Hans": "乐曲音量",
+            "en": "Music Volume"
+          },
+          "help": {
+            "zh-Hans": "乐曲音量",
+            "en": "Music Volume."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/Sound.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.SoundRouting": {
+      "title": {
+        "zh-Hans": "8Ch 音频路由重映射",
+        "en": "Sound Routing"
+      },
+      "help": {
+        "zh-Hans": "将 8Ch 的各个声道重新映射到指定的声道\n可进行混合，可使用 \"None\" 以禁用一个声道，音量在源声道应用（> 1.0 不会生效，若要提高音量，请使用 HeadphoneVolumeMultiply）\n（注：对于 2Ch 用户，请将需要的声道路由到 P1SpeakerLeft/Right，其他声道路由到 None）",
+        "en": "Redirect each channel in 8Ch to specific channel.\nMixing is allowed. Use \"None\" to mute a channel. Volumes are applied on the source channels (> 1.0 won't work, to increase volume, use HeadphoneVolumeMultiply instead).\n(NOTE: For 2Ch setups, please route the channels you want to P1SpeakerLeft/Right and other channels to None.)"
+      },
+      "entries": {
+        "RouteP1SpeakerLeftTo": {
+          "title": {
+            "zh-Hans": "1P外放左",
+            "en": "Route P1 Speaker Left To"
+          },
+          "help": {
+            "zh-Hans": "1P外放左",
+            "en": ""
+          }
+        },
+        "RouteP1SpeakerRightTo": {
+          "title": {
+            "zh-Hans": "1P外放右",
+            "en": "Route P1 Speaker Right To"
+          },
+          "help": {
+            "zh-Hans": "1P外放右",
+            "en": ""
+          }
+        },
+        "RouteP1HeadphoneLeftTo": {
+          "title": {
+            "zh-Hans": "1P耳机左",
+            "en": "Route P1 Headphone Left To"
+          },
+          "help": {
+            "zh-Hans": "1P耳机左",
+            "en": ""
+          }
+        },
+        "RouteP1HeadphoneRightTo": {
+          "title": {
+            "zh-Hans": "1P耳机右",
+            "en": "Route P1 Headphone Right To"
+          },
+          "help": {
+            "zh-Hans": "1P耳机右",
+            "en": ""
+          }
+        },
+        "RouteP2SpeakerLeftTo": {
+          "title": {
+            "zh-Hans": "2P外放左",
+            "en": "Route P2 Speaker Left To"
+          },
+          "help": {
+            "zh-Hans": "2P外放左",
+            "en": ""
+          }
+        },
+        "RouteP2SpeakerRightTo": {
+          "title": {
+            "zh-Hans": "2P外放右",
+            "en": "Route P2 Speaker Right To"
+          },
+          "help": {
+            "zh-Hans": "2P外放右",
+            "en": ""
+          }
+        },
+        "RouteP2HeadphoneLeftTo": {
+          "title": {
+            "zh-Hans": "2P耳机左",
+            "en": "Route P2 Headphone Left To"
+          },
+          "help": {
+            "zh-Hans": "2P耳机左",
+            "en": ""
+          }
+        },
+        "RouteP2HeadphoneRightTo": {
+          "title": {
+            "zh-Hans": "2P耳机右",
+            "en": "Route P2 Headphone Right To"
+          },
+          "help": {
+            "zh-Hans": "2P耳机右",
+            "en": ""
+          }
+        },
+        "VolumeP1Speaker": {
+          "title": {
+            "zh-Hans": "1P外放音量",
+            "en": "Volume P1 Speaker"
+          },
+          "help": {
+            "zh-Hans": "1P外放音量",
+            "en": ""
+          }
+        },
+        "VolumeP1Headphone": {
+          "title": {
+            "zh-Hans": "1P耳机音量",
+            "en": "Volume P1 Headphone"
+          },
+          "help": {
+            "zh-Hans": "1P耳机音量",
+            "en": ""
+          }
+        },
+        "VolumeP2Speaker": {
+          "title": {
+            "zh-Hans": "2P外放音量",
+            "en": "Volume P2 Speaker"
+          },
+          "help": {
+            "zh-Hans": "2P外放音量",
+            "en": ""
+          }
+        },
+        "VolumeP2Headphone": {
+          "title": {
+            "zh-Hans": "2P耳机音量",
+            "en": "Volume P2 Headphone"
+          },
+          "help": {
+            "zh-Hans": "2P耳机音量",
+            "en": ""
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/SoundRouting.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.StartupDirectToGame": {
+      "title": {
+        "zh-Hans": "启动直达乐曲",
+        "en": "Startup Direct To Game"
+      },
+      "help": {
+        "zh-Hans": "启动流程结束后直接进入通过 --music 传入的歌曲 ID",
+        "en": "Launch directly into the song ID specified by --music after startup."
+      },
+      "entries": {
+        "DefaultDifficulty": {
+          "title": {
+            "zh-Hans": "缺省难度",
+            "en": "Default Difficulty"
+          },
+          "help": {
+            "zh-Hans": "如果没有在命令行中传入难度（--difficulty）的话，默认使用的难度",
+            "en": "Default difficulty to use if not provided via command line"
+          }
+        },
+        "DefaultNoteSpeed": {
+          "title": {
+            "zh-Hans": "缺省 Note Speed",
+            "en": "Default Note Speed"
+          },
+          "help": {
+            "zh-Hans": "如果没有在命令行中传入 Note Speed（--noteSpeed）的话，默认使用的 Note Speed",
+            "en": "Default note speed to use if not provided via command line"
+          }
+        },
+        "DefaultTouchSpeed": {
+          "title": {
+            "zh-Hans": "缺省 Touch Speed",
+            "en": "Default Touch Speed"
+          },
+          "help": {
+            "zh-Hans": "如果没有在命令行中传入 Touch Speed（--touchSpeed）的话，默认使用的 Touch Speed",
+            "en": "Default touch speed to use if not provided via command line"
+          }
+        },
+        "DefaultSlideSpeed": {
+          "title": {
+            "zh-Hans": "缺省 Slide Speed",
+            "en": "Default Slide Speed"
+          },
+          "help": {
+            "zh-Hans": "如果没有在命令行中传入 Slide Speed（--slideSpeed）的话，默认使用的 Slide Speed。例如 normal、-0.5、0.5",
+            "en": "Default slide speed to use if not provided via command line. Examples: normal, -0.5, 0.5"
+          }
+        },
+        "DefaultAutoplay": {
+          "title": {
+            "zh-Hans": "缺省 Autoplay 类型",
+            "en": "Default Autoplay"
+          },
+          "help": {
+            "zh-Hans": "如果没有在命令行中传入 Autoplay 类型（--autoplay）的话，默认使用的类型。例如 Critical、Perfect、Great、Good、Miss、Random、None",
+            "en": "Default autoplay type to use if not provided via command line. Examples: Critical, Perfect, Great, Good, Miss, Random, None"
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/StartupDirectToGame.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.TestProof": {
+      "title": {
+        "zh-Hans": "测试键长按",
+        "en": "Test Proof"
+      },
+      "help": {
+        "zh-Hans": "启用后，测试键必须长按才能进入游戏测试模式\n当测试键被绑定到其它功能时，此选项自动开启",
+        "en": "When enabled, test button must be long pressed to enter game test mode.\nWhen test button is bound to other features, this option is enabled automatically."
+      },
+      "entries": {
+        "TestKey": {
+          "title": {
+            "zh-Hans": "测试模式按键",
+            "en": "Test Key"
+          },
+          "help": {
+            "zh-Hans": "修改为 Test 以外的值来实现长按特定的键进入游戏测试模式，这样 Test 键就可以完全用来实现自定义功能了",
+            "en": "Change it to a value other than Test to enable long pressing of a specific key to enter the game test mode, so that the Test key can be fully used to implement custom functions"
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/TestProof.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.TouchAreaRemapper": {
+      "title": {
+        "zh-Hans": "触摸区域重映射",
+        "en": "Touch Area Remapper"
+      },
+      "help": {
+        "zh-Hans": "按玩家重映射触摸区域。",
+        "en": "Remap touch panel areas per player."
+      },
+      "entries": {
+        "Map1P": {
+          "title": {
+            "zh-Hans": "1P 映射表",
+            "en": "Map1 P"
+          },
+          "help": {
+            "zh-Hans": "1P 映射表，按实际按下 A1-A8 B1-B8 C1-C2 D1-D8 E1-E8 的顺序填写。\n每一项是按下该物理区域时游戏收到的区域名。\n34 项必须刚好包含每个区域一次；重复或缺失区域无法反推。\n留空则不重映射 1P。",
+            "en": "Remapping table for 1P, written in the physical press order A1-A8 B1-B8 C1-C2 D1-D8 E1-E8.\nEach item is the area reported by the game when that physical area is pressed.\nThe 34 items must contain every area exactly once; duplicated or missing areas are not reversible.\nLeave empty to disable remapping for 1P."
+          }
+        },
+        "Map2P": {
+          "title": {
+            "zh-Hans": "2P 映射表",
+            "en": "Map2 P"
+          },
+          "help": {
+            "zh-Hans": "2P 映射表，格式同 1P。\n留空则不重映射 2P。",
+            "en": "Remapping table for 2P, with the same format as 1P.\nLeave empty to disable remapping for 2P."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/TouchAreaRemapper.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.TouchPanelBaudRate": {
+      "title": {
+        "zh-Hans": "触摸屏波特率",
+        "en": "Touch Panel Baud Rate"
+      },
+      "help": {
+        "zh-Hans": "调整触摸屏串口波特率，默认值 9600\n需要硬件配合，如果你不清楚你是否可以使用，请不要使用",
+        "en": "Adjust the baud rate of the touch screen serial port, default value is 9600.\nRequires hardware support. If you are unsure, don't use it."
+      },
+      "entries": {
+        "BaudRate": {
+          "title": {
+            "zh-Hans": "波特率",
+            "en": "Baud Rate"
+          },
+          "help": {
+            "zh-Hans": "波特率",
+            "en": ""
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/TouchPanelBaudRate.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.TouchPanelPort": {
+      "title": {
+        "zh-Hans": "触摸屏串口",
+        "en": "Touch Panel Port"
+      },
+      "help": {
+        "zh-Hans": "调整触摸屏串口号，默认值 COM3 COM4\n需要设备管理器配置，如果你不清楚你是否可以使用，请不要使用",
+        "en": "Adjust the port of the touch screen serial port, default value is COM3 COM4.\nRequires configuration by Device Manager. If you are unsure, don't use it."
+      },
+      "entries": {
+        "PortName_1P": {
+          "title": {
+            "zh-Hans": "1P串口号",
+            "en": "Port Name 1 P"
+          },
+          "help": {
+            "zh-Hans": "1P串口号",
+            "en": "Port for 1P."
+          }
+        },
+        "PortName_2P": {
+          "title": {
+            "zh-Hans": "2P串口号",
+            "en": "Port Name 2 P"
+          },
+          "help": {
+            "zh-Hans": "2P串口号",
+            "en": "Port for 2P."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/TouchPanelPort.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.TouchToButtonInput": {
+      "title": {
+        "zh-Hans": "触摸转按键",
+        "en": "Touch To Button Input"
+      },
+      "help": {
+        "zh-Hans": "映射触摸操作至实体按键",
+        "en": "Map touch actions to buttons."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/GameSystem/TouchToButtonInput.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.Unlock": {
+      "title": {
+        "zh-Hans": "全解",
+        "en": "Unlock"
+      },
+      "help": {
+        "zh-Hans": "解锁原本锁定（包括正常途径无法解锁）的游戏内容\n由本 Mod 解锁的内容（除了被你升级过的角色以外）不会上传到你的账户\n游玩时仍会像未开启解锁一样「获得」那些乐曲/收藏品/段位",
+        "en": "Unlock normally locked (including normally non-unlockable) game content.\nAnything unlocked (except the characters you leveled-up) by this mod will not be uploaded your account.\nYou'll still \"get\" those musics/collections/courses just like in normal plays."
+      },
+      "entries": {
+        "Maps": {
+          "title": {
+            "zh-Hans": "区域",
+            "en": "Maps"
+          },
+          "help": {
+            "zh-Hans": "解锁游戏里所有的区域，包括非当前版本的（并不会帮你跑完）",
+            "en": "Unlock maps that are not in this version."
+          }
+        },
+        "Songs": {
+          "title": {
+            "zh-Hans": "乐曲",
+            "en": "Songs"
+          },
+          "help": {
+            "zh-Hans": "解锁所有乐曲，并跳过紫/白解锁画面（会正常保存解锁状态）",
+            "en": "Unlock all songs, and skip the Master/ReMaster unlock screen (still save the unlock status)."
+          }
+        },
+        "Tickets": {
+          "title": {
+            "zh-Hans": "跑图券",
+            "en": "Tickets"
+          },
+          "help": {
+            "zh-Hans": "解锁游戏里所有可能的跑图券",
+            "en": "Unlock normally event-only tickets."
+          }
+        },
+        "Courses": {
+          "title": {
+            "zh-Hans": "段位",
+            "en": "Courses"
+          },
+          "help": {
+            "zh-Hans": "解锁所有段位模式的段位（不需要十段就可以打真段位）",
+            "en": "Unlock all course-mode courses (no need to reach 10th dan to play \"real\" dan)."
+          }
+        },
+        "Utage": {
+          "title": {
+            "zh-Hans": "宴会场",
+            "en": "Utage"
+          },
+          "help": {
+            "zh-Hans": "不需要万分也可以进宴会场",
+            "en": "Unlock Utage without the need of DXRating 10000."
+          }
+        },
+        "Titles": {
+          "title": {
+            "zh-Hans": "称号",
+            "en": "Titles"
+          },
+          "help": {
+            "zh-Hans": "称号",
+            "en": "Unlock all titles."
+          }
+        },
+        "Icons": {
+          "title": {
+            "zh-Hans": "头像",
+            "en": "Icons"
+          },
+          "help": {
+            "zh-Hans": "头像",
+            "en": "Unlock all icons."
+          }
+        },
+        "Plates": {
+          "title": {
+            "zh-Hans": "姓名框",
+            "en": "Plates"
+          },
+          "help": {
+            "zh-Hans": "姓名框",
+            "en": "Unlock all plates."
+          }
+        },
+        "Frames": {
+          "title": {
+            "zh-Hans": "背景",
+            "en": "Frames"
+          },
+          "help": {
+            "zh-Hans": "背景",
+            "en": "Unlock all frames."
+          }
+        },
+        "Partners": {
+          "title": {
+            "zh-Hans": "搭档",
+            "en": "Partners"
+          },
+          "help": {
+            "zh-Hans": "搭档",
+            "en": "Unlock all partners."
+          }
+        },
+        "Events": {
+          "title": {
+            "zh-Hans": "Events",
+            "en": "Events"
+          },
+          "help": {
+            "zh-Hans": "Events",
+            "en": "Enable all events."
+          }
+        },
+        "EventBlackList": {
+          "title": {
+            "zh-Hans": "Event 黑名单",
+            "en": "Event Black List"
+          },
+          "help": {
+            "zh-Hans": "不解锁以下 Event。如果你不知道这是什么，请勿修改",
+            "en": "Do not unlock the following events. Leave it enabled if you don't know what this is."
+          }
+        },
+        "Characters": {
+          "title": {
+            "zh-Hans": "旅行伙伴",
+            "en": "Characters"
+          },
+          "help": {
+            "zh-Hans": "旅行伙伴",
+            "en": "Unlock all characters."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/Unlock.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.VirtualCoin": {
+      "title": {
+        "zh-Hans": "虚拟投币",
+        "en": "Virtual Coin"
+      },
+      "help": {
+        "zh-Hans": "基于Mod，在不依赖 SegaTools 的前提下实现的投币功能\n支持通过键盘按键、机台上自定义功能键或 HTTP 接口远程增加点数\n注意:该功能增加的点数游戏重启后不会保存",
+        "en": "Implements a custom Credit system without relying on SegaTools\nSupports adding Credits via keyboard input, cabinet custom FN key or remotely through an HTTP service\nNote: Credits added by this feature are not persisted and will be reset after restarting the game"
+      },
+      "entries": {
+        "CoinKey": {
+          "title": {
+            "zh-Hans": "投币按键",
+            "en": "Coin Key"
+          },
+          "help": {
+            "zh-Hans": "绑定使用的投币按键（键盘按键或自定义功能键均可）",
+            "en": "Bind a key for add a credit (Keyboard key or cabinet custom FN key)"
+          }
+        },
+        "LongPress": {
+          "title": {
+            "zh-Hans": "长按",
+            "en": "Long Press"
+          },
+          "help": {
+            "zh-Hans": "是否长按上述按键才能触发",
+            "en": "Should long press to trigger"
+          }
+        },
+        "IsUseRemote": {
+          "title": {
+            "zh-Hans": "启用远程投币",
+            "en": "Is Use Remote"
+          },
+          "help": {
+            "zh-Hans": "通过 HTTP 接口远程增加点数。\n警告：若开启此项，则会在您机器的0.0.0.0上监听一个HTTP服务器（端口号由下面选项指定）。请注意安全性问题，并考虑配合密码验证。",
+            "en": "Remotely add Credits via an HTTP interface.\nWarning: If you enable this option, an HTTP server will listen on 0.0.0.0 on your machine (the port is specified by the option below). Please be mindful of security risks and consider using password authentication."
+          }
+        },
+        "Port": {
+          "title": {
+            "zh-Hans": "监听端口",
+            "en": "Port"
+          },
+          "help": {
+            "zh-Hans": "HTTP服务监听的端口",
+            "en": "Listening port for the HTTP service."
+          }
+        },
+        "Password": {
+          "title": {
+            "zh-Hans": "密码验证",
+            "en": "Password"
+          },
+          "help": {
+            "zh-Hans": "设置访问密码，留空则不使用密码。如果使用密码，请求时URL后应当追加参数'?password='",
+            "en": "Enable password verification for the HTTP service, or leave it blank to disable password verification. If enabled, the requests should be with query param '?password='"
+          }
+        },
+        "IsPlaySound": {
+          "title": {
+            "zh-Hans": "启用音效",
+            "en": "Is Play Sound"
+          },
+          "help": {
+            "zh-Hans": "是否播放音效",
+            "en": "Play Sound Effects."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/VirtualCoin.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.VolumeSync": {
+      "title": {
+        "zh-Hans": "音量同步",
+        "en": "Volume Sync"
+      },
+      "help": {
+        "zh-Hans": "将1P耳机音量同步给游戏主音量（外放音量）\n注意：若此功能与八声道同时开启，会导致内置耳机声道的音量被缩放两次，推荐在仅使用1P且不开启八声道时使用,",
+        "en": "Sync 1P headphone volume to game master volume\nNote: Enabling with 8ch will double-scale internal headphone volume. Recommended to use this only in 1P without 8ch."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/GameSystem/VolumeSync.cs",
+      "alwaysEnabled": false
+    },
+    "GameSystem.Window": {
+      "title": {
+        "zh-Hans": "图形设置",
+        "en": "Window"
+      },
+      "help": {
+        "zh-Hans": "分辨率设置 / 窗口化",
+        "en": "Resolution Settings / Windowed Mode."
+      },
+      "entries": {
+        "Windowed": {
+          "title": {
+            "zh-Hans": "窗口模式",
+            "en": "Windowed"
+          },
+          "help": {
+            "zh-Hans": "窗口化游戏",
+            "en": "Window the game."
+          }
+        },
+        "Borderless": {
+          "title": {
+            "zh-Hans": "无边框",
+            "en": "Borderless"
+          },
+          "help": {
+            "zh-Hans": "无边框",
+            "en": "Borderless window."
+          }
+        },
+        "Width": {
+          "title": {
+            "zh-Hans": "宽度",
+            "en": "Width"
+          },
+          "help": {
+            "zh-Hans": "宽度（和高度）窗口化时为游戏窗口大小，全屏时为渲染分辨率\n如果设为 0，窗口化将记住用户设定的大小，全屏时将使用当前显示器分辨率\n全屏时如果显示大小不正确，请改成屏幕的分辨率（如 2160x3840）",
+            "en": "Window width (and height) for windowed mode, rendering resolution for fullscreen mode.\nIf set to 0, windowed mode will remember the user-set size, fullscreen mode will use the current display resolution.\nIf the display size is incorrect, please set it to the screen resolution."
+          }
+        },
+        "Height": {
+          "title": {
+            "zh-Hans": "高度",
+            "en": "Height"
+          },
+          "help": {
+            "zh-Hans": "高度",
+            "en": "Height, as above."
+          }
+        },
+        "ExclusiveFullscreen": {
+          "title": {
+            "zh-Hans": "独占全屏",
+            "en": "Exclusive Fullscreen"
+          },
+          "help": {
+            "zh-Hans": "使用独占全屏而不是全屏窗口（仅全屏模式）\n跳过桌面合成，显示延迟更低更稳定。游戏失去焦点时会最小化\n需要游戏在驱动该显示器的 GPU 上渲染，并为 Sinmai.exe 禁用 Windows 的“全屏优化”（兼容性设置），\n否则 Windows 会用合成窗口模拟独占全屏，延迟反而比默认更高",
+            "en": "Exclusive fullscreen instead of a fullscreen window (fullscreen mode only).\nSkips desktop composition, which lowers and steadies display latency. The game minimizes when it loses focus.\nNeeds the game to render on the GPU that drives the display, and Windows \"fullscreen optimizations\" disabled for Sinmai.exe\n(compatibility settings); otherwise Windows emulates it as a composed window, which is slower than the default."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/GameSystem/Window.cs",
+      "alwaysEnabled": false
+    },
+    "General": {
+      "title": {
+        "zh-Hans": "AquaMai 的通用设置",
+        "en": "General"
+      },
+      "help": {
+        "zh-Hans": "AquaMai 的通用设置",
+        "en": "AquaMai's general settings."
+      },
+      "entries": {
+        "Locale": {
+          "title": {
+            "zh-Hans": "Mod 界面语言",
+            "en": "Locale"
+          },
+          "help": {
+            "zh-Hans": "Mod 界面的语言，支持 en 和 zh\n如果为空，将使用系统语言\n配置文件也将以此语言保存",
+            "en": "Language for mod UI (en and zh supported).\nIf empty, the system language will be used.\nThe config file will also be saved in this language."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/General.cs",
+      "alwaysEnabled": true
+    },
+    "Tweaks.IgnoreAimeServerError": {
+      "title": {
+        "zh-Hans": "忽略 Aime 错误",
+        "en": "Ignore Aime Server Error"
+      },
+      "help": {
+        "zh-Hans": "防止因错误认为 AimeDB 服务器问题引起的灰网，建议开启",
+        "en": "Prevent gray network caused by mistakenly thinking it's an AimeDB server issue."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Tweaks/IgnoreAimeServerError.cs",
+      "alwaysEnabled": false
+    },
+    "Tweaks.LedBrightnessControl": {
+      "title": {
+        "zh-Hans": "LED亮度控制",
+        "en": "Led Brightness Control"
+      },
+      "help": {
+        "zh-Hans": "控制按键和框体灯的亮度",
+        "en": "Control LED brightness for button and cabinet lights"
+      },
+      "entries": {
+        "Button1p": {
+          "title": {
+            "zh-Hans": "1P按键亮度",
+            "en": "Button1p"
+          },
+          "help": {
+            "zh-Hans": "(0.0 - 1.0)",
+            "en": "Button Brightness 1P (0.0 - 1.0)"
+          }
+        },
+        "Button2p": {
+          "title": {
+            "zh-Hans": "2P按键亮度",
+            "en": "Button2p"
+          },
+          "help": {
+            "zh-Hans": "(0.0 - 1.0)",
+            "en": "Button Brightness 2P (0.0 - 1.0)"
+          }
+        },
+        "Cabinet1p": {
+          "title": {
+            "zh-Hans": "1P框体灯亮度",
+            "en": "Cabinet1p"
+          },
+          "help": {
+            "zh-Hans": "(0.0 - 1.0)",
+            "en": "Cabinet Brightness 1P (0.0 - 1.0)"
+          }
+        },
+        "Cabinet2p": {
+          "title": {
+            "zh-Hans": "2P框体灯亮度",
+            "en": "Cabinet2p"
+          },
+          "help": {
+            "zh-Hans": "(0.0 - 1.0)",
+            "en": "Cabinet Brightness 2P (0.0 - 1.0)"
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Tweaks/LedBrightnessControl.cs",
+      "alwaysEnabled": false
+    },
+    "Tweaks.LockFrameRate": {
+      "title": {
+        "zh-Hans": "锁定帧率",
+        "en": "Lock Frame Rate"
+      },
+      "help": {
+        "zh-Hans": "强制设置帧率上限为 60 帧并关闭垂直同步\n如果你的游戏没有问题，请不要使用。建议直接设置显示器的刷新率",
+        "en": "Force the frame rate limit to 60 FPS and disable vSync.\nDo not use if your game has no issues. Suggest to set the refresh rate of your display instead."
+      },
+      "entries": {
+        "TargetFrameRate": {
+          "title": {
+            "zh-Hans": "目标帧率",
+            "en": "Target Frame Rate"
+          },
+          "help": {
+            "zh-Hans": "目标帧率，不建议修改。除非你知道你在做什么",
+            "en": ""
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Tweaks/LockFrameRate.cs",
+      "alwaysEnabled": false
+    },
+    "Tweaks.ResetTouch": {
+      "title": {
+        "zh-Hans": "重置触摸面板",
+        "en": "Reset Touch"
+      },
+      "help": {
+        "zh-Hans": "重置触摸面板",
+        "en": "Reset touch panel manually or after playing track."
+      },
+      "entries": {
+        "AfterTrack": {
+          "title": {
+            "zh-Hans": "玩完一首歌自动重置",
+            "en": "After Track"
+          },
+          "help": {
+            "zh-Hans": "玩完一首歌自动重置",
+            "en": "Reset touch panel after playing track."
+          }
+        },
+        "Key": {
+          "title": {
+            "zh-Hans": "重置按键",
+            "en": "Key"
+          },
+          "help": {
+            "zh-Hans": "重置按键",
+            "en": "Reset manually."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Tweaks/ResetTouch.cs",
+      "alwaysEnabled": false
+    },
+    "Tweaks.SkipUserVersionCheck": {
+      "title": {
+        "zh-Hans": "跳过版本检查",
+        "en": "Skip User Version Check"
+      },
+      "help": {
+        "zh-Hans": "原先如果你的账号版本比当前游戏设定的版本高的话，就会不能登录\n开了这个选项之后就可以登录了，不过你的账号版本还是会被设定为当前游戏的版本",
+        "en": "Allow login with higher data version."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Tweaks/SkipUserVersionCheck.cs",
+      "alwaysEnabled": false
+    },
+    "Tweaks.TimeSaving.CheckSkip": {
+      "title": {
+        "zh-Hans": "跳过启动检查",
+        "en": "Check Skip"
+      },
+      "help": {
+        "zh-Hans": "在自检界面，有一些检查需要等待检查完毕后，才会进入下一阶段\n开了以下选项之后会将检查过程丢入后台进行，但可能存在部分副作用",
+        "en": "Skip check to speed up the game boot process."
+      },
+      "entries": {
+        "SkipStartupCameraCheck": {
+          "title": {
+            "zh-Hans": "跳过摄像头检查",
+            "en": "Skip Startup Camera Check"
+          },
+          "help": {
+            "zh-Hans": "若在后台检查完毕前过早启动摄像头会导致摄像头临时黑屏",
+            "en": "Skip camera check."
+          }
+        },
+        "SkipPowerOnNetworkCheck": {
+          "title": {
+            "zh-Hans": "跳过启动网络检查",
+            "en": "Skip Power On Network Check"
+          },
+          "help": {
+            "zh-Hans": "若在后台检查完毕前过早进入会进入临时灰网",
+            "en": "Skip network check."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Tweaks/TimeSaving/CheckSkip.cs",
+      "alwaysEnabled": false
+    },
+    "Tweaks.TimeSaving.EntryToMusicSelection": {
+      "title": {
+        "zh-Hans": "登录后直接选歌",
+        "en": "Entry To Music Selection"
+      },
+      "help": {
+        "zh-Hans": "登录完成后直接进入选歌界面",
+        "en": "Directly enter the song selection screen after login."
+      },
+      "entries": {
+        "EnableOnlyInGuestMode": {
+          "title": {
+            "zh-Hans": "仅游客模式",
+            "en": "Enable Only In Guest Mode"
+          },
+          "help": {
+            "zh-Hans": "仅在游客模式启用",
+            "en": "Enable only in Guest Mode"
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Tweaks/TimeSaving/EntryToMusicSelection.cs",
+      "alwaysEnabled": false
+    },
+    "Tweaks.TimeSaving.ExitToSave": {
+      "title": {
+        "zh-Hans": "游戏结束直接登出",
+        "en": "Exit To Save"
+      },
+      "help": {
+        "zh-Hans": "游戏结束后跳过上传照片和收藏品直接登出",
+        "en": "Skip uploading photos and collectibles after the game ends and log out directly."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Tweaks/TimeSaving/ExitToSave.cs",
+      "alwaysEnabled": false
+    },
+    "Tweaks.TimeSaving.IWontTapOrSlideVigorously": {
+      "title": {
+        "zh-Hans": "跳过拍打警告",
+        "en": "IWont Tap Or Slide Vigorously"
+      },
+      "help": {
+        "zh-Hans": "跳过“不要大力拍打或滑动哦”这个界面，数据一旦加载完就立马进入下一个界面",
+        "en": "Skip the \"Do not tap or slide vigorously\" screen, immediately proceed to the next screen once data is loaded."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Tweaks/TimeSaving/IWontTapOrSlideVigorously.cs",
+      "alwaysEnabled": false
+    },
+    "Tweaks.TimeSaving.SkipEventInfo": {
+      "title": {
+        "zh-Hans": "跳过活动提示",
+        "en": "Skip Event Info"
+      },
+      "help": {
+        "zh-Hans": "跳过登录 / 注册游戏时候可能的 “发现了新的区域哟” “乐曲增加” “有活动哟” 之类的提示",
+        "en": "Skip possible prompts like \"New area discovered\", \"New songs added\", \"There are events\" during game login/registration."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Tweaks/TimeSaving/SkipEventInfo.cs",
+      "alwaysEnabled": false
+    },
+    "Tweaks.TimeSaving.SkipGoodbyeScreen": {
+      "title": {
+        "zh-Hans": "跳过再见界面",
+        "en": "Skip Goodbye Screen"
+      },
+      "help": {
+        "zh-Hans": "跳过游戏结束的「再见」界面",
+        "en": "Skip the \"Goodbye\" screen at the end of the game."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Tweaks/TimeSaving/SkipGoodbyeScreen.cs",
+      "alwaysEnabled": false
+    },
+    "Tweaks.TimeSaving.SkipStartupDelays": {
+      "title": {
+        "zh-Hans": "跳过启动延迟",
+        "en": "Skip Startup Delays"
+      },
+      "help": {
+        "zh-Hans": "在自检界面，每个屏幕结束的时候都会等两秒才进入下一个屏幕，很浪费时间\n开了这个选项之后就不会等了",
+        "en": "Skip useless 2s delays to speed up the game boot process."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Tweaks/TimeSaving/SkipStartupDelays.cs",
+      "alwaysEnabled": false
+    },
+    "Tweaks.TimeSaving.SkipStartupWarning": {
+      "title": {
+        "zh-Hans": "跳过启动警告",
+        "en": "Skip Startup Warning"
+      },
+      "help": {
+        "zh-Hans": "跳过 SDEZ 启动时的 WARNING 界面",
+        "en": "Skip SDEZ's warning screen and logo shown after the POST sequence."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Tweaks/TimeSaving/SkipStartupWarning.cs",
+      "alwaysEnabled": false
+    },
+    "Tweaks.TimeSaving.SkipTrackStart": {
+      "title": {
+        "zh-Hans": "跳过乐曲开始",
+        "en": "Skip Track Start"
+      },
+      "help": {
+        "zh-Hans": "跳过乐曲开始界面",
+        "en": "Skip TrackStart screen."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Tweaks/TimeSaving/SkipTrackStart.cs",
+      "alwaysEnabled": false
+    },
+    "UX.CustomFnToKeyboard": {
+      "title": {
+        "zh-Hans": "自定义功能键映射",
+        "en": "Custom Fn To Keyboard"
+      },
+      "help": {
+        "zh-Hans": "将控制器上的自定义功能键映射为系统级键盘按键。可以通过把功能键映射为Enter等按键，实现用机台按键回车刷卡等功能。注意：使用前需要在对应的控制器IO设置中，将相应的物理按键功能设置为“自定义功能键”。",
+        "en": "Map custom function keys to system-level keyboard keys. By mapping them to keys such as Enter, you can use cabinet buttons for actions like \"pressing Enter to swipe AIME card\". Note: you should set the corresponding button to \"Custom Function Key\" in your controller's IO settings first."
+      },
+      "entries": {
+        "CustomFn1": {
+          "title": {
+            "zh-Hans": "自定义功能键1",
+            "en": "Custom Fn1"
+          },
+          "help": {
+            "zh-Hans": "自定义功能键1",
+            "en": ""
+          }
+        },
+        "CustomFn2": {
+          "title": {
+            "zh-Hans": "自定义功能键2",
+            "en": "Custom Fn2"
+          },
+          "help": {
+            "zh-Hans": "自定义功能键2",
+            "en": ""
+          }
+        },
+        "CustomFn3": {
+          "title": {
+            "zh-Hans": "自定义功能键3",
+            "en": "Custom Fn3"
+          },
+          "help": {
+            "zh-Hans": "自定义功能键3",
+            "en": ""
+          }
+        },
+        "CustomFn4": {
+          "title": {
+            "zh-Hans": "自定义功能键4",
+            "en": "Custom Fn4"
+          },
+          "help": {
+            "zh-Hans": "自定义功能键4",
+            "en": ""
+          }
+        }
+      },
+      "source": "AquaMai.Mods/UX/CustomFnToKeyboard.cs",
+      "alwaysEnabled": false
+    },
+    "UX.DisableLightOutGame": {
+      "title": {
+        "zh-Hans": "闲置时关闭灯光",
+        "en": "Disable Light Out Game"
+      },
+      "help": {
+        "zh-Hans": "在游戏闲置时关闭外键和框体的灯光\n“一闪一闪的 闪的我心发慌”",
+        "en": "Disable button LED when not playing"
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/UX/DisableLightOutGame.cs",
+      "alwaysEnabled": false
+    },
+    "UX.DontRuinMyAccount": {
+      "title": {
+        "zh-Hans": "AutoPlay 时不保存成绩",
+        "en": "Dont Ruin My Account"
+      },
+      "help": {
+        "zh-Hans": "AutoPlay 时不保存成绩",
+        "en": "Do not save scores when AutoPlay is used"
+      },
+      "entries": {
+        "ShowNotice": {
+          "title": {
+            "zh-Hans": "ShowNotice",
+            "en": "Show Notice"
+          },
+          "help": {
+            "zh-Hans": "AutoPlay 激活后显示提示",
+            "en": "Show notice when AutoPlay is activated"
+          }
+        },
+        "ForPracticeMode": {
+          "title": {
+            "zh-Hans": "ForPracticeMode",
+            "en": "For Practice Mode"
+          },
+          "help": {
+            "zh-Hans": "使用练习模式/DebugFeature相关功能也不保存成绩",
+            "en": "Also not save scores when using PracticeMode/DebugFeature"
+          }
+        }
+      },
+      "source": "AquaMai.Mods/UX/DontRuinMyAccount.cs",
+      "alwaysEnabled": false
+    },
+    "UX.FestaControl": {
+      "title": {
+        "zh-Hans": "Festa 开关",
+        "en": "Festa Control"
+      },
+      "help": {
+        "zh-Hans": "控制 “Festa” 模式 UI 的显示。如不开启，则不会更改设置，由 Event 或者服务器控制",
+        "en": "Control the display of “Festa” mode UI. If not enabled, the settings will not be changed, and Event or server will control it"
+      },
+      "entries": {
+        "IsFesta": {
+          "title": {
+            "zh-Hans": "启用 Festa",
+            "en": "Is Festa"
+          },
+          "help": {
+            "zh-Hans": "是否显示 “Festa” 模式 UI",
+            "en": "Whether to display “Festa” mode UI"
+          }
+        }
+      },
+      "source": "AquaMai.Mods/UX/FestaControl.cs",
+      "alwaysEnabled": false
+    },
+    "UX.FixTrackNumDisplay": {
+      "title": {
+        "zh-Hans": "两位数曲目修复",
+        "en": "Fix Track Num Display"
+      },
+      "help": {
+        "zh-Hans": "让右上角的当前曲目数字可以显示两位数（在普通模式中）",
+        "en": "Make track number in top right corner display two digits (in Normal mode)"
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/UX/FixTrackNumDisplay.cs",
+      "alwaysEnabled": false
+    },
+    "UX.GrantFinalGateKey": {
+      "title": {
+        "zh-Hans": "GrantFinalGateKey",
+        "en": "Grant Final Gate Key"
+      },
+      "help": {
+        "zh-Hans": "按 Enter 键获得 KLD 里门的钥匙 (DXPASS)",
+        "en": "Press Enter key to grant KLD Final Gate Key (DXPASS)"
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/UX/GrantFinalGateKey.cs",
+      "alwaysEnabled": false
+    },
+    "UX.HardwareAlert": {
+      "title": {
+        "zh-Hans": "自定义自检警告",
+        "en": "Hardware Alert"
+      },
+      "help": {
+        "zh-Hans": "自定义硬件警告，可配置在指定硬件自检失败时阻止游戏启动并显示报错画面，开启下方的错误类型以配置需要关注的错误。",
+        "en": "Custom hardware alert, you can configure to display an error frame upon hardware failure. Toggle the switches below to define the required hardware."
+      },
+      "entries": {
+        "UseOriginalGameLanguage": {
+          "title": {
+            "zh-Hans": "原始语言显示",
+            "en": "Use Original Game Language"
+          },
+          "help": {
+            "zh-Hans": "如果启用，所有硬件警告将会使用游戏原本的语言显示，例如 SDEZ 就会用日文显示报错。如果你安装了任何汉化包，你应该关闭这个选项。",
+            "en": "If enabled, all the in-game hardware warnings will be displayed in game's original language, like Japanese for SDEZ. If you have used any translation pack, you should disable this setting."
+          }
+        },
+        "TouchSensor_1P": {
+          "title": {
+            "zh-Hans": "1P 触摸屏",
+            "en": "Touch Sensor 1 P"
+          },
+          "help": {
+            "zh-Hans": "1P 触摸屏",
+            "en": "1P Touch Sensor"
+          }
+        },
+        "TouchSensor_2P": {
+          "title": {
+            "zh-Hans": "2P 触摸屏",
+            "en": "Touch Sensor 2 P"
+          },
+          "help": {
+            "zh-Hans": "2P 触摸屏",
+            "en": "2P Touch Sensor"
+          }
+        },
+        "LED_1P": {
+          "title": {
+            "zh-Hans": "1P LED",
+            "en": "LED 1 P"
+          },
+          "help": {
+            "zh-Hans": "1P LED",
+            "en": "1P LED"
+          }
+        },
+        "LED_2P": {
+          "title": {
+            "zh-Hans": "2P LED",
+            "en": "LED 2 P"
+          },
+          "help": {
+            "zh-Hans": "2P LED",
+            "en": "2P LED"
+          }
+        },
+        "PlayerCamera": {
+          "title": {
+            "zh-Hans": "玩家摄像机",
+            "en": "Player Camera"
+          },
+          "help": {
+            "zh-Hans": "玩家摄像机",
+            "en": "Player Camera"
+          }
+        },
+        "CodeReader_1P": {
+          "title": {
+            "zh-Hans": "DX Pass 1P",
+            "en": "Code Reader 1 P"
+          },
+          "help": {
+            "zh-Hans": "DX Pass 1P",
+            "en": "DX Pass 1P"
+          }
+        },
+        "CodeReader_2P": {
+          "title": {
+            "zh-Hans": "DX Pass 2P",
+            "en": "Code Reader 2 P"
+          },
+          "help": {
+            "zh-Hans": "DX Pass 2P",
+            "en": "DX Pass 2P"
+          }
+        },
+        "ChimeCamera": {
+          "title": {
+            "zh-Hans": "二维码扫描摄像头",
+            "en": "Chime Camera"
+          },
+          "help": {
+            "zh-Hans": "二维码扫描摄像头",
+            "en": "WeChat QRCode Camera"
+          }
+        }
+      },
+      "source": "AquaMai.Mods/UX/HardwareAlert.cs",
+      "alwaysEnabled": false
+    },
+    "UX.Hide1879": {
+      "title": {
+        "zh-Hans": "隐藏乱码曲",
+        "en": "Hide1879"
+      },
+      "help": {
+        "zh-Hans": "在正常模式中，隐藏乱码曲 Xaleid◆scopiX",
+        "en": "Hide glitch Xaleid◆scopiX in normal mode"
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/UX/Hide1879.cs",
+      "alwaysEnabled": false
+    },
+    "UX.HideSelfMadeCharts": {
+      "title": {
+        "zh-Hans": "自制谱隐藏",
+        "en": "Hide Self Made Charts"
+      },
+      "help": {
+        "zh-Hans": "在选曲界面一键隐藏所有自制谱，或对一部分用户进行隐藏",
+        "en": "One key to hide all self-made charts in the music select process. Or hide for some users."
+      },
+      "entries": {
+        "DefaultHide": {
+          "title": {
+            "zh-Hans": "默认隐藏",
+            "en": "Default Hide"
+          },
+          "help": {
+            "zh-Hans": "登录时默认隐藏自制谱",
+            "en": "Hide self-made charts by default when login."
+          }
+        },
+        "Key": {
+          "title": {
+            "zh-Hans": "Key",
+            "en": "Key"
+          },
+          "help": {
+            "zh-Hans": "切换自制谱显示的按键",
+            "en": "Key to toggle self-made charts."
+          }
+        },
+        "LongPress": {
+          "title": {
+            "zh-Hans": "长按",
+            "en": "Long Press"
+          },
+          "help": {
+            "zh-Hans": "长按",
+            "en": ""
+          }
+        },
+        "SelfMadeChartsDenyUsersFile": {
+          "title": {
+            "zh-Hans": "黑名单",
+            "en": "Self Made Charts Deny Users File"
+          },
+          "help": {
+            "zh-Hans": "该文件中每行一个用户 ID，当这些用户登录时隐藏自制谱",
+            "en": "One user ID per line in the file. Hide self-made charts when these users login."
+          }
+        },
+        "SelfMadeChartsWhiteListUsersFile": {
+          "title": {
+            "zh-Hans": "白名单",
+            "en": "Self Made Charts White List Users File"
+          },
+          "help": {
+            "zh-Hans": "该文件中每行一个用户 ID，只有这些用户登录时才显示自制谱",
+            "en": "One user ID per line in the file. Only show self-made charts when these users login."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/UX/HideSelfMadeCharts.cs",
+      "alwaysEnabled": false
+    },
+    "UX.ImmediateSave": {
+      "title": {
+        "zh-Hans": "打一首存一首",
+        "en": "Immediate Save"
+      },
+      "help": {
+        "zh-Hans": "打完一首歌的时候立即向服务器保存成绩",
+        "en": "Save immediate after playing a song."
+      },
+      "entries": {
+        "ShowTip": {
+          "title": {
+            "zh-Hans": "显示保存中提示",
+            "en": "Show Tip"
+          },
+          "help": {
+            "zh-Hans": "显示保存中提示",
+            "en": ""
+          }
+        }
+      },
+      "source": "AquaMai.Mods/UX/ImmediateSave.cs",
+      "alwaysEnabled": false
+    },
+    "UX.JudgeAccuracyInfo": {
+      "title": {
+        "zh-Hans": "判定详情统计",
+        "en": "Judge Accuracy Info"
+      },
+      "help": {
+        "zh-Hans": "在游戏总结的计分板中显示击打误差的详细信息（以帧为单位）",
+        "en": "Show detailed accuracy info in the score board."
+      },
+      "entries": {
+        "SavePath": {
+          "title": {
+            "zh-Hans": "保存路径",
+            "en": "Save Path"
+          },
+          "help": {
+            "zh-Hans": "保存路径",
+            "en": ""
+          }
+        }
+      },
+      "source": "AquaMai.Mods/UX/JudgeAccuracyInfo.cs",
+      "alwaysEnabled": false
+    },
+    "UX.JudgeDisplayPro": {
+      "title": {
+        "zh-Hans": "高级判定显示",
+        "en": "Judge Display Pro"
+      },
+      "help": {
+        "zh-Hans": "可自定义所有种类音符显示的判定样式，开启后将替代游戏原本的判定样式预设。需要在游戏设置中更改需要的显示样式",
+        "en": "Customize the judgment style display for all types of notes. When enabled, this will override the game's default judgment style presets. Change your desired display style in the game settings."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/UX/JudgeDisplayPro/JudgeDisplayPro.cs",
+      "alwaysEnabled": false
+    },
+    "UX.NoAmDaemonAlert": {
+      "title": {
+        "zh-Hans": "NoAmDaemonAlert",
+        "en": "No Am Daemon Alert"
+      },
+      "help": {
+        "zh-Hans": "因 AmDaemon 未运行而黑屏时显示警告",
+        "en": ""
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/UX/NoAmDaemonAlert.cs",
+      "alwaysEnabled": false
+    },
+    "UX.OneKeyEntryEnd": {
+      "title": {
+        "zh-Hans": "一键登录与登出",
+        "en": "One Key Entry End"
+      },
+      "help": {
+        "zh-Hans": "一键跳过登录过程直接进入选歌界面，或在选歌界面直接结束本局游戏",
+        "en": "One key to proceed to music select (during entry) or end current PC (during music select)."
+      },
+      "entries": {
+        "Key": {
+          "title": {
+            "zh-Hans": "按键",
+            "en": "Key"
+          },
+          "help": {
+            "zh-Hans": "按键",
+            "en": ""
+          }
+        },
+        "LongPress": {
+          "title": {
+            "zh-Hans": "长按",
+            "en": "Long Press"
+          },
+          "help": {
+            "zh-Hans": "长按",
+            "en": ""
+          }
+        }
+      },
+      "source": "AquaMai.Mods/UX/OneKeyEntryEnd.cs",
+      "alwaysEnabled": false
+    },
+    "UX.OneKeyRetrySkip": {
+      "title": {
+        "zh-Hans": "一键重开和跳过",
+        "en": "One Key Retry Skip"
+      },
+      "help": {
+        "zh-Hans": "在游戏中途一键重试或跳过当前谱面",
+        "en": "One key to retry or skip current chart in gameplay."
+      },
+      "entries": {
+        "RetryKey": {
+          "title": {
+            "zh-Hans": "重开按键",
+            "en": "Retry Key"
+          },
+          "help": {
+            "zh-Hans": "重开按键",
+            "en": ""
+          }
+        },
+        "RetryLongPress": {
+          "title": {
+            "zh-Hans": "重开长按",
+            "en": "Retry Long Press"
+          },
+          "help": {
+            "zh-Hans": "重开长按",
+            "en": ""
+          }
+        },
+        "SkipKey": {
+          "title": {
+            "zh-Hans": "跳关按键",
+            "en": "Skip Key"
+          },
+          "help": {
+            "zh-Hans": "跳关按键",
+            "en": ""
+          }
+        },
+        "SkipLongPress": {
+          "title": {
+            "zh-Hans": "跳关长按",
+            "en": "Skip Long Press"
+          },
+          "help": {
+            "zh-Hans": "跳关长按",
+            "en": ""
+          }
+        },
+        "AllowRetryOnlyInFreedomMode": {
+          "title": {
+            "zh-Hans": "仅自由模式可重开",
+            "en": "Allow Retry Only In Freedom Mode"
+          },
+          "help": {
+            "zh-Hans": "仅在自由模式且时间未耗尽时允许一键重试，跳过不受影响",
+            "en": "Only allow retry in Freedom Mode while time remains."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/UX/OneKeyRetrySkip.cs",
+      "alwaysEnabled": false
+    },
+    "UX.PracticeMode": {
+      "title": {
+        "zh-Hans": "练习模式",
+        "en": "Practice Mode"
+      },
+      "help": {
+        "zh-Hans": "练习模式",
+        "en": "Practice Mode."
+      },
+      "entries": {
+        "Key": {
+          "title": {
+            "zh-Hans": "按键",
+            "en": "Key"
+          },
+          "help": {
+            "zh-Hans": "显示练习模式 UI 的按键",
+            "en": "Key to show Practice Mode UI."
+          }
+        },
+        "OnlyInFreedomMode": {
+          "title": {
+            "zh-Hans": "仅自由模式可用",
+            "en": "Only In Freedom Mode"
+          },
+          "help": {
+            "zh-Hans": "仅在自由模式且时间未耗尽时允许使用练习模式",
+            "en": "Only allow Practice Mode in Freedom Mode while time remains."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/UX/PracticeMode/PracticeMode.cs",
+      "alwaysEnabled": false
+    },
+    "UX.QuickEndPlay": {
+      "title": {
+        "zh-Hans": "歌曲快速结束",
+        "en": "Quick End Play"
+      },
+      "help": {
+        "zh-Hans": "音符结束之后显示像 AstroDX 一样的「跳过」按钮",
+        "en": "Show a \"skip\" button like AstroDX after the notes end."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/UX/QuickEndPlay.cs",
+      "alwaysEnabled": false
+    },
+    "UX.RemoveCharacterCopyrightRestriction": {
+      "title": {
+        "zh-Hans": "移除成绩照片的角色限制",
+        "en": "Remove Character Copyright Restriction"
+      },
+      "help": {
+        "zh-Hans": "如果旅行伙伴队长是版权角色（通常是非官方的角色）的话，游戏默认是不允许将其作为成绩照片上的立绘角色的。开启此项后，将移除此限制，任何角色都可以出现在成绩照片中。",
+        "en": "When the character team leader is a copyright character (usually an non-official character), the game prevents them from being shown as the character on the game result photo. Enabling this option removes that restriction so any character can appear on game result photo."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/UX/RemoveCharacterCopyrightRestriction.cs",
+      "alwaysEnabled": false
+    },
+    "UX.SelectionDetail": {
+      "title": {
+        "zh-Hans": "歌曲详情",
+        "en": "Selection Detail"
+      },
+      "help": {
+        "zh-Hans": "选歌界面显示选择的歌曲的详情",
+        "en": "Show detail of selected song in music selection screen."
+      },
+      "entries": {
+        "ShowBattleAchievement": {
+          "title": {
+            "zh-Hans": "ShowBattleAchievement",
+            "en": "Show Battle Achievement"
+          },
+          "help": {
+            "zh-Hans": "显示友人对战目标分数",
+            "en": "Show friend battle target achievement"
+          }
+        }
+      },
+      "source": "AquaMai.Mods/UX/SelectionDetail.cs",
+      "alwaysEnabled": false
+    },
+    "UX.TestModeHook": {
+      "title": {
+        "zh-Hans": "TestModeHook",
+        "en": "Test Mode Hook"
+      },
+      "help": {
+        "zh-Hans": "",
+        "en": ""
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/UX/TestModeHook.cs",
+      "alwaysEnabled": false
+    },
+    "Utils.AntiLag": {
+      "title": {
+        "zh-Hans": "狂暴引擎",
+        "en": "Anti Lag"
+      },
+      "help": {
+        "zh-Hans": "可能缓解掉帧，但也可能把狂暴转移到用户身上",
+        "en": "Some tricks to prevent the system from lagging"
+      },
+      "entries": {
+        "ActivateWhileBackground": {
+          "title": {
+            "zh-Hans": "后台运行",
+            "en": "Activate While Background"
+          },
+          "help": {
+            "zh-Hans": "游戏未取得焦点时也运行",
+            "en": ""
+          }
+        },
+        "SetHighPriority": {
+          "title": {
+            "zh-Hans": "高优先级",
+            "en": "Set High Priority"
+          },
+          "help": {
+            "zh-Hans": "将游戏设为高优先级",
+            "en": ""
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Utils/AntiLag.cs",
+      "alwaysEnabled": false
+    },
+    "Utils.DisplayFrameRate": {
+      "title": {
+        "zh-Hans": "显示帧率",
+        "en": "Display Frame Rate"
+      },
+      "help": {
+        "zh-Hans": "显示帧率",
+        "en": "Display framerate."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Utils/DisplayFrameRate.cs",
+      "alwaysEnabled": false
+    },
+    "Utils.DisplayTouchInGame": {
+      "title": {
+        "zh-Hans": "实时触摸显示",
+        "en": "Display Touch In Game"
+      },
+      "help": {
+        "zh-Hans": "在游戏过程中显示触摸输入，可用于调试吃和蹭的问题",
+        "en": ""
+      },
+      "entries": {
+        "DefaultOn": {
+          "title": {
+            "zh-Hans": "默认显示",
+            "en": "Default On"
+          },
+          "help": {
+            "zh-Hans": "关了的话，可以用按键切换显示",
+            "en": ""
+          }
+        },
+        "Key": {
+          "title": {
+            "zh-Hans": "切换显示按键",
+            "en": "Key"
+          },
+          "help": {
+            "zh-Hans": "切换显示按键",
+            "en": ""
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Utils/DisplayTouchInGame.cs",
+      "alwaysEnabled": false
+    },
+    "Utils.EarlyContinue": {
+      "title": {
+        "zh-Hans": "更早的续关",
+        "en": "Early Continue"
+      },
+      "help": {
+        "zh-Hans": "在最后一首歌结束的时候显示续关界面，确认续关后立即增加指定 Track 数",
+        "en": ""
+      },
+      "entries": {
+        "AddTrackCount": {
+          "title": {
+            "zh-Hans": "增加的曲目数",
+            "en": "Add Track Count"
+          },
+          "help": {
+            "zh-Hans": "设为 0 则为 1P 3首，2P 4首",
+            "en": "Number of tracks to add. Set to 0 to add 3 tracks for 1P and 3 tracks for 2P."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Utils/EarlyContinue/EarlyContinue.cs",
+      "alwaysEnabled": false
+    },
+    "Utils.FreedomTimer": {
+      "title": {
+        "zh-Hans": "自由模式时间修改",
+        "en": "Freedom Timer"
+      },
+      "help": {
+        "zh-Hans": "自由模式时间修改",
+        "en": "Freedom Timer Modification"
+      },
+      "entries": {
+        "Seconds": {
+          "title": {
+            "zh-Hans": "秒数",
+            "en": "Seconds"
+          },
+          "help": {
+            "zh-Hans": "秒数",
+            "en": ""
+          }
+        },
+        "InfinityTime": {
+          "title": {
+            "zh-Hans": "无限时间",
+            "en": "Infinity Time"
+          },
+          "help": {
+            "zh-Hans": "无限时间",
+            "en": ""
+          }
+        },
+        "AddTimeKey": {
+          "title": {
+            "zh-Hans": "追加时间按键",
+            "en": "Add Time Key"
+          },
+          "help": {
+            "zh-Hans": "可通过指定按键，随时为自由模式追加时间。设为 None 则禁用",
+            "en": "Key to add time in Freedom Mode. Set to None to disable."
+          }
+        },
+        "AddTimeLongPress": {
+          "title": {
+            "zh-Hans": "追加时间长按",
+            "en": "Add Time Long Press"
+          },
+          "help": {
+            "zh-Hans": "上述“追加时间按键”是否需要长按",
+            "en": "Require long press to add time"
+          }
+        },
+        "AddTimeSeconds": {
+          "title": {
+            "zh-Hans": "每次追加秒数",
+            "en": "Add Time Seconds"
+          },
+          "help": {
+            "zh-Hans": "每次按上述“追加时间按键”，所追加的秒数",
+            "en": "Seconds added each time the key is pressed"
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Utils/FreedomTimer.cs",
+      "alwaysEnabled": false
+    },
+    "Utils.InstantQuit": {
+      "title": {
+        "zh-Hans": "瞬间退出",
+        "en": "Instant Quit"
+      },
+      "help": {
+        "zh-Hans": "让你的游戏更快的退出（按 ESC 或使用系统测试模式时），立即结束进程的那种，不会卡一会儿",
+        "en": "Quit the game instantly."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Utils/InstantQuit.cs",
+      "alwaysEnabled": false
+    },
+    "Utils.LedOffOnQuit": {
+      "title": {
+        "zh-Hans": "退出时关闭灯光",
+        "en": "Led Off On Quit"
+      },
+      "help": {
+        "zh-Hans": "退出时关闭灯光",
+        "en": ""
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Utils/LedOffOnQuit.cs",
+      "alwaysEnabled": false
+    },
+    "Utils.LogNetworkRequests": {
+      "title": {
+        "zh-Hans": "网络请求日志",
+        "en": "Log Network Requests"
+      },
+      "help": {
+        "zh-Hans": "将网络请求输出到 MelonLoader 控制台",
+        "en": "Log network requests to the MelonLoader console."
+      },
+      "entries": {
+        "Url": {
+          "title": {
+            "zh-Hans": "URL",
+            "en": "Url"
+          },
+          "help": {
+            "zh-Hans": "URL",
+            "en": ""
+          }
+        },
+        "Request": {
+          "title": {
+            "zh-Hans": "请求",
+            "en": "Request"
+          },
+          "help": {
+            "zh-Hans": "请求",
+            "en": ""
+          }
+        },
+        "RequestOmittedApis": {
+          "title": {
+            "zh-Hans": "省略以下请求",
+            "en": "Request Omitted Apis"
+          },
+          "help": {
+            "zh-Hans": "省略以下请求",
+            "en": ""
+          }
+        },
+        "Response": {
+          "title": {
+            "zh-Hans": "响应",
+            "en": "Response"
+          },
+          "help": {
+            "zh-Hans": "响应",
+            "en": ""
+          }
+        },
+        "ResponseOmittedApis": {
+          "title": {
+            "zh-Hans": "省略以下响应",
+            "en": "Response Omitted Apis"
+          },
+          "help": {
+            "zh-Hans": "省略以下响应",
+            "en": ""
+          }
+        },
+        "ResponseErrorOnly": {
+          "title": {
+            "zh-Hans": "仅输出错误",
+            "en": "Response Error Only"
+          },
+          "help": {
+            "zh-Hans": "仅输出出错的响应，不输出成功的响应",
+            "en": "Only print error responses, without the successful ones."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Utils/LogNetworkRequests.cs",
+      "alwaysEnabled": false
+    },
+    "Utils.LogUnity": {
+      "title": {
+        "zh-Hans": "Unity 日志",
+        "en": "Log Unity"
+      },
+      "help": {
+        "zh-Hans": "输出 Unity 日志（调试用）",
+        "en": "Output Unity logs (for debugging purposes)"
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Utils/LogUnity.cs",
+      "alwaysEnabled": false
+    },
+    "Utils.LogUserId": {
+      "title": {
+        "zh-Hans": "用户 ID 日志",
+        "en": "Log User Id"
+      },
+      "help": {
+        "zh-Hans": "登录时将 UserID 输出到日志",
+        "en": "Log user ID on login."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Utils/LogUserId.cs",
+      "alwaysEnabled": false
+    },
+    "Utils.MoveAnswerSound": {
+      "title": {
+        "zh-Hans": "移动正解音",
+        "en": "Move Answer Sound"
+      },
+      "help": {
+        "zh-Hans": "移动正解音",
+        "en": "Move answer sound"
+      },
+      "entries": {
+        "DisplayInGameConfig": {
+          "title": {
+            "zh-Hans": "游戏内设置",
+            "en": "Display In Game Config"
+          },
+          "help": {
+            "zh-Hans": "在游戏内添加设置项给用户，使用户能够在游戏内调整正解音偏移量。如果关闭此选项，则就算用户之前设置过，也会忽略。",
+            "en": "Display in-game config entry for player. If disabled, the user's settings will be ignored."
+          }
+        },
+        "MoveValue_1P": {
+          "title": {
+            "zh-Hans": "1P 偏移量",
+            "en": "Move Value 1 P"
+          },
+          "help": {
+            "zh-Hans": "正解音偏移量，单位为毫秒，此设定值会与用户游戏内的设置相加。增大这个值将会使正解音出现得更晚，反之则更早。",
+            "en": "Answer sound move value in ms, this value will be combined with user's setting in game. Increase this value to make the answer sound appear later, vice versa."
+          }
+        },
+        "MoveValue_2P": {
+          "title": {
+            "zh-Hans": "2P 偏移量",
+            "en": "Move Value 2 P"
+          },
+          "help": {
+            "zh-Hans": "与 MoveValue_1P 作用相同。",
+            "en": "Same as MoveValue_1P."
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Utils/MoveAnswerSound.cs",
+      "alwaysEnabled": false
+    },
+    "Utils.ScreenPositionAdjust": {
+      "title": {
+        "zh-Hans": "屏幕位置调整",
+        "en": "Screen Position Adjust"
+      },
+      "help": {
+        "zh-Hans": "屏幕位置调整。适用于手台对不齐的情况，可以分别调整每个屏幕区域的位置\n在游戏中按键开启调整模式\n此功能会对性能产生一定影响\n必须同时开启 ExteraMouseInput 才能使用鼠标模拟触摸",
+        "en": "Screen position adjustment. Suitable for cases where the screen are not aligned, allowing separate adjustments for each screen area.\nEnter adjustment mode by pressing the key in-game.\nThis feature may have a slight performance impact.\nExteraMouseInput must be enabled to use mouse simulation for touch input."
+      },
+      "entries": {
+        "CompactMode": {
+          "title": {
+            "zh-Hans": "上屏紧贴着下屏",
+            "en": "Compact Mode"
+          },
+          "help": {
+            "zh-Hans": "上屏紧贴着下屏",
+            "en": "Top screen is tightly attached to the bottom screen"
+          }
+        },
+        "AdjustKey": {
+          "title": {
+            "zh-Hans": "进入调整模式的按键",
+            "en": "Adjust Key"
+          },
+          "help": {
+            "zh-Hans": "进入调整模式的按键",
+            "en": "Key to enter adjustment mode"
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Utils/ScreenPositionAdjust.cs",
+      "alwaysEnabled": false
+    },
+    "Utils.ShowErrorLog": {
+      "title": {
+        "zh-Hans": "崩溃报错",
+        "en": "Show Error Log"
+      },
+      "help": {
+        "zh-Hans": "在游戏中显示错误日志窗口而不是关闭游戏进程",
+        "en": "Show error log in the game."
+      },
+      "entries": {
+        "UseNewErrorHandler": {
+          "title": {
+            "zh-Hans": "崩溃窗口",
+            "en": "Use New Error Handler"
+          },
+          "help": {
+            "zh-Hans": "使用新版错误报告生成器",
+            "en": "Use new error handler"
+          }
+        }
+      },
+      "source": "AquaMai.Mods/Utils/ShowErrorLog.cs",
+      "alwaysEnabled": false
+    },
+    "Utils.ShowNetErrorDetail": {
+      "title": {
+        "zh-Hans": "灰网时显示原因",
+        "en": "Show Net Error Detail"
+      },
+      "help": {
+        "zh-Hans": "灰网时显示原因",
+        "en": "Show Network error detail in the game when gray network icon appears."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Utils/ShowNetErrorDetail.cs",
+      "alwaysEnabled": false
+    },
+    "Utils.UnstableRate": {
+      "title": {
+        "zh-Hans": "稳定度指示器",
+        "en": "Unstable Rate"
+      },
+      "help": {
+        "zh-Hans": "在屏幕中心显示每次判定的精确区间",
+        "en": "Show information about the exact timing for each hit during gameplay in the center of the screen."
+      },
+      "entries": {},
+      "source": "AquaMai.Mods/Utils/UnstableRate.cs",
+      "alwaysEnabled": false
+    }
+  }
+}

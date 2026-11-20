@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "section_disabled": {
+    "GameSystem.Assets.Fonts": true,
+    "GameSystem.Assets.LoadLocalImages": true,
+    "GameSystem.Assets.MovieLoader": true,
+    "GameSystem.AdxHidInput": true,
+    "GameSystem.ExteraMouseInput": true,
+    "GameSystem.Window": true,
+    "Fancy.CustomLogo": true,
+    "Fancy.GamePlay.ExtendNotesPool": true,
+    "Fancy.IgnoreCommercialTimeout": true,
+    "GameSystem.Assets.IgnoreLoadFailedAssetBundle": false,
+    "GameSystem.Assets.LoadAssetBundleWithoutManifest": false,
+    "GameSystem.SinglePlayer": false
+  }
+}
